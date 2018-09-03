@@ -9,7 +9,7 @@
 ###Start the script in the correct directory
 ###This directory has the static files needed for the uploads
 ###SCHOOL.txt and CODE_DISTRICT.txt
-cd /home/philmore/datascripts/Pearson
+cd /home/philmore/scripts/Pearson
 
 ###Download Cognos XLSX file from DOE SFTP
 ##UPDATE: At some point before 10/10/2016, DOE changed the config on their SFTP server
