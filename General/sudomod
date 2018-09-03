@@ -1,0 +1,1 @@
+philmore ALL=(ALL) NOPASSWD: /usr/bin/apt-get
