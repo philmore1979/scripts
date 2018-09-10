@@ -7,7 +7,7 @@
 ###Download Cognos XLSX file from DOE SFTP
 ##UPDATE: At some point before 10/10/2016, DOE changed the config on their SFTP server
 ##Now, the option -oHostKeyAlgorithms=+ssh-dss is needed
-sshpass -f '/home/.ssh/DOE' sftp -oHostKeyAlgorithms=+ssh-dss colonialdata@ftp.doe.k12.de.us <<EOF
+sshpass -f '/home/philmore/.ssh/DOE' sftp -oHostKeyAlgorithms=+ssh-dss colonialdata@ftp.doe.k12.de.us <<EOF
 get Cognos/rhdiscovery-en.xlsx
 exit
 EOF
