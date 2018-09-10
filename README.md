@@ -13,3 +13,4 @@ Primero Edge Nutrition Management System
 Reading Horizon (Discovery and Elevate)  
 Compass Learning Credit Recover  
 
+Also includes some generic scripts that can be used to manage servers
