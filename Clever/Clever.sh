@@ -10,15 +10,18 @@
 ###Requires gnumeric to run correctly (for ssconvert)
 ###Requires sshpass to run correctly (to give password to DOE server)
 
+###Start in correct folder
+cd /home/philmore/scripts/Clever
+
 ###Download Cognos XLSX file from DOE SFTP
 ##UPDATE: At some point before 10/10/2016, DOE changed the config on their SFTP server
 ##Now, the option -oHostKeyAlgorithms=+ssh-dss is needed
 ##UPDATE 2: Have changed from having password in the script to calling a file
 ##with the password.  Talked to DOE to see if we can setup SSHKey auth
-#sshpass -f /home/philmore/.ssh/DOE sftp -oHostKeyAlgorithms=+ssh-dss colonialdata@ftp.doe.k12.de.us <<EOF
-#get Cognos/clever-en.xlsx
-#exit
-#EOF
+sshpass -f /home/philmore/.ssh/DOE sftp -oHostKeyAlgorithms=+ssh-dss colonialdata@ftp.doe.k12.de.us <<EOF
+get Cognos/clever-en.xlsx
+exit
+EOF
 
 ###Convert XLSX file to CSV files
 ssconvert -S clever-en.xlsx clever.csv
@@ -80,10 +83,10 @@ rm studentstmp.csv studentextrainfo.csv studentextrainfofixed.csv
 
 
 ###Upload CSV files to Clever
-#sftp responsible-chalkboard-2639@sftp.clever.com <<EOF
-#mput *.csv
-#exit
-#EOF
+sftp responsible-chalkboard-2639@sftp.clever.com <<EOF
+mput *.csv
+exit
+EOF
 
 ###Cleanup
-#rm schools.csv students.csv teachers.csv sections.csv enrollments.csv clever-en.xlsx
+rm schools.csv students.csv teachers.csv sections.csv enrollments.csv clever-en.xlsx
