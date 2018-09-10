@@ -134,7 +134,7 @@ awk -F',' '{print $1","$2","$3","$4","$5}' 340427 >> SouthernElementary-Elevate.
 awk -F',' '{print $1","$2","$3","$4","$5}' 340456 >> Eisenberg-Elevate.csv
 awk -F',' '{print $1","$2","$3","$4","$5}' 340432 >> NewCastle-Elevate.csv
 awk -F',' '{print $1","$2","$3","$4","$5}' 340418 >> Pleasantville-Elevate.csv
-awk -F',' '{print $1","$2","$3","$4","$5}' 340427 >> Wilbur-Elevate.csv
+awk -F',' '{print $1","$2","$3","$4","$5}' 340422 >> Wilbur-Elevate.csv
 ###Remove extra files
 rm 340* School 
 ###Zip final files intoj easy to transport .zip file
