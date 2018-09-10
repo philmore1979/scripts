@@ -5,6 +5,8 @@
 ###
 ##
 
+###Start in correct directory
+cd /home/philmore/scripts/StudentEmailtoEschool
 
 ###Download Student Cognos files from DOE SFTP
 ##NOTE: At some point before 10/10/2016, DOE changed the config on their SFTP server
