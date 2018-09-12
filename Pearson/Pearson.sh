@@ -83,7 +83,7 @@ rm studentstmp.csv STUDENTtmp.csv
 echo "section_teacher_code,staff_code,native_section_code,date_start,date_end,school_year,teacher_of_record,teaching_assignment" > PIF_SECTION_STAFF.csv
 
 ##Pull Data from sectionstmp.csv and put into proper cells
-awk -F',' 'NR>1{print $3"-"$2","$3","$2",2018-08-27,2019-06-07,2018,true,,"}' sectionstmp.csv >> PIF_SECTION_STAFF.csv
+awk -F',' 'NR>1{print $3"-"$2","$3","$2",2018-08-27,2019-06-07,2018,true,Teacher,"}' sectionstmp.csv >> PIF_SECTION_STAFF.csv
 ##Remove Temp Sections File
 rm sectionstmp.csv
 
