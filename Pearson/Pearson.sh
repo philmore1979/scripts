@@ -58,13 +58,14 @@ awk -F',' 'NR>1{print $2","$1",,,2018-08-27,2019-06-07,2018,"$6","$4","$4","$2}'
 
 ##STAFF
 ##Create STAFF file with correct headers
-echo "staff_code,last_name,first_name,middle_name,email,title,staff_number,username,password,federated_id" > STAFF.csv 
+echo "staff_code,last_name,first_name,middle_name,email,title,staff_number,federated_id" > STAFF.csv 
 ##Pull Data from teacherstmp.csv and put into proper cells
-awk -F',' 'NR>1{print $2","$7","$5","$6","$4",,"$2","$4",,"$4}' teacherstmp.csv >> staff_emailsupper.csv
+awk -F',' 'NR>1{print $2","$7","$5","$6","$4",,"$2","$4}' teacherstmp.csv >> staff_emailsupper.csv
 ##Fix emails so that they are all lowercase
-awk -F, '{$10=tolower($10);print}' OFS="," staff_emailsupper.csv > staff_lower1.csv
-awk -F, '{$8=tolower($8);print}' OFS="," staff_lower1.csv > staff_lower2.csv
-awk -F, '{$5=tolower($5);print}' OFS="," staff_lower2.csv >> STAFF.csv
+awk -F, '{$8=tolower($8);print}' OFS="," staff_emailsupper.csv > staff_lower1.csv
+awk -F, '{$5=tolower($5);print}' OFS="," staff_lower1.csv >> STAFF.csv
+##Add Admin Staff to Staff.txt
+cat admin_staff.txt >> STAFF.csv
 ##Remove Temp Teacher file
 rm teacherstmp.csv
 
@@ -99,7 +100,7 @@ rm enrollmentstmp.csv
 rename 's/csv/txt/' *.csv
 
 ###Create Zip file for upload
-zip "Colonial-$(date +"%Y-%m-%d").zip" PIF_SECTION.txt STAFF.txt STUDENT.txt PIF_SECTION_STAFF.txt PIF_SECTION_STUDENT.txt CODE_DISTRICT.txt SCHOOL.txt
+zip "Colonial-$(date +"%Y-%m-%d").zip" PIF_SECTION.txt STAFF.txt STUDENT.txt PIF_SECTION_STAFF.txt PIF_SECTION_STUDENT.txt CODE_DISTRICT.txt SCHOOL.txt ASSIGNMENT.txt
 
 ###Upload CSV files to Pearson
 sshpass -f '/home/philmore/.ssh/PEARSON' sftp 5b6df6cb94c2387ab335b401@sftp.pifdata.net <<EOF
