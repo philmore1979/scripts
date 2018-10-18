@@ -127,6 +127,20 @@ tail -n +2 student_w_instructors.csv >> student.csv
 ##Remove all tmp files
 rm *tmp.csv tchmapping.csv student_w_*.csv Non*.csv group_emails.csv
 
+###Addition: 10/18/2018
+###Adding Coaches as Admins at all sites
+###Coach information is in the coachesinstructor.csv file
+##Remove coaches from Instructor and Instrutor Site files (gets rid of old access)
+sed -i '/Boykin/d' instructor.csv
+sed -i '/Pankowski/d' instructor.csv
+sed -i '/Costa/d' instructor.csv
+sed -i '/boykin/d' instructor_site.csv
+sed -i '/pankowski/d' instructor_site.csv
+##Add Coaches to each site as Admins in instructor.csv
+cat coachesinstructor.csv >> instructor.csv
+##Add Coaches to instructor_site.csv
+awk -F',' 'NR>1{print $1","$4}' coachesinstructor.csv >> instructor_site.csv
+
 ###Upload CSV files to Reading Horizon
 ###RH uses FTPS instead of the more secure SFTP
 curl -T "student.csv" -k -u "Colonial-3966:q6qchqFdvtYd" "ftps://api.readinghorizons.com"
@@ -136,4 +150,4 @@ curl -T "instructor_site.csv" -k -u "Colonial-3966:q6qchqFdvtYd" "ftps://api.rea
 curl -T "group.csv" -k -u "Colonial-3966:q6qchqFdvtYd" "ftps://api.readinghorizons.com"
 
 ###Cleanup
-rm *.csv *.xlsx
+rm group.csv student*.csv instructor.csv instructor_site.csv *.xlsx
