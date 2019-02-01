@@ -7,10 +7,10 @@
 ###Download Cognos XLSX file from DOE SFTP
 ##UPDATE: At some point before 10/10/2016, DOE changed the config on their SFTP server
 ##Now, the option -oHostKeyAlgorithms=+ssh-dss is needed
-sshpass -f '/home/philmore/.ssh/DOE' sftp -oHostKeyAlgorithms=+ssh-dss colonialdata@ftp.doe.k12.de.us <<EOF
-get Cognos/rhdiscovery-en.xlsx
-exit
-EOF
+#sshpass -f '/home/philmore/.ssh/DOE' sftp -oHostKeyAlgorithms=+ssh-dss colonialdata@ftp.doe.k12.de.us <<EOF
+#get Cognos/rhdiscovery-en.xlsx
+#exit
+#EOF
 
 ###Convert XLSX file to CSV files
 ssconvert -S rhdiscovery-en.xlsx rhdis.csv
@@ -129,7 +129,7 @@ rm *tmp.csv tchmapping.csv student_w_*.csv Non*.csv group_emails.csv
 
 ###Addition: 10/18/2018
 ###Adding Coaches as Admins at all sites
-###Coach information is in the coachesinstructor.csv file
+###Coach information is in the coachesinstructor.csv file (existing file)
 ##Remove coaches from Instructor and Instrutor Site files (gets rid of old access)
 sed -i '/Boykin/d' instructor.csv
 sed -i '/Pankowski/d' instructor.csv
@@ -143,11 +143,11 @@ awk -F',' 'NR>1{print $1","$4}' coachesinstructor.csv >> instructor_site.csv
 
 ###Upload CSV files to Reading Horizon
 ###RH uses FTPS instead of the more secure SFTP
-curl -T "student.csv" -k -u "Colonial-3966:q6qchqFdvtYd" "ftps://api.readinghorizons.com"
-curl -T "student_group.csv" -k -u "Colonial-3966:q6qchqFdvtYd" "ftps://api.readinghorizons.com"
-curl -T "instructor.csv" -k -u "Colonial-3966:q6qchqFdvtYd" "ftps://api.readinghorizons.com"
-curl -T "instructor_site.csv" -k -u "Colonial-3966:q6qchqFdvtYd" "ftps://api.readinghorizons.com"
-curl -T "group.csv" -k -u "Colonial-3966:q6qchqFdvtYd" "ftps://api.readinghorizons.com"
+#curl -T "student.csv" -k -u "Colonial-3966:q6qchqFdvtYd" "ftps://api.readinghorizons.com"
+#curl -T "student_group.csv" -k -u "Colonial-3966:q6qchqFdvtYd" "ftps://api.readinghorizons.com"
+#curl -T "instructor.csv" -k -u "Colonial-3966:q6qchqFdvtYd" "ftps://api.readinghorizons.com"
+#curl -T "instructor_site.csv" -k -u "Colonial-3966:q6qchqFdvtYd" "ftps://api.readinghorizons.com"
+#curl -T "group.csv" -k -u "Colonial-3966:q6qchqFdvtYd" "ftps://api.readinghorizons.com"
 
 ###Cleanup
-rm group.csv student*.csv instructor.csv instructor_site.csv *.xlsx
+#rm group.csv student*.csv instructor.csv instructor_site.csv *.xlsx
