@@ -19,11 +19,18 @@ sudo snap install qownnotes
 sudo snap install --classic vscode
 sudo snap install --classic powershell
 
-#Set ZSH to Default Shell for Current User
+#Customizations for ZSH
+##Set ZSH to Default Shell for Current User
 sudo usermod -s /usr/bin/zsh $(whoami)
-
+##Download oh-my-zsh Add-on for ZSH
+git clone https://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
+##Copy the .zshrc template from oh-my-zsh to user's home
+cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
+##Enable PowerLevel9K theme
+echo "source /usr/share/powerlevel9k/powerlevel9k.zsh-theme" >> ~/.zshrc
+##Add Syntax Highlighting
+echo "source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ~/.zshrc
 
 ##Still in progress
-#Customizations for ZSH
 #Install Pulse Secure VPN 
 
