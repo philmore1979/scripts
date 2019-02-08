@@ -1,10 +1,13 @@
 SysAdmin Scripts
-=======================================
+================
 
-Various scripts that are used to take data from a Cognos report
-and create files for upload to other systems. 
+Various scripts that are used to take data from Cognos reports
+and create files for upload to other software systems.  Also includes
+generic scripts that can be used to manage servers
 
-**Current Systems**  
+Current Systems
+---------------
+  
 Clever  
 Pearson EasyBridge  
 Destiny Library Management System  
@@ -13,4 +16,3 @@ Primero Edge Nutrition Management System
 Reading Horizon (Discovery and Elevate)  
 Compass Learning Credit Recover  
 
-Also includes some generic scripts that can be used to manage servers
