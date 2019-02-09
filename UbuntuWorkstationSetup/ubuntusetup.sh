@@ -3,7 +3,8 @@
 
 #Update Machine
 echo "Installing System Updates..."
-sudo apt update && sudo apt upgrade -y &> /dev/null
+sudo apt update -y &> /dev/null
+sudo apt upgrade -y &> /dev/null
 echo "Done"
 
 #Install Software
@@ -12,33 +13,41 @@ echo "Installing Repo Software..."
 sudo apt install gimp gnome-tweaks virt-manager filezilla vim gdebi keepassx xournal evolution evolution-ews audacity gnumeric vlc chromium-browser git calibre zenmap vim virtualbox vagrant ansible zsh powerline fonts-powerline zsh-theme-powerlevel9k zsh-syntax-highlighting -y &> /dev/null
 echo "Done"
 ##Install Nextcloud Client
-sudo add-apt-repository ppa:nextcloud-devs/client -y
-sudo apt update && sudo apt install nextcloud-client -y
+echo "Installing Nextcloud Client from PPA..."
+sudo add-apt-repository ppa:nextcloud-devs/client -y &> /dev/null
+sudo apt update &> /dev/null 
+sudo apt install nextcloud-client -y &> /dev/null
+echo "Done"
 ##Install Google Chrome
-wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-sudo dpkg -i google-chrome-stable_current_amd64.deb
-rm google-chrome-stable_current_amd64.deb
+echo "Installing Google Chrome..."
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb  &> /dev/null
+sudo dpkg -i google-chrome-stable_current_amd64.deb &> /dev/null
+rm google-chrome-stable_current_amd64.deb &> /dev/null
+echo "Done"
 ##Install Snap Packages
-sudo snap install qownnotes
-sudo snap install --classic vscode
-sudo snap install --classic powershell
-
+echo "Installing Snap Packages..."
+sudo snap install qownnotes &> /dev/null
+sudo snap install --classic vscode &> /dev/null
+sudo snap install --classic powershell &> /dev/null
+echo "Done"
 #Customizations for ZSH
+echo "Setting up ZSH..."
 ##Set ZSH to Default Shell for Current User
-sudo usermod -s /usr/bin/zsh $(whoami)
+sudo usermod -s /usr/bin/zsh $(whoami) &> /dev/null
 ##Download oh-my-zsh Add-on for ZSH
-git clone https://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
+git clone https://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh &> /dev/null
 ##Copy the .zshrc template from oh-my-zsh to user's home
-cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
+cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc &> /dev/null
 ##Enable PowerLevel9K theme
 echo "source /usr/share/powerlevel9k/powerlevel9k.zsh-theme" >> ~/.zshrc
 ##Add Syntax Highlighting
 echo "source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ~/.zshrc
-
-#Install Pulse Secure VPN (deb file in git repo) 
-sudo dpkg -i pulse-9.0R1.x86_64.deb
-sudo apt install libwebkitgtk-1.0-0 -y
-
+echo "Done"
+#Install Pulse Secure VPN (deb file in git repo)
+echo "Install Pulse Secure..."
+sudo dpkg -i pulse-9.0R1.x86_64.deb &> /dev/nullb
+sudo apt install libwebkitgtk-1.0-0 -y &> /dev/null
+echo "Done"
 
 ##Still in progress - CURRENTLY NONE
 
