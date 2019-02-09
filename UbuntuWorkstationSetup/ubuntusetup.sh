@@ -2,11 +2,15 @@
 #Script to be used to install software used on my ubuntu workstations
 
 #Update Machine
-sudo apt update && sudo apt upgrade -y
+echo "Installing System Updates..."
+sudo apt update && sudo apt upgrade -y &> /dev/null
+echo "Done"
 
 #Install Software
 ##Software in Default Repos
-sudo apt install gimp gnome-tweaks virt-manager filezilla vim gdebi keepassx xournal evolution evolution-ews audacity gnumeric vlc chromium-browser git calibre zenmap vim virtualbox vagrant ansible zsh powerline fonts-powerline zsh-theme-powerlevel9k zsh-syntax-highlighting -y
+echo "Installing Repo Software..."
+sudo apt install gimp gnome-tweaks virt-manager filezilla vim gdebi keepassx xournal evolution evolution-ews audacity gnumeric vlc chromium-browser git calibre zenmap vim virtualbox vagrant ansible zsh powerline fonts-powerline zsh-theme-powerlevel9k zsh-syntax-highlighting -y &> /dev/null
+echo "Done"
 ##Install Nextcloud Client
 sudo add-apt-repository ppa:nextcloud-devs/client -y
 sudo apt update && sudo apt install nextcloud-client -y
