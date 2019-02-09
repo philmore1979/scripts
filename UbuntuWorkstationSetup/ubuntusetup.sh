@@ -2,14 +2,14 @@
 #Script to be used to install software used on my ubuntu workstations
 
 #Update Machine
-echo "Installing System Updates..."
+echo "Installing System Updates...(this will take awhile)"
 sudo apt update -y &> /dev/null
 sudo apt upgrade -y &> /dev/null
 echo "Done"
 
 #Install Software
 ##Software in Default Repos
-echo "Installing Repo Software..."
+echo "Installing Repo Software...(this will take awhile)"
 sudo apt install gimp gnome-tweaks virt-manager filezilla vim gdebi keepassx xournal evolution evolution-ews audacity gnumeric vlc chromium-browser git calibre zenmap vim virtualbox vagrant ansible zsh powerline fonts-powerline zsh-theme-powerlevel9k zsh-syntax-highlighting -y &> /dev/null
 echo "Done"
 ##Install Nextcloud Client
@@ -45,7 +45,7 @@ echo "source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> 
 echo "Done"
 #Install Pulse Secure VPN (deb file in git repo)
 echo "Install Pulse Secure..."
-sudo dpkg -i pulse-9.0R1.x86_64.deb &> /dev/nullb
+sudo dpkg -i pulse-9.0R1.x86_64.deb &> /dev/null
 sudo apt install libwebkitgtk-1.0-0 -y &> /dev/null
 echo "Done"
 
