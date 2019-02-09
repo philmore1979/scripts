@@ -8,7 +8,7 @@ sudo apt update && sudo apt upgrade -y
 ##Software in Default Repos
 sudo apt install gimp gnome-tweaks virt-manager filezilla vim gdebi keepassx xournal evolution evolution-ews audacity gnumeric vlc chromium-browser git calibre zenmap vim virtualbox vagrant ansible zsh powerline fonts-powerline zsh-theme-powerlevel9k zsh-syntax-highlighting -y
 ##Install Nextcloud Client
-sudo add-apt-repository ppa:nextcloud-devs/client
+sudo add-apt-repository ppa:nextcloud-devs/client -y
 sudo apt update && sudo apt install nextcloud-client -y
 ##Install Google Chrome
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
@@ -33,7 +33,7 @@ echo "source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> 
 
 #Install Pulse Secure VPN (deb file in git repo) 
 sudo dpkg -i pulse-9.0R1.x86_64.deb
-sudo apt install libwebkitgtk-1.0-0
+sudo apt install libwebkitgtk-1.0-0 -y
 
 
 ##Still in progress - CURRENTLY NONE
