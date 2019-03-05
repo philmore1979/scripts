@@ -136,6 +136,13 @@ sed -i '/Pankowski/d' instructor.csv
 sed -i '/Costa/d' instructor.csv
 sed -i '/boykin/d' instructor_site.csv
 sed -i '/pankowski/d' instructor_site.csv
+sed -i '/boykin/d' instructor.csv
+sed -i '/pankowski/d' instructor.csv
+sed -i '/Quinn/d' instructor.csv
+sed -i '/Franklin/d' instructor.csv
+sed -i '/quinn/d' instructor_site.csv
+sed -i '/franklin/d' instructor_site.csv
+
 ##Add Coaches to each site as Admins in instructor.csv
 cat coachesinstructor.csv >> instructor.csv
 ##Add Coaches to instructor_site.csv
