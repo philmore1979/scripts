@@ -10,7 +10,7 @@ echo "Done"
 #Install Software
 ##Software in Default Repos
 echo "Installing Repo Software...(this will take awhile)"
-sudo apt install gimp gnome-tweaks virt-manager filezilla vim gdebi keepassx xournal evolution evolution-ews audacity gnumeric vlc chromium-browser git calibre zenmap vim virtualbox vagrant ansible zsh powerline fonts-powerline zsh-theme-powerlevel9k zsh-syntax-highlighting -y &> /dev/null
+sudo apt install gimp gnome-tweaks virt-manager filezilla vim gdebi keepassx xournal evolution evolution-ews audacity gnumeric vlc chromium-browser git calibre zenmap vim virtualbox ssh-askpass-gnome vagrant ansible zsh powerline fonts-powerline zsh-theme-powerlevel9k zsh-syntax-highlighting -y &> /dev/null
 echo "Done"
 ##Install Nextcloud Client
 echo "Installing Nextcloud Client from PPA..."
@@ -39,9 +39,9 @@ git clone https://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh &> /dev/nul
 ##Copy the .zshrc template from oh-my-zsh to user's home
 cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc &> /dev/null
 ##Enable PowerLevel9K theme
-echo "source /usr/share/powerlevel9k/powerlevel9k.zsh-theme" >> ~/.zshrc
+#echo "source /usr/share/powerlevel9k/powerlevel9k.zsh-theme" >> ~/.zshrc
 ##Add Syntax Highlighting
-echo "source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ~/.zshrc
+#echo "source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ~/.zshrc
 echo "Done"
 #Install Pulse Secure VPN (deb file in git repo)
 echo "Install Pulse Secure..."
