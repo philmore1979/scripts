@@ -1,12 +1,14 @@
 #!/bin/bash
 
-###Script to Upload Library Users to the Div of Lib
+###Script to Upload Library Users to the Div of Lib###
 ###
 ###
 ##Start script in the correct folder
 cd /home/philmore/scripts/DivOfLib
 
-###Download Student Cognos and Homeroom csv files from DOE SFTP
+###///Download Student Cognos and Homeroom csv files from DOE SFTP///###
+##nutritionemails-en.csv: a report previously used to load students into Nurtition Management System
+##homeroom-en.csv: a report that has all of the student homeroom info
 ##UPDATE: At some point before 10/10/2016, DOE changed the config on their SFTP server
 ##Now, the option -oHostKeyAlgorithms=+ssh-dss is needed
 sshpass -f '/home/philmore/.ssh/DOE' sftp -oHostKeyAlgorithms=+ssh-dss colonialdata@ftp.doe.k12.de.us <<EOF
@@ -15,7 +17,7 @@ get Cognos/homeroom-en.csv
 exit
 EOF
 
-###Create mapping.csv from homerooms-en.csv file
+###///Create mapping.csv from homerooms-en.csv file///###
 ###Remove WP students
 ####NOTE: WP Students will have their emails added to the homeroom field later
 sed -i '/340490,/d' homeroom-en.csv
@@ -27,10 +29,10 @@ sed -i 's/\"//g' mappingtemp1.csv
 ###NOTE:mapping studentID to Homeroom Teacher LastName
 awk -F',' 'NR>1{print $1","$2}' mappingtemp1.csv > mapping.csv
 
-###Create temp CSV File and Add Headers
+###///Create temp CSV File and Add Headers///###
 echo ".USER_ID,.USER_ALT_ID.,.NAME.,.USER_LIBRARY.,.USER_PROFILE.,.USER_DEPARTMENT.,.USER_CATEGORY1.,.USER_CATEGORY2.,.USER_CATEGORY3.,.USER_CATEGORY4.,.USER_CATEGORY5.,.USER_PRIV_EXPIRES.,.ATTN.,.STREET.,.CITYSTZIP.,.BLANK.,.ZIP.,.HOMEPHONE.,.BLANK.,.BLANK.,.PERIOD.,.PERIOD.,.EMAIL." > colotemp.csv
 
-##Student Section##
+##///Student Section///##
 
 ###Read Data from Downloaded File and Put in Right Field
 awk -F',' 'NR>1{print "123"$1",123"$1",\""$3", "$2"\","$6",2"$6",,LIMITED,,,"$10","$7",20190607,,"$1",,,"$6"-"$17",,,,,,"$1"@colonial.k12.de.us"}' nutritionemails-en.csv >> colotemp.csv
@@ -93,7 +95,7 @@ sed -i 's/,KN,/,GRADE-KN,/g' colo.csv
 ###Remove Leach and 888 Students
 sed -i '/,DELETE,/d' colo.csv
 
-##Staff Section##
+##///Staff Section///##
 ###Cleaning up AD.csv file
 ###NOTE: File needs to be manually downloaded from AD and saved as a CSV file
 ###NOTE 2: EmplID field needs to be 6 digits (with leading zeroes) before starting
