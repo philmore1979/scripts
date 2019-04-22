@@ -19,7 +19,7 @@ EOF
 ###Create student csv file with correct headers
 echo "Identity Type,Username,Domain,Email,First Name,Last Name,Country Code,Product Configurations,Admin Roles,Product Configurations Administered,User Groups,User Groups Administered,Products Administered,Developer Access" > adobe_student.csv
 ###Read Data from Cognos  File and Put in Right Fields in Temp file
-awk -F',' 'NR>1{print "Federated ID,"$1",colonial.k12.de.us,"$1"@colonial.k12.de.us,"$2","$3",US,Default Spark with Premium Features for K-12 - 2 GB configuration,,,AllStudents,,,"}' nutritionemails-en.csv >> temp_adobe_student.csv
+awk -F',' 'NR>1{print "Federated ID,"$1"@colonial.k12.de.us,colonial.k12.de.us,"$1"@colonial.k12.de.us,"$2","$3",US,Default Spark with Premium Features for K-12 - 2 GB configuration,,,AllStudents,,,"}' nutritionemails-en.csv >> temp_adobe_student.csv
 
 ###Remove Duplicates in Student CSV File and put into final student file
 sort -u temp_adobe_student.csv >> adobe_student.csv
