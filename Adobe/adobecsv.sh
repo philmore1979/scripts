@@ -24,6 +24,13 @@ awk -F',' 'NR>1{print "Federated ID,"$1"@colonial.k12.de.us,colonial.k12.de.us,"
 ###Remove Duplicates in Student CSV File and put into final student file
 sort -u temp_adobe_student.csv >> adobe_student.csv
 
+###Rename student file to reflect current date
+mv adobe_student.csv adobe_student_$(date +"%Y-%m-%d").csv
+
+###Cleanup temp files
+rm nutrition* temp*
+
+
 ##STAFF CSV FILE SECTION##
 ##TODO
 
