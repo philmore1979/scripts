@@ -124,7 +124,14 @@ echo "SchoolCode,CourseCode,CourseName,CreditValue,GradeLower,GradeUpper" > Cour
 awk -F',' 'NR>1{print $1","$2","$4",1,"$5","$5}' sectionstmp.csv >> CourseCodes.txt
 sed -i 's/\,/\|/g' CourseCodes.txt
 
+###Upload TXT files to Career Cruising
+sshpass -f '/home/philmore/.ssh/CC' sftp colonial@ftp.careercruising.com <<EOF
+mput Student.txt
+mput School.txt
+exit
+EOF
 
 ###Cleanup
-rm *.csv *.xlsx
+rm *.csv *.xlsx *.txt
+touch $( date '+%Y-%m-%d_%H-%M-%S' )
 
