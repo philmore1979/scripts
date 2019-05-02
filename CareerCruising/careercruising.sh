@@ -32,6 +32,8 @@ rm adminstmp.csv schools.csv teacherstmp.csv
 
 ###Remove all information that is not relevant to New Castle Elementary
 ##NOTE: If this software starts being used elsewhere, this will need to be adjusted
+##Remove uneeded schools
+##Currently, only NCE (340432) is needed
 sed -i '/340410/d' studentstmp.csv
 sed -i '/340412/d' studentstmp.csv
 sed -i '/340418/d' studentstmp.csv
@@ -54,6 +56,13 @@ sed -i '/340422/d' enrollmentstmp.csv
 sed -i '/340427/d' enrollmentstmp.csv
 sed -i '/340456/d' enrollmentstmp.csv
 
+##Remove unneeded grades 
+##Currently, program is used for 2nd - 5th Grade
+sed -i '/,1,/d' sectionstmp.csv
+sed -i '/,Kindergarten,/d' sectionstmp.csv
+sed -i '/,1,/d' studentstmp.csv
+sed -i '/,Kindergarten,/d' studentstmp.csv
+
 ###School.txt
 ##For one school, it's easier to just create the file manually
 ##If this software expands, this part will need to be reworked
@@ -64,7 +73,7 @@ echo "340432|New Castle Elementary|2" >> School.txt
 awk -F',' 'NR>1{print $2","$6","$4","$8","$9","$7",340432,,DE,"$2"@colonial.k12.de.us,"$9}' students.tmp >> Student.csv
 
 ###StudentCourses.txt
-
+awk -F',' 'NR>1{print $3","$2",,,0,0,2019-06-15"}' >> StudentCourses.csv
 ###CourseCodes.txt
 echo "SchoolCode,CourseCode,CourseName,CreditValue,GradeLower,GradeUpper" > CourseCodes.txt
 awk -F',' 'NR>{print $1","$2","$4",1,"$5","$5}' sectionstmp.csv >> CourseCodes.txt
@@ -89,57 +98,7 @@ awk -F',' 'NR==FNR{a[$1]=$2} NR>FNR{$3=a[$3];print}' OFS=',' tchmapping.csv grou
 echo "GroupId,GroupName,InstructorLogin,SiteLogin" > group.csv
 ##Dump data from group_emails.csv to group
 cat group_emails.csv >> group.csv
-##Change locations to correct format for RH
-sed -i 's/340410/downie/g' group.csv
-sed -i 's/340412/CastleHills/g' group.csv
-sed -i 's/340456/Eisenberg/g' group.csv
-sed -i 's/340418/Pleasantville/g' group.csv
-sed -i 's/340432/NewCastle/g' group.csv
-sed -i 's/340422/Wilbur/g' group.csv
-sed -i 's/340427/SouthernElementary/g' group.csv
-##Create file for all NON-ELA groups
-sed '/English Language/d' group.csv > NonELA.csv
-sed -i '/English Langauge/d' NonELA.csv
-awk -F',' 'NR>1{print $1}' NonELA.csv > NonELAIds.csv
-##Drop all groups that are not ELA
-sed -i '/Art"/d' group.csv
-sed -i '/Music/d' group.csv
-sed -i '/Science/d' group.csv
-sed -i '/Education/d' group.csv
-sed -i '/Studies/d' group.csv
-sed -i '/Tech/d' group.csv
-sed -i '/Mathematics/d' group.csv
-sed -i '/Educ/d' group.csv
-sed -i '/LEARNING/d' group.csv
-sed -i '/Library/d' group.csv
 
-##Instructor.csv
-##Create instructor.csv file with correct headers
-echo "InstructorLogin,FirstName,LastName,PrimarySiteLogin,AdminLevel" > instructor.csv
-##Get data from teacherstmp.csv
-awk -F',' 'NR>1{print $4","$5","$7","$1",Instructor"}' teacherstmp.csv >> instructor.csv
-##Change locations to correct format for RH
-sed -i 's/340410/downie/g' instructor.csv
-sed -i 's/340412/CastleHills/g' instructor.csv
-sed -i 's/340456/Eisenberg/g' instructor.csv
-sed -i 's/340418/Pleasantville/g' instructor.csv
-sed -i 's/340432/NewCastle/g' instructor.csv
-sed -i 's/340422/Wilbur/g' instructor.csv
-sed -i 's/340427/SouthernElementary/g' instructor.csv
-
-##Instructor_site.csv
-##Create instructor_site.csv file with correct headers
-echo "InstructorLogin,SiteLogin" > instructor_site.csv
-##Get data from teacherstmp.csv
-awk -F',' 'NR>1{print $4","$1}' teacherstmp.csv >> instructor_site.csv
-##Change locations to correct format for RH
-sed -i 's/340410/downie/g' instructor_site.csv
-sed -i 's/340412/CastleHills/g' instructor_site.csv
-sed -i 's/340456/Eisenberg/g' instructor_site.csv
-sed -i 's/340418/Pleasantville/g' instructor_site.csv
-sed -i 's/340432/NewCastle/g' instructor_site.csv
-sed -i 's/340422/Wilbur/g' instructor_site.csv
-sed -i 's/340427/SouthernElementary/g' instructor_site.csv
 
 ##Student_group.csv
 ##Create student_group.csv with correct headers
@@ -171,40 +130,6 @@ awk -F',' 'NR==FNR{a[$1]=$3} NR>FNR{$6=a[$6];print}' OFS=',' group.csv student_w
 ##Finishing up the file
 echo "Login,FirstName,MiddleInitial,LastName,GradeTrack,InstructorLogin,SiteLogin" > student.csv
 tail -n +2 student_w_instructors.csv >> student.csv
-
-##Remove all tmp files
-rm *tmp.csv tchmapping.csv student_w_*.csv Non*.csv group_emails.csv
-
-###Addition: 10/18/2018
-###Adding Coaches as Admins at all sites
-###Coach information is in the coachesinstructor.csv file (existing file)
-##Remove coaches from Instructor and Instrutor Site files (gets rid of old access)
-sed -i '/Boykin/d' instructor.csv
-sed -i '/Pankowski/d' instructor.csv
-sed -i '/Costa/d' instructor.csv
-sed -i '/boykin/d' instructor_site.csv
-sed -i '/pankowski/d' instructor_site.csv
-sed -i '/boykin/d' instructor.csv
-sed -i '/pankowski/d' instructor.csv
-sed -i '/Quinn/d' instructor.csv
-sed -i '/Franklin/d' instructor.csv
-sed -i '/quinn/d' instructor_site.csv
-sed -i '/franklin/d' instructor_site.csv
-sed -i '/Bufano/d' instructor.csv
-sed -i '/bufano/d' instructor_site.csv
-
-##Add Coaches to each site as Admins in instructor.csv
-cat coachesinstructor.csv >> instructor.csv
-##Add Coaches to instructor_site.csv
-awk -F',' 'NR>1{print $1","$4}' coachesinstructor.csv >> instructor_site.csv
-
-###Upload CSV files to Reading Horizon
-###RH uses FTPS instead of the more secure SFTP
-curl -T "student.csv" -k -u "Colonial-3966:q6qchqFdvtYd" "ftps://api.readinghorizons.com"
-curl -T "student_group.csv" -k -u "Colonial-3966:q6qchqFdvtYd" "ftps://api.readinghorizons.com"
-curl -T "instructor.csv" -k -u "Colonial-3966:q6qchqFdvtYd" "ftps://api.readinghorizons.com"
-curl -T "instructor_site.csv" -k -u "Colonial-3966:q6qchqFdvtYd" "ftps://api.readinghorizons.com"
-curl -T "group.csv" -k -u "Colonial-3966:q6qchqFdvtYd" "ftps://api.readinghorizons.com"
 
 ###Cleanup
 rm group.csv student*.csv instructor.csv instructor_site.csv *.xlsx
