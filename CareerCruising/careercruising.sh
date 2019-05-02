@@ -75,7 +75,36 @@ echo "SchoolCode|Name|SchoolType" > School.txt
 echo "340432|New Castle Elementary|2" >> School.txt
 
 ###Student.txt
+##Create Final file with correct headers
+echo "StudentID,FirstName,LastName,Gender,DateOfBirth,CurrentGrade,CurrentSchoolCode,PreRegSchoolCode,StateProvNumber,Email,Password" > Student.txt
+##Pull data into temp file
 awk -F',' 'NR>1{print $2","$6","$4","$8","$9","$7",340432,,DE,"$2"@colonial.k12.de.us,"$9}' studentstmp.csv  >> Student.csv
+##Change date in fifth cell to yyyy-mm-dd
+awk -F',' -vOFS=',' '
+function fail() {
+        printf "Bad data at line %d: ", NR
+        print
+        next
+    }
+    {
+        if (split($5, date, "/") != 3) fail()
+        $5 = sprintf("%.4d-%.2d-%.2d", date[3], date[1], date[2])
+        print
+    }' Student.csv > Student_DOB.csv
+##Change date in 11th field to no slashes
+awk -F',' -vOFS=',' '
+function fail() {
+        printf "Bad data at line %d: ", NR
+        print
+        next
+    }
+    {
+        if (split($11, date, "/") != 3) fail()
+        $11 = sprintf("%.2d%.2d%.4d", date[1], date[2], date[3])
+        print
+    }' Student_DOB.csv >> Student.txt
+##Change commas to pipes
+sed -i 's/\,/\|/g' Student.txt 
 
 ###StudentCourses.txt
 ##Create Final file with correct headers
@@ -97,5 +126,5 @@ sed -i 's/\,/\|/g' CourseCodes.txt
 
 
 ###Cleanup
-
+rm *.csv *.xlsx
 
