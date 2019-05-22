@@ -27,7 +27,7 @@ echo "Done"
 ##Install Snap Packages
 echo "Installing Snap Packages..."
 sudo snap install qownnotes &> /dev/null
-sudo snap install --classic vscode &> /dev/null
+sudo snap install --classic code &> /dev/null
 sudo snap install --classic powershell &> /dev/null
 echo "Done"
 #Customizations for ZSH
