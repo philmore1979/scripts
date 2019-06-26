@@ -1,23 +1,27 @@
 #Fedora Workstation Setup
 #Script to be used to install software used on my Fedora workstations
 
+#Setting Up Extra Repos
+sudo dnf install fedora-workstation-repositories
+sudo dnf config-manager --set-enabled google-chrome
+
+#Setup Snap Support in Fedora
+sudo dnf install snapd
+sudo ln -s /var/lib/snapd/snap /snap
+sudo snap install snap-store
+echo "Done"
+
 #Update Machine
 echo "Installing System Updates...(this will take awhile)"
 sudo dnf update -y &> /dev/null
 echo "Done"
 
 #Install Software
-##Software in Default Repos
+##Software in Repos
 echo "Installing Repo Software...(this will take awhile)"
-sudo dnf install gimp gnome-tweaks virt-manager filezilla vim gdebi keepassx xournal evolution evolution-ews audacity gnumeric vlc chromium-browser git calibre zenmap vim virtualbox ssh-askpass-gnome vagrant ansible zsh powerline fonts-powerline zsh-theme-powerlevel9k zsh-syntax-highlighting nextcloud-client -y &> /dev/null
+sudo dnf install google-chrome-stable gimp gnome-tweaks virt-manager filezilla vim gdebi keepassx xournal evolution evolution-ews audacity gnumeric vlc chromium git calibre nmap vim virtualbox ssh-askpass-gnome vagrant ansible zsh powerline powerline-fonts zsh-syntax-highlighting nextcloud-client -y &> /dev/null
 echo "Done"
 
-##Install Google Chrome
-echo "Installing Google Chrome..."
-wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb  &> /dev/null
-sudo dpkg -i google-chrome-stable_current_amd64.deb &> /dev/null
-rm google-chrome-stable_current_amd64.deb &> /dev/null
-echo "Done"
 ##Install Snap Packages
 echo "Installing Snap Packages..."
 sudo snap install qownnotes &> /dev/null
