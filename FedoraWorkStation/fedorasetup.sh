@@ -4,6 +4,7 @@
 #Setting Up Extra Repos
 sudo dnf install fedora-workstation-repositories
 sudo dnf config-manager --set-enabled google-chrome
+sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
 
 #Setup Snap Support in Fedora
 sudo dnf install snapd
@@ -19,7 +20,7 @@ echo "Done"
 #Install Software
 ##Software in Repos
 echo "Installing Repo Software...(this will take awhile)"
-sudo dnf install google-chrome-stable gimp gnome-tweaks virt-manager filezilla vim gdebi keepassx xournal evolution evolution-ews audacity gnumeric vlc chromium git calibre nmap vim virtualbox ssh-askpass-gnome vagrant ansible zsh powerline powerline-fonts zsh-syntax-highlighting nextcloud-client -y &> /dev/null
+sudo dnf install google-chrome-stable gimp gnome-tweaks virt-manager filezilla keepassx xournal evolution evolution-ews audacity gnumeric vlc chromium git calibre nmap vim virtualbox openssh-askpass vagrant ansible zsh powerline powerline-fonts zsh-syntax-highlighting nextcloud-client -y &> /dev/null
 echo "Done"
 
 ##Install Snap Packages
@@ -28,6 +29,7 @@ sudo snap install qownnotes &> /dev/null
 sudo snap install --classic code &> /dev/null
 sudo snap install --classic powershell &> /dev/null
 echo "Done"
+
 #Customizations for ZSH
 echo "Setting up ZSH..."
 ##Set ZSH to Default Shell for Current User
