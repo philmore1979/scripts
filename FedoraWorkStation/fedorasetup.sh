@@ -2,14 +2,18 @@
 #Script to be used to install software used on my Fedora workstations
 
 #Setting Up Extra Repos
-sudo dnf install fedora-workstation-repositories
-sudo dnf config-manager --set-enabled google-chrome
-sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
+echo "Setting up extra repos..."
+sudo dnf install fedora-workstation-repositories -y &> /dev/null
+sudo dnf config-manager --set-enabled google-chrome -y &> /dev/null
+sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm -y &> /dev/null
+sudo dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm -y &> /dev/null
+sudo dnf install https://dl.folkswithhats.org/fedora/$(rpm -E %fedora)/RPMS/fedy-release.rpm -y &> /dev/null
 
 #Setup Snap Support in Fedora
-sudo dnf install snapd
-sudo ln -s /var/lib/snapd/snap /snap
-sudo snap install snap-store
+echo "Setting up Snap support..."
+sudo dnf install snapd -y &> /dev/null
+sudo ln -s /var/lib/snapd/snap /snap &> /dev/null
+sudo snap install snap-store -y &> /dev/null
 echo "Done"
 
 #Update Machine
@@ -20,7 +24,7 @@ echo "Done"
 #Install Software
 ##Software in Repos
 echo "Installing Repo Software...(this will take awhile)"
-sudo dnf install google-chrome-stable gimp gnome-tweaks virt-manager filezilla keepassx xournal evolution evolution-ews audacity gnumeric vlc chromium git calibre nmap vim virtualbox openssh-askpass vagrant ansible zsh powerline powerline-fonts zsh-syntax-highlighting nextcloud-client -y &> /dev/null
+sudo dnf install fedy google-chrome-stable gimp gnome-tweaks virt-manager filezilla keepassx xournal evolution evolution-ews audacity gnumeric vlc chromium git calibre nmap vim openssh-askpass vagrant ansible zsh powerline powerline-fonts zsh-syntax-highlighting nextcloud-client -y &> /dev/null
 echo "Done"
 
 ##Install Snap Packages
@@ -44,10 +48,11 @@ cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc &> /dev/null
 #echo "source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ~/.zshrc
 echo "Done"
 #Install Pulse Secure VPN (deb file in git repo)
-echo "Install Pulse Secure..."
-sudo dpkg -i pulse-9.0R1.x86_64.deb &> /dev/null
-sudo apt install libwebkitgtk-1.0-0 -y &> /dev/null
-echo "Done"
+#echo "Install Pulse Secure..."
+#sudo dpkg -i pulse-9.0R1.x86_64.deb &> /dev/null
+#sudo apt install libwebkitgtk-1.0-0 -y &> /dev/null
+#echo "Done"
 
 ##Still in progress - CURRENTLY NONE
-
+#need to install Pulse
+#need to install virtualbox
