@@ -35,7 +35,7 @@ echo ".USER_ID,.USER_ALT_ID.,.NAME.,.USER_LIBRARY.,.USER_PROFILE.,.USER_DEPARTME
 ##///Student Section///##
 
 ###Read Data from Downloaded File and Put in Right Field
-awk -F',' 'NR>1{print "123"$1",123"$1",\""$3", "$2"\","$6",2"$6",,LIMITED,,,"$10","$7",20190607,,"$1",,,"$6"-"$17",,,,,,"$1"@colonial.k12.de.us"}' nutritionemails-en.csv >> colotemp.csv
+awk -F',' 'NR>1{print "123"$1",123"$1",\""$3", "$2"\","$6",2"$6",,LIMITED,,,"$10","$7",20200515,,"$1",,,"$6"-"$17",,,,,,"$1"@colonial.k12.de.us"}' nutritionemails-en.csv >> colotemp.csv
 
 ###Substitute Teacher Name for StudentID in Row Q
 awk -F',' 'NR==FNR{a[$1]=$2} NR>FNR{$15=a[$15];print}' OFS=',' mapping.csv colotemp.csv > colo.csv
