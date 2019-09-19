@@ -77,16 +77,20 @@ sed -i 's/,DOB/,Password/g' studentextrainfo.csv
 awk -F'/' '{print $1$2$3}' studentextrainfo.csv > studentextrainfofixed.csv
 ##Combine Studentstmp.csv and file with fixed extra information into one
 paste -d ',' studentstmp.csv studentextrainfofixed.csv > students.csv
+##Section to force update Student's name
+##Used for changes requested by the parents/student
+sed -i 's/,West,,Talitha,/,West,,Taye,/g' students.csv
+
 ##Remove all tmp files
 rm studentstmp.csv studentextrainfo.csv studentextrainfofixed.csv
 
 
 
 ###Upload CSV files to Clever
-sftp responsible-chalkboard-2639@sftp.clever.com <<EOF
-mput *.csv
-exit
-EOF
+#sftp responsible-chalkboard-2639@sftp.clever.com <<EOF
+#mput *.csv
+#exit
+#EOF
 
 ###Cleanup
-rm schools.csv students.csv teachers.csv sections.csv enrollments.csv clever-en.xlsx
+#rm schools.csv students.csv teachers.csv sections.csv enrollments.csv clever-en.xlsx
