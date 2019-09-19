@@ -87,10 +87,10 @@ rm studentstmp.csv studentextrainfo.csv studentextrainfofixed.csv
 
 
 ###Upload CSV files to Clever
-#sftp responsible-chalkboard-2639@sftp.clever.com <<EOF
-#mput *.csv
-#exit
-#EOF
+sftp responsible-chalkboard-2639@sftp.clever.com <<EOF
+mput *.csv
+exit
+EOF
 
 ###Cleanup
-#rm schools.csv students.csv teachers.csv sections.csv enrollments.csv clever-en.xlsx
+rm schools.csv students.csv teachers.csv sections.csv enrollments.csv clever-en.xlsx
