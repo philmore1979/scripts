@@ -76,7 +76,9 @@ awk -F'/' '{print $1$2$3}' studentextrainfo.csv > studentextrainfofixed.csv
 paste -d ',' studentstmp.csv studentextrainfofixed.csv > students.csv
 ##Remove all tmp files
 rm studentstmp.csv studentextrainfo.csv studentextrainfofixed.csv
-
+##Section to force update Student's name
+##Used for changes requested by the parents/student
+sed -i 's/,West,,Talitha,/,West,,Taye,/g' students.csv
 
 
 ###Upload CSV files to Clever
