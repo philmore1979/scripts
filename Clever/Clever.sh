@@ -1,4 +1,4 @@
-﻿#!/bin/bash
+#!/bin/bash
 
 ###Script to upload District information to Clever
 ###Clever is a single sign-on service used for user/class assignments
@@ -48,6 +48,23 @@ rm enrollments1.csv enrollments2.csv
 ##Teacher File
 ##Change header 'Email' to 'Teacher_email'
 sed -i 's/,Email,/,Teacher_email,/g' teachers.csv
+##Remove Principals from Teacher File
+##Needed to prevent conflicts with the admin.csv file
+sed -i '/douglas.timm@colonial.k12.de.us/Id' teachers.csv ##CDE
+sed -i '/teray.ross@colonial.k12.de.us/Id' teachers.csv ##NCE
+sed -i '/janissa.nuneville@colonial.k12.de.us/Id' teachers.csv ##CHE
+sed -i '/David.Distler@colonial.k12.de.us/Id' teachers.csv ##EIS
+sed -i '/jennifer.alexander@colonial.k12.de.us/Id' teachers.csv ##PLV
+sed -i '/elizabeth.howell@colonial.k12.de.us/Id' teachers.csv ##WIL
+sed -i '/Jeffory.Gibeault@colonial.k12.de.us@colonial.k12.de.us/Id' teachers.csv ##SOU
+sed -i '/lindsay.diemidio@colonial.k12.de.us/Id' teachers.csv ##WME
+sed -i '/nicholas.wolfe@colonial.k12.de.us/Id' teachers.csv ##GRM
+sed -i '/daniel.bartnik@colonial.k12.de.us@colonial.k12.de.us/Id' teachers.csv ##GBM
+sed -i '/william.johnston@colonial.k12.de.us/Id' teachers.csv ##MCC
+sed -i '/lisa.brewington@colonial.k12.de.us/Id' teachers.csv ##WP
+sed -i '/kevin.white@colonial.k12.de.us@colonial.k12.de.us/Id' teachers.csv ##WW
+sed -i '/katrina.daniels@colonial.k12.de.us/Id' teachers.csv ##COL
+sed -i '/kristina.lamia@colonial.k12.de.us/Id' teachers.csv ##COL
 
 ##Sections File
 ##NOTE: Updated 9/1/2018 to include Period field
