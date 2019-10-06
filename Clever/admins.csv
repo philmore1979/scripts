@@ -1,210 +1,1041 @@
 School_id,Staff_id,Admin_email,First_name,Last_name,Admin_title,Username,Password,Role
+,,,,,,,,
 340410,340410-jennifer.klima,jennifer.klima@colonial.k12.de.us,Jennifer,Klima,Building Coach - ELA,,,STL
+,,,,,,,,
 340412,340412-caroline.hughes,caroline.hughes@colonial.k12.de.us,Caroline,Hughes,Building Coach - ELA,,,STL
+,,,,,,,,
 340456,340456-shea.pankowski,shea.pankowski@colonial.k12.de.us,Shea,Pankowski,Building Coach - ELA,,,STL
+,,,,,,,,
 340432,340432-stacey.treut,stacey.treut@colonial.k12.de.us,Stacey,Treut,Building Coach - ELA,,,STL
+,,,,,,,,
 340418,340418-kristina.hopkins,kristina.hopkins@colonial.k12.de.us,Kristina,Hopkins,Building Coach - ELA,,,STL
+,,,,,,,,
 340427,340427-erica.boykin,erica.boykin@colonial.k12.de.us,Erica,Boykin,Building Coach - ELA,,,STL
+,,,,,,,,
 340422,340422-robyn.costa,robyn.costa@colonial.k12.de.us,Robyn,Costa,Building Coach - ELA,,,STL
+,,,,,,,,
 340420,340420-stephanie.jones,stephanie.jones@colonial.k12.de.us,Stephanie,Jones,Building Coach - ELA,,,STL
+,,,,,,,,
 340474,340474-nicole.sumner,nicole.sumner@colonial.k12.de.us,Nicole,Sumner,Building Coach - ELA,,,STL
+,,,,,,,,
 340470,340470-ellen.citino,ellen.citino@colonial.k12.de.us,Ellen,Citino,Building Coach - ELA,,,STL
+,,,,,,,,
 340476,340476-nancy.gallagher,nancy.gallagher@colonial.k12.de.us,Nancy,Gallagher,Building Coach - ELA,,,STL
-340490,340490-timothy.hein,timothy.hein@colonial.k12.de.us,Timothy,Hein,Building Coach - ELA,,,STL
+,,,,,,,,
 340450,340450-maryann.koziol,maryann.koziol@colonial.k12.de.us,Maryann,Koziol,Building Coach - PreK,,,STL
+,,,,,,,,
+340420,340420-lori.wiseman,lori.wiseman@colonial.k12.de.us,Lori,Wiseman,Building Coach - Math,,,STL
+,,,,,,,,
+340412,340412-catharine.rana,catharine.rana@colonial.k12.de.us,Catherine,Rana,Building Coach - Math,,,STL
+,,,,,,,,
 340410,340410-michelle.wolfe,michelle.wolfe@colonial.k12.de.us,Michelle,Wolfe,Building Coach - Math,,,STL
-340412,340412-carla.hood,carla.hood@colonial.k12.de.us,Carla,Hood,Building Coach - Math,,,STL
+,,,,,,,,
 340456,340456-alecia.harrar,alecia.harrar@colonial.k12.de.us,Alecia,Harrar,Building Coach - Math,,,STL
+,,,,,,,,
 340432,340432-katie.kerrigan,katie.kerrigan@colonial.k12.de.us,Katie,Kerrigan,Building Coach - Math,,,STL
+,,,,,,,,
 340418,340418-melissa.condit,melissa.condit@colonial.k12.de.us,Melissa,Condit,Building Coach - Math,,,STL
+,,,,,,,,
 340427,340427-desiree.norwood,desiree.norwood@colonial.k12.de.us,Desiree,Norwood,Building Coach - Math,,,STL
+,,,,,,,,
 340422,340422-jessica.hoban,jessica.hoban@colonial.k12.de.us,Jessica,Hoban,Building Coach - Math,,,STL
+,,,,,,,,
 340474,340474-jason.rogers,jason.rogers@colonial.k12.de.us,Jason,Rogers,Building Coach - Math,,,STL
+,,,,,,,,
 340470,340470-jennifer.trievel,jennifer.trievel@colonial.k12.de.us,Jennifer,Trievel,Building Coach - Math,,,STL
+,,,,,,,,
 340476,340476-jennifer.bonham,jennifer.bonham@colonial.k12.de.us,Jennifer,Bonham,Building Coach - Math,,,STL
+,,,,,,,,
 340490,340490-katey.sabol,katey.sabol@colonial.k12.de.us,Katey,Sabol,Building Coach - Math,,,STL
+,,,,,,,,
 340412,340412-kerri.campbell,kerri.campbell@colonial.k12.de.us,Kerri,Campbell,Assistant Principal,,,STL
+,,,,,,,,
 340456,340456-valerie.hickman,valerie.hickman@colonial.k12.de.us,Valerie,Hickman,Assistant Principal,,,STL
-340474,340474-michelle.jones,michelle.jones@colonial.k12.de.us,Michelle,Jones,Deputy Principal,,,STL
+,,,,,,,,
+340490,340490-michelle.jones,michelle.jones@colonial.k12.de.us,Michelle,Jones,Deputy Principal,,,STL
+,,,,,,,,
 340474,340474-michael.rees,michael.rees@colonial.k12.de.us,Michael,Rees,Assistant Principal,,,STL
+,,,,,,,,
+340427,340427-kishayla.paynemiller,kishayla.paynemiller@colonial.k12.de.us,Kishayla,Payne-Miller,Assistant Principal,,,STL
+,,,,,,,,
 340470,340470-renee.griffith,renee.griffith@colonial.k12.de.us,Renee,Griffith,Assistant Principal,,,STL
+,,,,,,,,
 340470,340470-urahn.roberts,urahn.roberts@colonial.k12.de.us,Urahn,Roberts,Assistant Principal,,,STL
+,,,,,,,,
 340422,340422-roberta.jacobs,roberta.jacobs@colonial.k12.de.us,Roberta,Jacobs,Assistant Principal,,,STL
+,,,,,,,,
 340422,340422-virginia.schreppler,virginia.schreppler@colonial.k12.de.us,Virginia,Schreppler,Assistant Principal,,,STL
+,,,,,,,,
 340476,340476-amina.baaith,amina.baaith@colonial.k12.de.us,Amina,Baaith,Assistant Principal,,,STL
+,,,,,,,,
 340476,340476-stephen.digennaro,stephen.digennaro@colonial.k12.de.us,Stephen,DiGennaro,Assistant Principal,,,STL
+,,,,,,,,
 340432,340432-marc.emerick,marc.emerick@colonial.k12.de.us,Marc,Emerick,Assistant Principal,,,STL
+,,,,,,,,
 340427,340427-richard.bryson,richard.bryson@colonial.k12.de.us,Richard,Bryson,Assistant Principal,,,STL
+,,,,,,,,
 340490,340490-arie.dinkeloo,arie.dinkeloo@colonial.k12.de.us,Arie,Dinkeloo,Assistant Principal,,,STL
+,,,,,,,,
 340490,340490-brock.donovan,brock.donovan@colonial.k12.de.us,Brock,Donovan,Assistant Principal,,,STL
+,,,,,,,,
 340490,340490-ursula.mccoy,ursula.mccoy@colonial.k12.de.us,Ursula,McCoy,Assistant Principal,,,STL
-340490,340490-tierney.dubard,tierney.dubard@colonial.k12.de.us,Tierney,DuBard,Assistant Principal,,,STL
+,,,,,,,,
+340474,340474-tierney.dubard,tierney.dubard@colonial.k12.de.us,Tierney,DuBard,Assistant Principal,,,STL
+,,,,,,,,
 340490,340490-erik.jones,erik.jones@colonial.k12.de.us,Erik,Jones,Assistant Principal,,,STL
+,,,,,,,,
 340490,340490-jennifer.wisowaty,jennifer.wisowaty@colonial.k12.de.us,Jennifer,Wisowaty,Assistant Principal,,,STL
+,,,,,,,,
 340490,340490-james.zimmerman,james.zimmerman@colonial.k12.de.us,James,Zimmerman,Deputy Principal,,,STL
+,,,,,,,,
 340410,340410-douglas.timm,douglas.timm@colonial.k12.de.us,Douglas,Timm,Principal,,,STL
+,,,,,,,,
 340412,340412-janissa.nuneville,janissa.nuneville@colonial.k12.de.us,Janissa,Nuneville,Principal,,,STL
+,,,,,,,,
 340456,340456-david.distler,david.distler@colonial.k12.de.us,David,Distler,Principal,,,STL
+,,,,,,,,
 340474,340474-nicholas.wolfe,nicholas.wolfe@colonial.k12.de.us,Nicholas,Wolfe,Principal,,,STL
+,,,,,,,,
 340470,340470-daniel.bartnik,daniel.bartnik@colonial.k12.de.us,Daniel,Bartnik,Principal,,,STL
+,,,,,,,,
 340422,340422-elizabeth.howell,elizabeth.howell@colonial.k12.de.us,Elizabeth,Howell,Principal,,,STL
+,,,,,,,,
 340514,340514-kristina.lamia,kristina.lamia@colonial.k12.de.us,Kristina,Lamia,Principal,,,STL
+,,,,,,,,
 340476,340476-william.johnston,william.johnston@colonial.k12.de.us,William,Johnston,Principal,,,STL
+,,,,,,,,
 340432,340432-tross,teray.ross@colonial.k12.de.us,TeRay,Ross,Principal,,,STL
+,,,,,,,,
 340418,340418-jennifer.alexander,jennifer.alexander@colonial.k12.de.us,Jennifer,Alexander,Principal,,,STL
+,,,,,,,,
 340427,340427-jeffory.gibeault,jeffory.gibeault@colonial.k12.de.us,Jeffory,Gibeault,Principal,,,STL
+,,,,,,,,
 340450,340450-katrina.daniels,katrina.daniels@colonial.k12.de.us,Katrina,Daniels,Principal,,,STL
+,,,,,,,,
 340522,340522-kevin.white,kevin.white@colonial.k12.de.us,Kevin,White,Principal,,,STL
+,,,,,,,,
 340490,340490-lisa.brewington,lisa.brewington@colonial.k12.de.us,Lisa,Brewington,Principal,,,STL
+,,,,,,,,
 340420,340420-lindsay.diemidio,lindsay.diemidio@colonial.k12.de.us,Lindsay,DiEmidio,Principal,,,STL
+,,,,,,,,
 340410,34999-lisa.ely,lisa.ely@colonial.k12.de.us,Lisa,Ely,District Coach - ELL,,,STL
+,,,,,,,,
 340412,34999-lisa.ely,lisa.ely@colonial.k12.de.us,Lisa,Ely,District Coach - ELL,,,STL
+,,,,,,,,
 340418,34999-lisa.ely,lisa.ely@colonial.k12.de.us,Lisa,Ely,District Coach - ELL,,,STL
+,,,,,,,,
 340420,34999-lisa.ely,lisa.ely@colonial.k12.de.us,Lisa,Ely,District Coach - ELL,,,STL
+,,,,,,,,
 340422,34999-lisa.ely,lisa.ely@colonial.k12.de.us,Lisa,Ely,District Coach - ELL,,,STL
+,,,,,,,,
 340427,34999-lisa.ely,lisa.ely@colonial.k12.de.us,Lisa,Ely,District Coach - ELL,,,STL
+,,,,,,,,
 340432,34999-lisa.ely,lisa.ely@colonial.k12.de.us,Lisa,Ely,District Coach - ELL,,,STL
+,,,,,,,,
 340450,34999-lisa.ely,lisa.ely@colonial.k12.de.us,Lisa,Ely,District Coach - ELL,,,STL
+,,,,,,,,
 340456,34999-lisa.ely,lisa.ely@colonial.k12.de.us,Lisa,Ely,District Coach - ELL,,,STL
+,,,,,,,,
 340470,34999-lisa.ely,lisa.ely@colonial.k12.de.us,Lisa,Ely,District Coach - ELL,,,STL
+,,,,,,,,
 340474,34999-lisa.ely,lisa.ely@colonial.k12.de.us,Lisa,Ely,District Coach - ELL,,,STL
+,,,,,,,,
 340476,34999-lisa.ely,lisa.ely@colonial.k12.de.us,Lisa,Ely,District Coach - ELL,,,STL
+,,,,,,,,
 340490,34999-lisa.ely,lisa.ely@colonial.k12.de.us,Lisa,Ely,District Coach - ELL,,,STL
+,,,,,,,,
 340514,34999-lisa.ely,lisa.ely@colonial.k12.de.us,Lisa,Ely,District Coach - ELL,,,STL
+,,,,,,,,
 340522,34999-lisa.ely,lisa.ely@colonial.k12.de.us,Lisa,Ely,District Coach - ELL,,,STL
+,,,,,,,,
 340410,34999-rachel.autman,rachel.autman@colonial.k12.de.us,Rachel,Autman,District Coach - ELA,,,STL
+,,,,,,,,
 340412,34999-rachel.autman,rachel.autman@colonial.k12.de.us,Rachel,Autman,District Coach - ELA,,,STL
+,,,,,,,,
 340418,34999-rachel.autman,rachel.autman@colonial.k12.de.us,Rachel,Autman,District Coach - ELA,,,STL
+,,,,,,,,
 340420,34999-rachel.autman,rachel.autman@colonial.k12.de.us,Rachel,Autman,District Coach - ELA,,,STL
+,,,,,,,,
 340422,34999-rachel.autman,rachel.autman@colonial.k12.de.us,Rachel,Autman,District Coach - ELA,,,STL
+,,,,,,,,
 340427,34999-rachel.autman,rachel.autman@colonial.k12.de.us,Rachel,Autman,District Coach - ELA,,,STL
+,,,,,,,,
 340432,34999-rachel.autman,rachel.autman@colonial.k12.de.us,Rachel,Autman,District Coach - ELA,,,STL
+,,,,,,,,
 340450,34999-rachel.autman,rachel.autman@colonial.k12.de.us,Rachel,Autman,District Coach - ELA,,,STL
+,,,,,,,,
 340456,34999-rachel.autman,rachel.autman@colonial.k12.de.us,Rachel,Autman,District Coach - ELA,,,STL
+,,,,,,,,
 340470,34999-rachel.autman,rachel.autman@colonial.k12.de.us,Rachel,Autman,District Coach - ELA,,,STL
+,,,,,,,,
 340474,34999-rachel.autman,rachel.autman@colonial.k12.de.us,Rachel,Autman,District Coach - ELA,,,STL
+,,,,,,,,
 340476,34999-rachel.autman,rachel.autman@colonial.k12.de.us,Rachel,Autman,District Coach - ELA,,,STL
+,,,,,,,,
 340490,34999-rachel.autman,rachel.autman@colonial.k12.de.us,Rachel,Autman,District Coach - ELA,,,STL
+,,,,,,,,
 340514,34999-rachel.autman,rachel.autman@colonial.k12.de.us,Rachel,Autman,District Coach - ELA,,,STL
+,,,,,,,,
 340522,34999-rachel.autman,rachel.autman@colonial.k12.de.us,Rachel,Autman,District Coach - ELA,,,STL
+,,,,,,,,
 340410,34999-pamela.nolte,pamela.nolte@colonial.k12.de.us,Pamela,Nolte,District Coach - ELA,,,STL
+,,,,,,,,
 340412,34999-pamela.nolte,pamela.nolte@colonial.k12.de.us,Pamela,Nolte,District Coach - ELA,,,STL
+,,,,,,,,
 340418,34999-pamela.nolte,pamela.nolte@colonial.k12.de.us,Pamela,Nolte,District Coach - ELA,,,STL
+,,,,,,,,
 340420,34999-pamela.nolte,pamela.nolte@colonial.k12.de.us,Pamela,Nolte,District Coach - ELA,,,STL
+,,,,,,,,
 340422,34999-pamela.nolte,pamela.nolte@colonial.k12.de.us,Pamela,Nolte,District Coach - ELA,,,STL
+,,,,,,,,
 340427,34999-pamela.nolte,pamela.nolte@colonial.k12.de.us,Pamela,Nolte,District Coach - ELA,,,STL
+,,,,,,,,
 340432,34999-pamela.nolte,pamela.nolte@colonial.k12.de.us,Pamela,Nolte,District Coach - ELA,,,STL
+,,,,,,,,
 340450,34999-pamela.nolte,pamela.nolte@colonial.k12.de.us,Pamela,Nolte,District Coach - ELA,,,STL
+,,,,,,,,
 340456,34999-pamela.nolte,pamela.nolte@colonial.k12.de.us,Pamela,Nolte,District Coach - ELA,,,STL
+,,,,,,,,
 340470,34999-pamela.nolte,pamela.nolte@colonial.k12.de.us,Pamela,Nolte,District Coach - ELA,,,STL
+,,,,,,,,
 340474,34999-pamela.nolte,pamela.nolte@colonial.k12.de.us,Pamela,Nolte,District Coach - ELA,,,STL
+,,,,,,,,
 340476,34999-pamela.nolte,pamela.nolte@colonial.k12.de.us,Pamela,Nolte,District Coach - ELA,,,STL
+,,,,,,,,
 340490,34999-pamela.nolte,pamela.nolte@colonial.k12.de.us,Pamela,Nolte,District Coach - ELA,,,STL
+,,,,,,,,
 340514,34999-pamela.nolte,pamela.nolte@colonial.k12.de.us,Pamela,Nolte,District Coach - ELA,,,STL
+,,,,,,,,
 340522,34999-pamela.nolte,pamela.nolte@colonial.k12.de.us,Pamela,Nolte,District Coach - ELA,,,STL
+,,,,,,,,
 340410,34999-jennifer.davison,jennifer.davison@colonial.k12.de.us,Jennifer,Davison,District Coach - Math,,,STL
+,,,,,,,,
 340412,34999-jennifer.davison,jennifer.davison@colonial.k12.de.us,Jennifer,Davison,District Coach - Math,,,STL
+,,,,,,,,
 340418,34999-jennifer.davison,jennifer.davison@colonial.k12.de.us,Jennifer,Davison,District Coach - Math,,,STL
+,,,,,,,,
 340420,34999-jennifer.davison,jennifer.davison@colonial.k12.de.us,Jennifer,Davison,District Coach - Math,,,STL
+,,,,,,,,
 340422,34999-jennifer.davison,jennifer.davison@colonial.k12.de.us,Jennifer,Davison,District Coach - Math,,,STL
+,,,,,,,,
 340427,34999-jennifer.davison,jennifer.davison@colonial.k12.de.us,Jennifer,Davison,District Coach - Math,,,STL
+,,,,,,,,
 340432,34999-jennifer.davison,jennifer.davison@colonial.k12.de.us,Jennifer,Davison,District Coach - Math,,,STL
+,,,,,,,,
 340450,34999-jennifer.davison,jennifer.davison@colonial.k12.de.us,Jennifer,Davison,District Coach - Math,,,STL
+,,,,,,,,
 340456,34999-jennifer.davison,jennifer.davison@colonial.k12.de.us,Jennifer,Davison,District Coach - Math,,,STL
+,,,,,,,,
 340470,34999-jennifer.davison,jennifer.davison@colonial.k12.de.us,Jennifer,Davison,District Coach - Math,,,STL
+,,,,,,,,
 340474,34999-jennifer.davison,jennifer.davison@colonial.k12.de.us,Jennifer,Davison,District Coach - Math,,,STL
+,,,,,,,,
 340476,34999-jennifer.davison,jennifer.davison@colonial.k12.de.us,Jennifer,Davison,District Coach - Math,,,STL
+,,,,,,,,
 340490,34999-jennifer.davison,jennifer.davison@colonial.k12.de.us,Jennifer,Davison,District Coach - Math,,,STL
+,,,,,,,,
 340514,34999-jennifer.davison,jennifer.davison@colonial.k12.de.us,Jennifer,Davison,District Coach - Math,,,STL
+,,,,,,,,
 340522,34999-jennifer.davison,jennifer.davison@colonial.k12.de.us,Jennifer,Davison,District Coach - Math,,,STL
+,,,,,,,,
 340410,340450-klindo,katrina.lindo@colonial.k12.de.us,Katrina,Lindo,District Coach - Math,,,STL
+,,,,,,,,
 340412,340450-klindo,katrina.lindo@colonial.k12.de.us,Katrina,Lindo,District Coach - Math,,,STL
+,,,,,,,,
 340418,340450-klindo,katrina.lindo@colonial.k12.de.us,Katrina,Lindo,District Coach - Math,,,STL
+,,,,,,,,
 340420,340450-klindo,katrina.lindo@colonial.k12.de.us,Katrina,Lindo,District Coach - Math,,,STL
+,,,,,,,,
 340422,340450-klindo,katrina.lindo@colonial.k12.de.us,Katrina,Lindo,District Coach - Math,,,STL
+,,,,,,,,
 340427,340450-klindo,katrina.lindo@colonial.k12.de.us,Katrina,Lindo,District Coach - Math,,,STL
+,,,,,,,,
 340432,340450-klindo,katrina.lindo@colonial.k12.de.us,Katrina,Lindo,District Coach - Math,,,STL
+,,,,,,,,
 340450,340450-klindo,katrina.lindo@colonial.k12.de.us,Katrina,Lindo,District Coach - Math,,,STL
+,,,,,,,,
 340456,340450-klindo,katrina.lindo@colonial.k12.de.us,Katrina,Lindo,District Coach - Math,,,STL
+,,,,,,,,
 340470,340450-klindo,katrina.lindo@colonial.k12.de.us,Katrina,Lindo,District Coach - Math,,,STL
+,,,,,,,,
 340474,340450-klindo,katrina.lindo@colonial.k12.de.us,Katrina,Lindo,District Coach - Math,,,STL
+,,,,,,,,
 340476,340450-klindo,katrina.lindo@colonial.k12.de.us,Katrina,Lindo,District Coach - Math,,,STL
+,,,,,,,,
 340490,340450-klindo,katrina.lindo@colonial.k12.de.us,Katrina,Lindo,District Coach - Math,,,STL
+,,,,,,,,
 340514,340450-klindo,katrina.lindo@colonial.k12.de.us,Katrina,Lindo,District Coach - Math,,,STL
+,,,,,,,,
 340522,340450-klindo,katrina.lindo@colonial.k12.de.us,Katrina,Lindo,District Coach - Math,,,STL
+,,,,,,,,
 340410,34999-kimberly.mulvena,kimberly.mulvena@colonial.k12.de.us,Kimberly,Mulvena,District Coach - Science,,,STL
+,,,,,,,,
 340412,34999-kimberly.mulvena,kimberly.mulvena@colonial.k12.de.us,Kimberly,Mulvena,District Coach - Science,,,STL
+,,,,,,,,
 340418,34999-kimberly.mulvena,kimberly.mulvena@colonial.k12.de.us,Kimberly,Mulvena,District Coach - Science,,,STL
+,,,,,,,,
 340420,34999-kimberly.mulvena,kimberly.mulvena@colonial.k12.de.us,Kimberly,Mulvena,District Coach - Science,,,STL
+,,,,,,,,
 340422,34999-kimberly.mulvena,kimberly.mulvena@colonial.k12.de.us,Kimberly,Mulvena,District Coach - Science,,,STL
+,,,,,,,,
 340427,34999-kimberly.mulvena,kimberly.mulvena@colonial.k12.de.us,Kimberly,Mulvena,District Coach - Science,,,STL
+,,,,,,,,
 340432,34999-kimberly.mulvena,kimberly.mulvena@colonial.k12.de.us,Kimberly,Mulvena,District Coach - Science,,,STL
+,,,,,,,,
 340450,34999-kimberly.mulvena,kimberly.mulvena@colonial.k12.de.us,Kimberly,Mulvena,District Coach - Science,,,STL
+,,,,,,,,
 340456,34999-kimberly.mulvena,kimberly.mulvena@colonial.k12.de.us,Kimberly,Mulvena,District Coach - Science,,,STL
+,,,,,,,,
 340470,34999-kimberly.mulvena,kimberly.mulvena@colonial.k12.de.us,Kimberly,Mulvena,District Coach - Science,,,STL
+,,,,,,,,
 340474,34999-kimberly.mulvena,kimberly.mulvena@colonial.k12.de.us,Kimberly,Mulvena,District Coach - Science,,,STL
+,,,,,,,,
 340476,34999-kimberly.mulvena,kimberly.mulvena@colonial.k12.de.us,Kimberly,Mulvena,District Coach - Science,,,STL
+,,,,,,,,
 340490,34999-kimberly.mulvena,kimberly.mulvena@colonial.k12.de.us,Kimberly,Mulvena,District Coach - Science,,,STL
+,,,,,,,,
 340514,34999-kimberly.mulvena,kimberly.mulvena@colonial.k12.de.us,Kimberly,Mulvena,District Coach - Science,,,STL
+,,,,,,,,
 340522,34999-kimberly.mulvena,kimberly.mulvena@colonial.k12.de.us,Kimberly,Mulvena,District Coach - Science,,,STL
+,,,,,,,,
 340410,34999-kelly.shusko,kelly.shusko@colonial.k12.de.us,Kelly,Shusko,District Coach - Social Studies,,,STL
+,,,,,,,,
 340412,34999-kelly.shusko,kelly.shusko@colonial.k12.de.us,Kelly,Shusko,District Coach - Social Studies,,,STL
+,,,,,,,,
 340418,34999-kelly.shusko,kelly.shusko@colonial.k12.de.us,Kelly,Shusko,District Coach - Social Studies,,,STL
+,,,,,,,,
 340420,34999-kelly.shusko,kelly.shusko@colonial.k12.de.us,Kelly,Shusko,District Coach - Social Studies,,,STL
+,,,,,,,,
 340422,34999-kelly.shusko,kelly.shusko@colonial.k12.de.us,Kelly,Shusko,District Coach - Social Studies,,,STL
+,,,,,,,,
 340427,34999-kelly.shusko,kelly.shusko@colonial.k12.de.us,Kelly,Shusko,District Coach - Social Studies,,,STL
+,,,,,,,,
 340432,34999-kelly.shusko,kelly.shusko@colonial.k12.de.us,Kelly,Shusko,District Coach - Social Studies,,,STL
+,,,,,,,,
 340450,34999-kelly.shusko,kelly.shusko@colonial.k12.de.us,Kelly,Shusko,District Coach - Social Studies,,,STL
+,,,,,,,,
 340456,34999-kelly.shusko,kelly.shusko@colonial.k12.de.us,Kelly,Shusko,District Coach - Social Studies,,,STL
+,,,,,,,,
 340470,34999-kelly.shusko,kelly.shusko@colonial.k12.de.us,Kelly,Shusko,District Coach - Social Studies,,,STL
+,,,,,,,,
 340474,34999-kelly.shusko,kelly.shusko@colonial.k12.de.us,Kelly,Shusko,District Coach - Social Studies,,,STL
+,,,,,,,,
 340476,34999-kelly.shusko,kelly.shusko@colonial.k12.de.us,Kelly,Shusko,District Coach - Social Studies,,,STL
+,,,,,,,,
 340490,34999-kelly.shusko,kelly.shusko@colonial.k12.de.us,Kelly,Shusko,District Coach - Social Studies,,,STL
+,,,,,,,,
 340514,34999-kelly.shusko,kelly.shusko@colonial.k12.de.us,Kelly,Shusko,District Coach - Social Studies,,,STL
+,,,,,,,,
 340522,34999-kelly.shusko,kelly.shusko@colonial.k12.de.us,Kelly,Shusko,District Coach - Social Studies,,,STL
-340410,34410-jennifer.wilhelm,jennifer.wilhelm@colonial.k12.de.us,Jennifer,Wilhelm,ELL Teacher,,,STL
-340412,34412-karin.elentrio,karin.elentrio@colonial.k12.de.us,Karin,Elentrio,ELL Teacher,,,STL
-340412,34412-michele.francia,michele.francia@colonial.k12.de.us,Michele,Francia,ELL Teacher,,,STL
-340456,34456-megan.blythe-hores,megan.blythe-hores@colonial.k12.de.us,Megan,Blythe-Hores,ELL Teacher,,,STL
-340456,34456-gail.nowak,gail.nowak@colonial.k12.de.us,Gail,Nowak,ELL Teacher,,,STL
-340432,34432-donna.beck,donna.beck@colonial.k12.de.us,Donna,Beck,ELL Teacher,,,STL
-340432,34432-samantha.stemm,samantha.stemm@colonial.k12.de.us,Samantha,Stemm,ELL Teacher,,,STL
-340418,34418-melody.holm-terasaki,melody.holm-terasaki@colonial.k12.de.us,Melody,Holm-Terasaki,ELL Teacher,,,STL
-340418,34418-melissa.gibboni,melissa.gibboni@colonial.k12.de.us,Melissa,Gibboni,ELL Teacher,,,STL
-340427,34427-regina.becker,regina.becker@colonial.k12.de.us,Regina,Becker,ELL Teacher,,,STL
-340422,34422-stacy.lea-mentor,stacy.lea-mentor@colonial.k12.de.us,Stacy,Lea-Mentor,ELL Teacher,,,STL
-340422,3422-cassie.rogin,cassie.rogin@colonial.k12.de.us,Cassie,Rogin,ELL Teacher,,,STL
-340420,34420-patricia.ranonis,patricia.ranonis@colonial.k12.de.us,Patricia,Ranonis,ELL Teacher,,,STL
-340476,34476-keri.wilson,keri.wilson@colonial.k12.de.us,Keri,Wilson,ELL Teacher,,,STL
-340476,34476-brittany.zezima,brittany.zezima@colonial.k12.de.us,Brittany,Zezima,ELL Teacher,,,STL
-340427,340427-HLEWIS,hyacinth.lewis@colonial.k12.de.us,Hyacinth,Lewis,Student Advisor,,,STL
-340474,340474-kcorey,katherine.corey@colonial.k12.de.us,Katherine,Corey,Student Advisor,,,STL
-340410,340410-colleen.quinn,colleen.quinn@colonial.k12.de.us,Colleen,Quinn,Reading Interventionist,,,STL
-340410,340410-dawn.cousins,dawn.cousins@colonial.k12.de.us,Dawn,Cousins,Reading Interventionist,,,STL
-340410,340410-christine.murphy,christine.murphy@colonial.k12.de.us,Christine,Murphy,Reading Interventionist,,,STL
-340412,340412-jennifer.bufano,jennifer.bufano@colonial.k12.de.us,Jennifer,Bufano,Reading Interventionist,,,STL
-340412,340412-elizabeth.towson,elizabeth.towson@colonial.k12.de.us,Elizabeth,Towson,Reading Interventionist,,,STL
-340412,340412-veronica.daniel,veronica.daniel@colonial.k12.de.us,Veronica,Daniel,Reading Interventionist,,,STL
-340412,340412-joanna.franklin,joanna.franklin@colonial.k12.de.us,Joanna,Franklin,Reading Interventionist,,,STL
-340456,340456-paul.rothbart,paul.rothbart@colonial.k12.de.us,Paul,Rothbart,Reading Interventionist,,,STL
-340456,340456-jennifer.davenport,jennifer.davenport@colonial.k12.de.us,Jennifer,Davenport,Reading Interventionist,,,STL
-340456,340456-denise.petka,denise.petka@colonial.k12.de.us,Denise,Petka,Reading Interventionist,,,STL
-340456,340456-lakeya.nova,lakeya.nova@colonial.k12.de.us,LaKeya,Nova,Reading Interventionist,,,STL
-340432,340432-shayna.syken,shayna.syken@colonial.k12.de.us,Shayna,Syken,Reading Interventionist,,,STL
-340432,340432-mary.anthos,mary.anthos@colonial.k12.de.us,Mary,Anthos,Reading Interventionist,,,STL
-340432,340432-jennifer.mclaughlin,jennifer.mclaughlin@colonial.k12.de.us,Jennifer,McLaughlin,Reading Interventionist,,,STL
-340418,340418-tina.birzes,tina.birzes@colonial.k12.de.us,Tina,Birzes,Reading Interventionist,,,STL
-340418,340418-stphanie.levin,stphanie.levin@colonial.k12.de.us,Stphanie,Levin,Reading Interventionist,,,STL
-340418,340418-jessica.williams,jessica.williams@colonial.k12.de.us,Jessica,Williams,Reading Interventionist,,,STL
-340418,340418-carol.carter,carol.carter@colonial.k12.de.us,Carol,Carter,Reading Interventionist,,,STL
-340427,340427-gayle.cooksey,gayle.cooksey@colonial.k12.de.us,Gayle,Cooksey,Reading Interventionist,,,STL
-340427,340427-diane.tilley,diane.tilley@colonial.k12.de.us,Diane,Tilley,Reading Interventionist,,,STL
-340422,340422-jessica.milan,jessica.milan@colonial.k12.de.us,Jessica,Milan,Reading Interventionist,,,STL
-340422,340422-ivy.campbell,ivy.campbell@colonial.k12.de.us,Ivy,Campbell,Reading Interventionist,,,STL
+,,,,,,,,
+340410,34999-jennifer.ashby,jennifer.ashby@colonial.k12.de.us,Jennifer,Ashby,District Coach - Technology,,,STL
+,,,,,,,,
+340412,34999-jennifer.ashby,jennifer.ashby@colonial.k12.de.us,Jennifer,Ashby,District Coach - Technology,,,STL
+,,,,,,,,
+340418,34999-jennifer.ashby,jennifer.ashby@colonial.k12.de.us,Jennifer,Ashby,District Coach - Technology,,,STL
+,,,,,,,,
+340420,34999-jennifer.ashby,jennifer.ashby@colonial.k12.de.us,Jennifer,Ashby,District Coach - Technology,,,STL
+,,,,,,,,
+340422,34999-jennifer.ashby,jennifer.ashby@colonial.k12.de.us,Jennifer,Ashby,District Coach - Technology,,,STL
+,,,,,,,,
+340427,34999-jennifer.ashby,jennifer.ashby@colonial.k12.de.us,Jennifer,Ashby,District Coach - Technology,,,STL
+,,,,,,,,
+340432,34999-jennifer.ashby,jennifer.ashby@colonial.k12.de.us,Jennifer,Ashby,District Coach - Technology,,,STL
+,,,,,,,,
+340450,34999-jennifer.ashby,jennifer.ashby@colonial.k12.de.us,Jennifer,Ashby,District Coach - Technology,,,STL
+,,,,,,,,
+340456,34999-jennifer.ashby,jennifer.ashby@colonial.k12.de.us,Jennifer,Ashby,District Coach - Technology,,,STL
+,,,,,,,,
+340470,34999-jennifer.ashby,jennifer.ashby@colonial.k12.de.us,Jennifer,Ashby,District Coach - Technology,,,STL
+,,,,,,,,
+340474,34999-jennifer.ashby,jennifer.ashby@colonial.k12.de.us,Jennifer,Ashby,District Coach - Technology,,,STL
+,,,,,,,,
+340476,34999-jennifer.ashby,jennifer.ashby@colonial.k12.de.us,Jennifer,Ashby,District Coach - Technology,,,STL
+,,,,,,,,
+340490,34999-jennifer.ashby,jennifer.ashby@colonial.k12.de.us,Jennifer,Ashby,District Coach - Technology,,,STL
+,,,,,,,,
+340514,34999-jennifer.ashby,jennifer.ashby@colonial.k12.de.us,Jennifer,Ashby,District Coach - Technology,,,STL
+,,,,,,,,
+340522,34999-jennifer.ashby,jennifer.ashby@colonial.k12.de.us,Jennifer,Ashby,District Coach - Technology,,,STL
+,,,,,,,,
+340410,34999-melanie.barbas,melanie.barbas@colonial.k12.de.us,Melanie,Barbas,District Coach - Class Culture,,,STL
+,,,,,,,,
+340412,34999-melanie.barbas,melanie.barbas@colonial.k12.de.us,Melanie,Barbas,District Coach - Class Culture,,,STL
+,,,,,,,,
+340418,34999-melanie.barbas,melanie.barbas@colonial.k12.de.us,Melanie,Barbas,District Coach - Class Culture,,,STL
+,,,,,,,,
+340420,34999-melanie.barbas,melanie.barbas@colonial.k12.de.us,Melanie,Barbas,District Coach - Class Culture,,,STL
+,,,,,,,,
+340422,34999-melanie.barbas,melanie.barbas@colonial.k12.de.us,Melanie,Barbas,District Coach - Class Culture,,,STL
+,,,,,,,,
+340427,34999-melanie.barbas,melanie.barbas@colonial.k12.de.us,Melanie,Barbas,District Coach - Class Culture,,,STL
+,,,,,,,,
+340432,34999-melanie.barbas,melanie.barbas@colonial.k12.de.us,Melanie,Barbas,District Coach - Class Culture,,,STL
+,,,,,,,,
+340450,34999-melanie.barbas,melanie.barbas@colonial.k12.de.us,Melanie,Barbas,District Coach - Class Culture,,,STL
+,,,,,,,,
+340456,34999-melanie.barbas,melanie.barbas@colonial.k12.de.us,Melanie,Barbas,District Coach - Class Culture,,,STL
+,,,,,,,,
+340470,34999-melanie.barbas,melanie.barbas@colonial.k12.de.us,Melanie,Barbas,District Coach - Class Culture,,,STL
+,,,,,,,,
+340474,34999-melanie.barbas,melanie.barbas@colonial.k12.de.us,Melanie,Barbas,District Coach - Class Culture,,,STL
+,,,,,,,,
+340476,34999-melanie.barbas,melanie.barbas@colonial.k12.de.us,Melanie,Barbas,District Coach - Class Culture,,,STL
+,,,,,,,,
+340490,34999-melanie.barbas,melanie.barbas@colonial.k12.de.us,Melanie,Barbas,District Coach - Class Culture,,,STL
+,,,,,,,,
+340514,34999-melanie.barbas,melanie.barbas@colonial.k12.de.us,Melanie,Barbas,District Coach - Class Culture,,,STL
+,,,,,,,,
+340522,34999-melanie.barbas,melanie.barbas@colonial.k12.de.us,Melanie,Barbas,District Coach - Class Culture,,,STL
+,,,,,,,,
+340410,34999-jennifer.dougherty,jennifer.dougherty@colonial.k12.de.us,Jennifer,Dougherty,District Coach - Behavior,,,STL
+,,,,,,,,
+340412,34999-jennifer.dougherty,jennifer.dougherty@colonial.k12.de.us,Jennifer,Dougherty,District Coach - Behavior,,,STL
+,,,,,,,,
+340418,34999-jennifer.dougherty,jennifer.dougherty@colonial.k12.de.us,Jennifer,Dougherty,District Coach - Behavior,,,STL
+,,,,,,,,
+340420,34999-jennifer.dougherty,jennifer.dougherty@colonial.k12.de.us,Jennifer,Dougherty,District Coach - Behavior,,,STL
+,,,,,,,,
+340422,34999-jennifer.dougherty,jennifer.dougherty@colonial.k12.de.us,Jennifer,Dougherty,District Coach - Behavior,,,STL
+,,,,,,,,
+340427,34999-jennifer.dougherty,jennifer.dougherty@colonial.k12.de.us,Jennifer,Dougherty,District Coach - Behavior,,,STL
+,,,,,,,,
+340432,34999-jennifer.dougherty,jennifer.dougherty@colonial.k12.de.us,Jennifer,Dougherty,District Coach - Behavior,,,STL
+,,,,,,,,
+340450,34999-jennifer.dougherty,jennifer.dougherty@colonial.k12.de.us,Jennifer,Dougherty,District Coach - Behavior,,,STL
+,,,,,,,,
+340456,34999-jennifer.dougherty,jennifer.dougherty@colonial.k12.de.us,Jennifer,Dougherty,District Coach - Behavior,,,STL
+,,,,,,,,
+340470,34999-jennifer.dougherty,jennifer.dougherty@colonial.k12.de.us,Jennifer,Dougherty,District Coach - Behavior,,,STL
+,,,,,,,,
+340474,34999-jennifer.dougherty,jennifer.dougherty@colonial.k12.de.us,Jennifer,Dougherty,District Coach - Behavior,,,STL
+,,,,,,,,
+340476,34999-jennifer.dougherty,jennifer.dougherty@colonial.k12.de.us,Jennifer,Dougherty,District Coach - Behavior,,,STL
+,,,,,,,,
+340490,34999-jennifer.dougherty,jennifer.dougherty@colonial.k12.de.us,Jennifer,Dougherty,District Coach - Behavior,,,STL
+,,,,,,,,
+340514,34999-jennifer.dougherty,jennifer.dougherty@colonial.k12.de.us,Jennifer,Dougherty,District Coach - Behavior,,,STL
+,,,,,,,,
+340522,34999-jennifer.dougherty,jennifer.dougherty@colonial.k12.de.us,Jennifer,Dougherty,District Coach - Behavior,,,STL
+,,,,,,,,
+340410,34999-christina. mackerchar,christina.mackerchar@colonial.k12.de.us,Christina,Mackerchar,District Coach - Behavior,,,STL
+,,,,,,,,
+340412,34999-christina. mackerchar,christina.mackerchar@colonial.k12.de.us,Christina,Mackerchar,District Coach - Behavior,,,STL
+,,,,,,,,
+340418,34999-christina. mackerchar,christina.mackerchar@colonial.k12.de.us,Christina,Mackerchar,District Coach - Behavior,,,STL
+,,,,,,,,
+340420,34999-christina. mackerchar,christina.mackerchar@colonial.k12.de.us,Christina,Mackerchar,District Coach - Behavior,,,STL
+,,,,,,,,
+340422,34999-christina. mackerchar,christina.mackerchar@colonial.k12.de.us,Christina,Mackerchar,District Coach - Behavior,,,STL
+,,,,,,,,
+340427,34999-christina. mackerchar,christina.mackerchar@colonial.k12.de.us,Christina,Mackerchar,District Coach - Behavior,,,STL
+,,,,,,,,
+340432,34999-christina. mackerchar,christina.mackerchar@colonial.k12.de.us,Christina,Mackerchar,District Coach - Behavior,,,STL
+,,,,,,,,
+340450,34999-christina. mackerchar,christina.mackerchar@colonial.k12.de.us,Christina,Mackerchar,District Coach - Behavior,,,STL
+,,,,,,,,
+340456,34999-christina. mackerchar,christina.mackerchar@colonial.k12.de.us,Christina,Mackerchar,District Coach - Behavior,,,STL
+,,,,,,,,
+340470,34999-christina. mackerchar,christina.mackerchar@colonial.k12.de.us,Christina,Mackerchar,District Coach - Behavior,,,STL
+,,,,,,,,
+340474,34999-christina. mackerchar,christina.mackerchar@colonial.k12.de.us,Christina,Mackerchar,District Coach - Behavior,,,STL
+,,,,,,,,
+340476,34999-christina. mackerchar,christina.mackerchar@colonial.k12.de.us,Christina,Mackerchar,District Coach - Behavior,,,STL
+,,,,,,,,
+340490,34999-christina. mackerchar,christina.mackerchar@colonial.k12.de.us,Christina,Mackerchar,District Coach - Behavior,,,STL
+,,,,,,,,
+340514,34999-christina. mackerchar,christina.mackerchar@colonial.k12.de.us,Christina,Mackerchar,District Coach - Behavior,,,STL
+,,,,,,,,
+340522,34999-christina. mackerchar,christina.mackerchar@colonial.k12.de.us,Christina,Mackerchar,District Coach - Behavior,,,STL
+,,,,,,,,
+340410,34999-laura.depippo,laura.depippo@colonial.k12.de.us,Laura,DePippo,District Coach - Special Education,,,STL
+,,,,,,,,
+340412,34999-laura.depippo,laura.depippo@colonial.k12.de.us,Laura,DePippo,District Coach - Special Education,,,STL
+,,,,,,,,
+340418,34999-laura.depippo,laura.depippo@colonial.k12.de.us,Laura,DePippo,District Coach - Special Education,,,STL
+,,,,,,,,
+340420,34999-laura.depippo,laura.depippo@colonial.k12.de.us,Laura,DePippo,District Coach - Special Education,,,STL
+,,,,,,,,
+340422,34999-laura.depippo,laura.depippo@colonial.k12.de.us,Laura,DePippo,District Coach - Special Education,,,STL
+,,,,,,,,
+340427,34999-laura.depippo,laura.depippo@colonial.k12.de.us,Laura,DePippo,District Coach - Special Education,,,STL
+,,,,,,,,
+340432,34999-laura.depippo,laura.depippo@colonial.k12.de.us,Laura,DePippo,District Coach - Special Education,,,STL
+,,,,,,,,
+340450,34999-laura.depippo,laura.depippo@colonial.k12.de.us,Laura,DePippo,District Coach - Special Education,,,STL
+,,,,,,,,
+340456,34999-laura.depippo,laura.depippo@colonial.k12.de.us,Laura,DePippo,District Coach - Special Education,,,STL
+,,,,,,,,
+340470,34999-laura.depippo,laura.depippo@colonial.k12.de.us,Laura,DePippo,District Coach - Special Education,,,STL
+,,,,,,,,
+340474,34999-laura.depippo,laura.depippo@colonial.k12.de.us,Laura,DePippo,District Coach - Special Education,,,STL
+,,,,,,,,
+340476,34999-laura.depippo,laura.depippo@colonial.k12.de.us,Laura,DePippo,District Coach - Special Education,,,STL
+,,,,,,,,
+340490,34999-laura.depippo,laura.depippo@colonial.k12.de.us,Laura,DePippo,District Coach - Special Education,,,STL
+,,,,,,,,
+340514,34999-laura.depippo,laura.depippo@colonial.k12.de.us,Laura,DePippo,District Coach - Special Education,,,STL
+,,,,,,,,
+340522,34999-laura.depippo,laura.depippo@colonial.k12.de.us,Laura,DePippo,District Coach - Special Education,,,STL
+,,,,,,,,
+340410,34999-caitlin.best,caitlin.best@colonial.k12.de.us,Caitlin,Best,District Coach - Special Education,,,STL
+,,,,,,,,
+340412,34999-caitlin.best,caitlin.best@colonial.k12.de.us,Caitlin,Best,District Coach - Special Education,,,STL
+,,,,,,,,
+340418,34999-caitlin.best,caitlin.best@colonial.k12.de.us,Caitlin,Best,District Coach - Special Education,,,STL
+,,,,,,,,
+340420,34999-caitlin.best,caitlin.best@colonial.k12.de.us,Caitlin,Best,District Coach - Special Education,,,STL
+,,,,,,,,
+340422,34999-caitlin.best,caitlin.best@colonial.k12.de.us,Caitlin,Best,District Coach - Special Education,,,STL
+,,,,,,,,
+340427,34999-caitlin.best,caitlin.best@colonial.k12.de.us,Caitlin,Best,District Coach - Special Education,,,STL
+,,,,,,,,
+340432,34999-caitlin.best,caitlin.best@colonial.k12.de.us,Caitlin,Best,District Coach - Special Education,,,STL
+,,,,,,,,
+340450,34999-caitlin.best,caitlin.best@colonial.k12.de.us,Caitlin,Best,District Coach - Special Education,,,STL
+,,,,,,,,
+340456,34999-caitlin.best,caitlin.best@colonial.k12.de.us,Caitlin,Best,District Coach - Special Education,,,STL
+,,,,,,,,
+340470,34999-caitlin.best,caitlin.best@colonial.k12.de.us,Caitlin,Best,District Coach - Special Education,,,STL
+,,,,,,,,
+340474,34999-caitlin.best,caitlin.best@colonial.k12.de.us,Caitlin,Best,District Coach - Special Education,,,STL
+,,,,,,,,
+340476,34999-caitlin.best,caitlin.best@colonial.k12.de.us,Caitlin,Best,District Coach - Special Education,,,STL
+,,,,,,,,
+340490,34999-caitlin.best,caitlin.best@colonial.k12.de.us,Caitlin,Best,District Coach - Special Education,,,STL
+,,,,,,,,
+340514,34999-caitlin.best,caitlin.best@colonial.k12.de.us,Caitlin,Best,District Coach - Special Education,,,STL
+,,,,,,,,
+340522,34999-caitlin.best,caitlin.best@colonial.k12.de.us,Caitlin,Best,District Coach - Special Education,,,STL
+,,,,,,,,
+340410,34999-kathryn.strouss,kathryn.strouss@colonial.k12.de.us,Kathryn ,Strouss,District Coach - Mentoring,,,STL
+,,,,,,,,
+340412,34999-kathryn.strouss,kathryn.strouss@colonial.k12.de.us,Kathryn ,Strouss,District Coach - Mentoring,,,STL
+,,,,,,,,
+340418,34999-kathryn.strouss,kathryn.strouss@colonial.k12.de.us,Kathryn ,Strouss,District Coach - Mentoring,,,STL
+,,,,,,,,
+340420,34999-kathryn.strouss,kathryn.strouss@colonial.k12.de.us,Kathryn ,Strouss,District Coach - Mentoring,,,STL
+,,,,,,,,
+340422,34999-kathryn.strouss,kathryn.strouss@colonial.k12.de.us,Kathryn ,Strouss,District Coach - Mentoring,,,STL
+,,,,,,,,
+340427,34999-kathryn.strouss,kathryn.strouss@colonial.k12.de.us,Kathryn ,Strouss,District Coach - Mentoring,,,STL
+,,,,,,,,
+340432,34999-kathryn.strouss,kathryn.strouss@colonial.k12.de.us,Kathryn ,Strouss,District Coach - Mentoring,,,STL
+,,,,,,,,
+340450,34999-kathryn.strouss,kathryn.strouss@colonial.k12.de.us,Kathryn ,Strouss,District Coach - Mentoring,,,STL
+,,,,,,,,
+340456,34999-kathryn.strouss,kathryn.strouss@colonial.k12.de.us,Kathryn ,Strouss,District Coach - Mentoring,,,STL
+,,,,,,,,
+340470,34999-kathryn.strouss,kathryn.strouss@colonial.k12.de.us,Kathryn ,Strouss,District Coach - Mentoring,,,STL
+,,,,,,,,
+340474,34999-kathryn.strouss,kathryn.strouss@colonial.k12.de.us,Kathryn ,Strouss,District Coach - Mentoring,,,STL
+,,,,,,,,
+340476,34999-kathryn.strouss,kathryn.strouss@colonial.k12.de.us,Kathryn ,Strouss,District Coach - Mentoring,,,STL
+,,,,,,,,
+340490,34999-kathryn.strouss,kathryn.strouss@colonial.k12.de.us,Kathryn ,Strouss,District Coach - Mentoring,,,STL
+,,,,,,,,
+340514,34999-kathryn.strouss,kathryn.strouss@colonial.k12.de.us,Kathryn ,Strouss,District Coach - Mentoring,,,STL
+,,,,,,,,
+340522,34999-kathryn.strouss,kathryn.strouss@colonial.k12.de.us,Kathryn ,Strouss,District Coach - Mentoring,,,STL
+,,,,,,,,
+340410,34999-stephanie.callaway,stephanie.callaway@colonial.k12.de.us,Stephanie ,Callaway,District Coach - STEP,,,STL
+,,,,,,,,
+340412,34999-stephanie.callaway,stephanie.callaway@colonial.k12.de.us,Stephanie ,Callaway,District Coach - STEP,,,STL
+,,,,,,,,
+340418,34999-stephanie.callaway,stephanie.callaway@colonial.k12.de.us,Stephanie ,Callaway,District Coach - STEP,,,STL
+,,,,,,,,
+340420,34999-stephanie.callaway,stephanie.callaway@colonial.k12.de.us,Stephanie ,Callaway,District Coach - STEP,,,STL
+,,,,,,,,
+340422,34999-stephanie.callaway,stephanie.callaway@colonial.k12.de.us,Stephanie ,Callaway,District Coach - STEP,,,STL
+,,,,,,,,
+340427,34999-stephanie.callaway,stephanie.callaway@colonial.k12.de.us,Stephanie ,Callaway,District Coach - STEP,,,STL
+,,,,,,,,
+340432,34999-stephanie.callaway,stephanie.callaway@colonial.k12.de.us,Stephanie ,Callaway,District Coach - STEP,,,STL
+,,,,,,,,
+340450,34999-stephanie.callaway,stephanie.callaway@colonial.k12.de.us,Stephanie ,Callaway,District Coach - STEP,,,STL
+,,,,,,,,
+340456,34999-stephanie.callaway,stephanie.callaway@colonial.k12.de.us,Stephanie ,Callaway,District Coach - STEP,,,STL
+,,,,,,,,
+340470,34999-stephanie.callaway,stephanie.callaway@colonial.k12.de.us,Stephanie ,Callaway,District Coach - STEP,,,STL
+,,,,,,,,
+340474,34999-stephanie.callaway,stephanie.callaway@colonial.k12.de.us,Stephanie ,Callaway,District Coach - STEP,,,STL
+,,,,,,,,
+340476,34999-stephanie.callaway,stephanie.callaway@colonial.k12.de.us,Stephanie ,Callaway,District Coach - STEP,,,STL
+,,,,,,,,
+340490,34999-stephanie.callaway,stephanie.callaway@colonial.k12.de.us,Stephanie ,Callaway,District Coach - STEP,,,STL
+,,,,,,,,
+340514,34999-stephanie.callaway,stephanie.callaway@colonial.k12.de.us,Stephanie ,Callaway,District Coach - STEP,,,STL
+,,,,,,,,
+340522,34999-stephanie.callaway,stephanie.callaway@colonial.k12.de.us,Stephanie ,Callaway,District Coach - STEP,,,STL
+,,,,,,,,
+340410,34999-sherrie.clark,sherrie.clark@colonial.k12.de.us,Sherrie,Clark,District Admin,,,STL
+,,,,,,,,
+340412,34999-sherrie.clark,sherrie.clark@colonial.k12.de.us,Sherrie,Clark,District Admin,,,STL
+,,,,,,,,
+340418,34999-sherrie.clark,sherrie.clark@colonial.k12.de.us,Sherrie,Clark,District Admin,,,STL
+,,,,,,,,
+340420,34999-sherrie.clark,sherrie.clark@colonial.k12.de.us,Sherrie,Clark,District Admin,,,STL
+,,,,,,,,
+340422,34999-sherrie.clark,sherrie.clark@colonial.k12.de.us,Sherrie,Clark,District Admin,,,STL
+,,,,,,,,
+340427,34999-sherrie.clark,sherrie.clark@colonial.k12.de.us,Sherrie,Clark,District Admin,,,STL
+,,,,,,,,
+340432,34999-sherrie.clark,sherrie.clark@colonial.k12.de.us,Sherrie,Clark,District Admin,,,STL
+,,,,,,,,
+340450,34999-sherrie.clark,sherrie.clark@colonial.k12.de.us,Sherrie,Clark,District Admin,,,STL
+,,,,,,,,
+340456,34999-sherrie.clark,sherrie.clark@colonial.k12.de.us,Sherrie,Clark,District Admin,,,STL
+,,,,,,,,
+340470,34999-sherrie.clark,sherrie.clark@colonial.k12.de.us,Sherrie,Clark,District Admin,,,STL
+,,,,,,,,
+340474,34999-sherrie.clark,sherrie.clark@colonial.k12.de.us,Sherrie,Clark,District Admin,,,STL
+,,,,,,,,
+340476,34999-sherrie.clark,sherrie.clark@colonial.k12.de.us,Sherrie,Clark,District Admin,,,STL
+,,,,,,,,
+340490,34999-sherrie.clark,sherrie.clark@colonial.k12.de.us,Sherrie,Clark,District Admin,,,STL
+,,,,,,,,
+340514,34999-sherrie.clark,sherrie.clark@colonial.k12.de.us,Sherrie,Clark,District Admin,,,STL
+,,,,,,,,
+340522,34999-sherrie.clark,sherrie.clark@colonial.k12.de.us,Sherrie,Clark,District Admin,,,STL
+,,,,,,,,
+340410,34999-nicholas.baker,nicholas.baker@colonial.k12.de.us,Nicholas,Baker,District Admin,,,STL
+,,,,,,,,
+340412,34999-nicholas.baker,nicholas.baker@colonial.k12.de.us,Nicholas,Baker,District Admin,,,STL
+,,,,,,,,
+340418,34999-nicholas.baker,nicholas.baker@colonial.k12.de.us,Nicholas,Baker,District Admin,,,STL
+,,,,,,,,
+340420,34999-nicholas.baker,nicholas.baker@colonial.k12.de.us,Nicholas,Baker,District Admin,,,STL
+,,,,,,,,
+340422,34999-nicholas.baker,nicholas.baker@colonial.k12.de.us,Nicholas,Baker,District Admin,,,STL
+,,,,,,,,
+340427,34999-nicholas.baker,nicholas.baker@colonial.k12.de.us,Nicholas,Baker,District Admin,,,STL
+,,,,,,,,
+340432,34999-nicholas.baker,nicholas.baker@colonial.k12.de.us,Nicholas,Baker,District Admin,,,STL
+,,,,,,,,
+340450,34999-nicholas.baker,nicholas.baker@colonial.k12.de.us,Nicholas,Baker,District Admin,,,STL
+,,,,,,,,
+340456,34999-nicholas.baker,nicholas.baker@colonial.k12.de.us,Nicholas,Baker,District Admin,,,STL
+,,,,,,,,
+340470,34999-nicholas.baker,nicholas.baker@colonial.k12.de.us,Nicholas,Baker,District Admin,,,STL
+,,,,,,,,
+340474,34999-nicholas.baker,nicholas.baker@colonial.k12.de.us,Nicholas,Baker,District Admin,,,STL
+,,,,,,,,
+340476,34999-nicholas.baker,nicholas.baker@colonial.k12.de.us,Nicholas,Baker,District Admin,,,STL
+,,,,,,,,
+340490,34999-nicholas.baker,nicholas.baker@colonial.k12.de.us,Nicholas,Baker,District Admin,,,STL
+,,,,,,,,
+340514,34999-nicholas.baker,nicholas.baker@colonial.k12.de.us,Nicholas,Baker,District Admin,,,STL
+,,,,,,,,
+340522,34999-nicholas.baker,nicholas.baker@colonial.k12.de.us,Nicholas,Baker,District Admin,,,STL
+,,,,,,,,
+340410,34999-crystal.lancour,crystal.lancour@colonial.k12.de.us,Crystal,Lancour,District Admin,,,STL
+,,,,,,,,
+340412,34999-crystal.lancour,crystal.lancour@colonial.k12.de.us,Crystal,Lancour,District Admin,,,STL
+,,,,,,,,
+340418,34999-crystal.lancour,crystal.lancour@colonial.k12.de.us,Crystal,Lancour,District Admin,,,STL
+,,,,,,,,
+340420,34999-crystal.lancour,crystal.lancour@colonial.k12.de.us,Crystal,Lancour,District Admin,,,STL
+,,,,,,,,
+340422,34999-crystal.lancour,crystal.lancour@colonial.k12.de.us,Crystal,Lancour,District Admin,,,STL
+,,,,,,,,
+340427,34999-crystal.lancour,crystal.lancour@colonial.k12.de.us,Crystal,Lancour,District Admin,,,STL
+,,,,,,,,
+340432,34999-crystal.lancour,crystal.lancour@colonial.k12.de.us,Crystal,Lancour,District Admin,,,STL
+,,,,,,,,
+340450,34999-crystal.lancour,crystal.lancour@colonial.k12.de.us,Crystal,Lancour,District Admin,,,STL
+,,,,,,,,
+340456,34999-crystal.lancour,crystal.lancour@colonial.k12.de.us,Crystal,Lancour,District Admin,,,STL
+,,,,,,,,
+340470,34999-crystal.lancour,crystal.lancour@colonial.k12.de.us,Crystal,Lancour,District Admin,,,STL
+,,,,,,,,
+340474,34999-crystal.lancour,crystal.lancour@colonial.k12.de.us,Crystal,Lancour,District Admin,,,STL
+,,,,,,,,
+340476,34999-crystal.lancour,crystal.lancour@colonial.k12.de.us,Crystal,Lancour,District Admin,,,STL
+,,,,,,,,
+340490,34999-crystal.lancour,crystal.lancour@colonial.k12.de.us,Crystal,Lancour,District Admin,,,STL
+,,,,,,,,
+340514,34999-crystal.lancour,crystal.lancour@colonial.k12.de.us,Crystal,Lancour,District Admin,,,STL
+,,,,,,,,
+340522,34999-crystal.lancour,crystal.lancour@colonial.k12.de.us,Crystal,Lancour,District Admin,,,STL
+,,,,,,,,
+340410,34999-justin.bittner,justin.bittner@colonial.k12.de.us,Justin,Bittner,District Admin,,,STL
+,,,,,,,,
+340412,34999-justin.bittner,justin.bittner@colonial.k12.de.us,Justin,Bittner,District Admin,,,STL
+,,,,,,,,
+340418,34999-justin.bittner,justin.bittner@colonial.k12.de.us,Justin,Bittner,District Admin,,,STL
+,,,,,,,,
+340420,34999-justin.bittner,justin.bittner@colonial.k12.de.us,Justin,Bittner,District Admin,,,STL
+,,,,,,,,
+340422,34999-justin.bittner,justin.bittner@colonial.k12.de.us,Justin,Bittner,District Admin,,,STL
+,,,,,,,,
+340427,34999-justin.bittner,justin.bittner@colonial.k12.de.us,Justin,Bittner,District Admin,,,STL
+,,,,,,,,
+340432,34999-justin.bittner,justin.bittner@colonial.k12.de.us,Justin,Bittner,District Admin,,,STL
+,,,,,,,,
+340450,34999-justin.bittner,justin.bittner@colonial.k12.de.us,Justin,Bittner,District Admin,,,STL
+,,,,,,,,
+340456,34999-justin.bittner,justin.bittner@colonial.k12.de.us,Justin,Bittner,District Admin,,,STL
+,,,,,,,,
+340470,34999-justin.bittner,justin.bittner@colonial.k12.de.us,Justin,Bittner,District Admin,,,STL
+,,,,,,,,
+340474,34999-justin.bittner,justin.bittner@colonial.k12.de.us,Justin,Bittner,District Admin,,,STL
+,,,,,,,,
+340476,34999-justin.bittner,justin.bittner@colonial.k12.de.us,Justin,Bittner,District Admin,,,STL
+,,,,,,,,
+340490,34999-justin.bittner,justin.bittner@colonial.k12.de.us,Justin,Bittner,District Admin,,,STL
+,,,,,,,,
+340514,34999-justin.bittner,justin.bittner@colonial.k12.de.us,Justin,Bittner,District Admin,,,STL
+,,,,,,,,
+340522,34999-justin.bittner,justin.bittner@colonial.k12.de.us,Justin,Bittner,District Admin,,,STL
+,,,,,,,,
+340410,34999-katie.gutowski,katie.gutowski@colonial.k12.de.us,Katie,Gutowski,District Admin,,,STL
+,,,,,,,,
+340412,34999-katie.gutowski,katie.gutowski@colonial.k12.de.us,Katie,Gutowski,District Admin,,,STL
+,,,,,,,,
+340418,34999-katie.gutowski,katie.gutowski@colonial.k12.de.us,Katie,Gutowski,District Admin,,,STL
+,,,,,,,,
+340420,34999-katie.gutowski,katie.gutowski@colonial.k12.de.us,Katie,Gutowski,District Admin,,,STL
+,,,,,,,,
+340422,34999-katie.gutowski,katie.gutowski@colonial.k12.de.us,Katie,Gutowski,District Admin,,,STL
+,,,,,,,,
+340427,34999-katie.gutowski,katie.gutowski@colonial.k12.de.us,Katie,Gutowski,District Admin,,,STL
+,,,,,,,,
+340432,34999-katie.gutowski,katie.gutowski@colonial.k12.de.us,Katie,Gutowski,District Admin,,,STL
+,,,,,,,,
+340450,34999-katie.gutowski,katie.gutowski@colonial.k12.de.us,Katie,Gutowski,District Admin,,,STL
+,,,,,,,,
+340456,34999-katie.gutowski,katie.gutowski@colonial.k12.de.us,Katie,Gutowski,District Admin,,,STL
+,,,,,,,,
+340470,34999-katie.gutowski,katie.gutowski@colonial.k12.de.us,Katie,Gutowski,District Admin,,,STL
+,,,,,,,,
+340474,34999-katie.gutowski,katie.gutowski@colonial.k12.de.us,Katie,Gutowski,District Admin,,,STL
+,,,,,,,,
+340476,34999-katie.gutowski,katie.gutowski@colonial.k12.de.us,Katie,Gutowski,District Admin,,,STL
+,,,,,,,,
+340490,34999-katie.gutowski,katie.gutowski@colonial.k12.de.us,Katie,Gutowski,District Admin,,,STL
+,,,,,,,,
+340514,34999-katie.gutowski,katie.gutowski@colonial.k12.de.us,Katie,Gutowski,District Admin,,,STL
+,,,,,,,,
+340522,34999-katie.gutowski,katie.gutowski@colonial.k12.de.us,Katie,Gutowski,District Admin,,,STL
+,,,,,,,,
+340410,34999-elizabeth.fleetwood,elizabeth.fleetwood@colonial.k12.de.us,Elizabeth ,Fleetwood,District Admin,,,STL
+,,,,,,,,
+340412,34999-elizabeth.fleetwood,elizabeth.fleetwood@colonial.k12.de.us,Elizabeth ,Fleetwood,District Admin,,,STL
+,,,,,,,,
+340418,34999-elizabeth.fleetwood,elizabeth.fleetwood@colonial.k12.de.us,Elizabeth ,Fleetwood,District Admin,,,STL
+,,,,,,,,
+340420,34999-elizabeth.fleetwood,elizabeth.fleetwood@colonial.k12.de.us,Elizabeth ,Fleetwood,District Admin,,,STL
+,,,,,,,,
+340422,34999-elizabeth.fleetwood,elizabeth.fleetwood@colonial.k12.de.us,Elizabeth ,Fleetwood,District Admin,,,STL
+,,,,,,,,
+340427,34999-elizabeth.fleetwood,elizabeth.fleetwood@colonial.k12.de.us,Elizabeth ,Fleetwood,District Admin,,,STL
+,,,,,,,,
+340432,34999-elizabeth.fleetwood,elizabeth.fleetwood@colonial.k12.de.us,Elizabeth ,Fleetwood,District Admin,,,STL
+,,,,,,,,
+340450,34999-elizabeth.fleetwood,elizabeth.fleetwood@colonial.k12.de.us,Elizabeth ,Fleetwood,District Admin,,,STL
+,,,,,,,,
+340456,34999-elizabeth.fleetwood,elizabeth.fleetwood@colonial.k12.de.us,Elizabeth ,Fleetwood,District Admin,,,STL
+,,,,,,,,
+340470,34999-elizabeth.fleetwood,elizabeth.fleetwood@colonial.k12.de.us,Elizabeth ,Fleetwood,District Admin,,,STL
+,,,,,,,,
+340474,34999-elizabeth.fleetwood,elizabeth.fleetwood@colonial.k12.de.us,Elizabeth ,Fleetwood,District Admin,,,STL
+,,,,,,,,
+340476,34999-elizabeth.fleetwood,elizabeth.fleetwood@colonial.k12.de.us,Elizabeth ,Fleetwood,District Admin,,,STL
+,,,,,,,,
+340490,34999-elizabeth.fleetwood,elizabeth.fleetwood@colonial.k12.de.us,Elizabeth ,Fleetwood,District Admin,,,STL
+,,,,,,,,
+340514,34999-elizabeth.fleetwood,elizabeth.fleetwood@colonial.k12.de.us,Elizabeth ,Fleetwood,District Admin,,,STL
+,,,,,,,,
+340522,34999-elizabeth.fleetwood,elizabeth.fleetwood@colonial.k12.de.us,Elizabeth ,Fleetwood,District Admin,,,STL
+,,,,,,,,
+340410,34999-nneka.jones,nneka.jones@colonial.k12.de.us,Nneka,Jones,District Admin,,,STL
+,,,,,,,,
+340412,34999-nneka.jones,nneka.jones@colonial.k12.de.us,Nneka,Jones,District Admin,,,STL
+,,,,,,,,
+340418,34999-nneka.jones,nneka.jones@colonial.k12.de.us,Nneka,Jones,District Admin,,,STL
+,,,,,,,,
+340420,34999-nneka.jones,nneka.jones@colonial.k12.de.us,Nneka,Jones,District Admin,,,STL
+,,,,,,,,
+340422,34999-nneka.jones,nneka.jones@colonial.k12.de.us,Nneka,Jones,District Admin,,,STL
+,,,,,,,,
+340427,34999-nneka.jones,nneka.jones@colonial.k12.de.us,Nneka,Jones,District Admin,,,STL
+,,,,,,,,
+340432,34999-nneka.jones,nneka.jones@colonial.k12.de.us,Nneka,Jones,District Admin,,,STL
+,,,,,,,,
+340450,34999-nneka.jones,nneka.jones@colonial.k12.de.us,Nneka,Jones,District Admin,,,STL
+,,,,,,,,
+340456,34999-nneka.jones,nneka.jones@colonial.k12.de.us,Nneka,Jones,District Admin,,,STL
+,,,,,,,,
+340470,34999-nneka.jones,nneka.jones@colonial.k12.de.us,Nneka,Jones,District Admin,,,STL
+,,,,,,,,
+340474,34999-nneka.jones,nneka.jones@colonial.k12.de.us,Nneka,Jones,District Admin,,,STL
+,,,,,,,,
+340476,34999-nneka.jones,nneka.jones@colonial.k12.de.us,Nneka,Jones,District Admin,,,STL
+,,,,,,,,
+340490,34999-nneka.jones,nneka.jones@colonial.k12.de.us,Nneka,Jones,District Admin,,,STL
+,,,,,,,,
+340514,34999-nneka.jones,nneka.jones@colonial.k12.de.us,Nneka,Jones,District Admin,,,STL
+,,,,,,,,
+340522,34999-nneka.jones,nneka.jones@colonial.k12.de.us,Nneka,Jones,District Admin,,,STL
+,,,,,,,,
+340410,349989-james.comegys,james.comegys@colonial.k12.de.us,James,Comegys,District Admin,,,STL
+,,,,,,,,
+340412,349989-james.comegys,james.comegys@colonial.k12.de.us,James,Comegys,District Admin,,,STL
+,,,,,,,,
+340418,349989-james.comegys,james.comegys@colonial.k12.de.us,James,Comegys,District Admin,,,STL
+,,,,,,,,
+340420,349989-james.comegys,james.comegys@colonial.k12.de.us,James,Comegys,District Admin,,,STL
+,,,,,,,,
+340422,349989-james.comegys,james.comegys@colonial.k12.de.us,James,Comegys,District Admin,,,STL
+,,,,,,,,
+340427,349989-james.comegys,james.comegys@colonial.k12.de.us,James,Comegys,District Admin,,,STL
+,,,,,,,,
+340432,349989-james.comegys,james.comegys@colonial.k12.de.us,James,Comegys,District Admin,,,STL
+,,,,,,,,
+340450,349989-james.comegys,james.comegys@colonial.k12.de.us,James,Comegys,District Admin,,,STL
+,,,,,,,,
+340456,349989-james.comegys,james.comegys@colonial.k12.de.us,James,Comegys,District Admin,,,STL
+,,,,,,,,
+340470,349989-james.comegys,james.comegys@colonial.k12.de.us,James,Comegys,District Admin,,,STL
+,,,,,,,,
+340474,349989-james.comegys,james.comegys@colonial.k12.de.us,James,Comegys,District Admin,,,STL
+,,,,,,,,
+340476,349989-james.comegys,james.comegys@colonial.k12.de.us,James,Comegys,District Admin,,,STL
+,,,,,,,,
+340490,349989-james.comegys,james.comegys@colonial.k12.de.us,James,Comegys,District Admin,,,STL
+,,,,,,,,
+340514,349989-james.comegys,james.comegys@colonial.k12.de.us,James,Comegys,District Admin,,,STL
+,,,,,,,,
+340522,349989-james.comegys,james.comegys@colonial.k12.de.us,James,Comegys,District Admin,,,STL
+,,,,,,,,
+340410,34999-holly.sage,holly.sage@colonial.k12.de.us,Holly,Sage,District Admin,,,STL
+,,,,,,,,
+340412,34999-holly.sage,holly.sage@colonial.k12.de.us,Holly,Sage,District Admin,,,STL
+,,,,,,,,
+340418,34999-holly.sage,holly.sage@colonial.k12.de.us,Holly,Sage,District Admin,,,STL
+,,,,,,,,
+340420,34999-holly.sage,holly.sage@colonial.k12.de.us,Holly,Sage,District Admin,,,STL
+,,,,,,,,
+340422,34999-holly.sage,holly.sage@colonial.k12.de.us,Holly,Sage,District Admin,,,STL
+,,,,,,,,
+340427,34999-holly.sage,holly.sage@colonial.k12.de.us,Holly,Sage,District Admin,,,STL
+,,,,,,,,
+340432,34999-holly.sage,holly.sage@colonial.k12.de.us,Holly,Sage,District Admin,,,STL
+,,,,,,,,
+340450,34999-holly.sage,holly.sage@colonial.k12.de.us,Holly,Sage,District Admin,,,STL
+,,,,,,,,
+340456,34999-holly.sage,holly.sage@colonial.k12.de.us,Holly,Sage,District Admin,,,STL
+,,,,,,,,
+340470,34999-holly.sage,holly.sage@colonial.k12.de.us,Holly,Sage,District Admin,,,STL
+,,,,,,,,
+340474,34999-holly.sage,holly.sage@colonial.k12.de.us,Holly,Sage,District Admin,,,STL
+,,,,,,,,
+340476,34999-holly.sage,holly.sage@colonial.k12.de.us,Holly,Sage,District Admin,,,STL
+,,,,,,,,
+340490,34999-holly.sage,holly.sage@colonial.k12.de.us,Holly,Sage,District Admin,,,STL
+,,,,,,,,
+340514,34999-holly.sage,holly.sage@colonial.k12.de.us,Holly,Sage,District Admin,,,STL
+,,,,,,,,
+340522,34999-holly.sage,holly.sage@colonial.k12.de.us,Holly,Sage,District Admin,,,STL
+,,,,,,,,
+340410,34999-brian.erskine,brian.erskine@colonial.k12.de.us,Brian,Erskine,District Admin,,,STL
+,,,,,,,,
+340412,34999-brian.erskine,brian.erskine@colonial.k12.de.us,Brian,Erskine,District Admin,,,STL
+,,,,,,,,
+340418,34999-brian.erskine,brian.erskine@colonial.k12.de.us,Brian,Erskine,District Admin,,,STL
+,,,,,,,,
+340420,34999-brian.erskine,brian.erskine@colonial.k12.de.us,Brian,Erskine,District Admin,,,STL
+,,,,,,,,
+340422,34999-brian.erskine,brian.erskine@colonial.k12.de.us,Brian,Erskine,District Admin,,,STL
+,,,,,,,,
+340427,34999-brian.erskine,brian.erskine@colonial.k12.de.us,Brian,Erskine,District Admin,,,STL
+,,,,,,,,
+340432,34999-brian.erskine,brian.erskine@colonial.k12.de.us,Brian,Erskine,District Admin,,,STL
+,,,,,,,,
+340450,34999-brian.erskine,brian.erskine@colonial.k12.de.us,Brian,Erskine,District Admin,,,STL
+,,,,,,,,
+340456,34999-brian.erskine,brian.erskine@colonial.k12.de.us,Brian,Erskine,District Admin,,,STL
+,,,,,,,,
+340470,34999-brian.erskine,brian.erskine@colonial.k12.de.us,Brian,Erskine,District Admin,,,STL
+,,,,,,,,
+340474,34999-brian.erskine,brian.erskine@colonial.k12.de.us,Brian,Erskine,District Admin,,,STL
+,,,,,,,,
+340476,34999-brian.erskine,brian.erskine@colonial.k12.de.us,Brian,Erskine,District Admin,,,STL
+,,,,,,,,
+340490,34999-brian.erskine,brian.erskine@colonial.k12.de.us,Brian,Erskine,District Admin,,,STL
+,,,,,,,,
+340514,34999-brian.erskine,brian.erskine@colonial.k12.de.us,Brian,Erskine,District Admin,,,STL
+,,,,,,,,
+340522,34999-brian.erskine,brian.erskine@colonial.k12.de.us,Brian,Erskine,District Admin,,,STL
+,,,,,,,,
+340410,34999-john.barr,john.barr@colonial.k12.de.us,John,Barr,District Admin,,,STL
+,,,,,,,,
+340412,34999-john.barr,john.barr@colonial.k12.de.us,John,Barr,District Admin,,,STL
+,,,,,,,,
+340418,34999-john.barr,john.barr@colonial.k12.de.us,John,Barr,District Admin,,,STL
+,,,,,,,,
+340420,34999-john.barr,john.barr@colonial.k12.de.us,John,Barr,District Admin,,,STL
+,,,,,,,,
+340422,34999-john.barr,john.barr@colonial.k12.de.us,John,Barr,District Admin,,,STL
+,,,,,,,,
+340427,34999-john.barr,john.barr@colonial.k12.de.us,John,Barr,District Admin,,,STL
+,,,,,,,,
+340432,34999-john.barr,john.barr@colonial.k12.de.us,John,Barr,District Admin,,,STL
+,,,,,,,,
+340450,34999-john.barr,john.barr@colonial.k12.de.us,John,Barr,District Admin,,,STL
+,,,,,,,,
+340456,34999-john.barr,john.barr@colonial.k12.de.us,John,Barr,District Admin,,,STL
+,,,,,,,,
+340470,34999-john.barr,john.barr@colonial.k12.de.us,John,Barr,District Admin,,,STL
+,,,,,,,,
+340474,34999-john.barr,john.barr@colonial.k12.de.us,John,Barr,District Admin,,,STL
+,,,,,,,,
+340476,34999-john.barr,john.barr@colonial.k12.de.us,John,Barr,District Admin,,,STL
+,,,,,,,,
+340490,34999-john.barr,john.barr@colonial.k12.de.us,John,Barr,District Admin,,,STL
+,,,,,,,,
+340514,34999-john.barr,john.barr@colonial.k12.de.us,John,Barr,District Admin,,,STL
+,,,,,,,,
+340522,34999-john.barr,john.barr@colonial.k12.de.us,John,Barr,District Admin,,,STL
+,,,,,,,,
+340410,34999-nicole.markey,nicole.markey@colonial.k12.de.us,Nicole,Markey,District Admin,,,STL
+,,,,,,,,
+340412,34999-nicole.markey,nicole.markey@colonial.k12.de.us,Nicole,Markey,District Admin,,,STL
+,,,,,,,,
+340418,34999-nicole.markey,nicole.markey@colonial.k12.de.us,Nicole,Markey,District Admin,,,STL
+,,,,,,,,
+340420,34999-nicole.markey,nicole.markey@colonial.k12.de.us,Nicole,Markey,District Admin,,,STL
+,,,,,,,,
+340422,34999-nicole.markey,nicole.markey@colonial.k12.de.us,Nicole,Markey,District Admin,,,STL
+,,,,,,,,
+340427,34999-nicole.markey,nicole.markey@colonial.k12.de.us,Nicole,Markey,District Admin,,,STL
+,,,,,,,,
+340432,34999-nicole.markey,nicole.markey@colonial.k12.de.us,Nicole,Markey,District Admin,,,STL
+,,,,,,,,
+340450,34999-nicole.markey,nicole.markey@colonial.k12.de.us,Nicole,Markey,District Admin,,,STL
+,,,,,,,,
+340456,34999-nicole.markey,nicole.markey@colonial.k12.de.us,Nicole,Markey,District Admin,,,STL
+,,,,,,,,
+340470,34999-nicole.markey,nicole.markey@colonial.k12.de.us,Nicole,Markey,District Admin,,,STL
+,,,,,,,,
+340474,34999-nicole.markey,nicole.markey@colonial.k12.de.us,Nicole,Markey,District Admin,,,STL
+,,,,,,,,
+340476,34999-nicole.markey,nicole.markey@colonial.k12.de.us,Nicole,Markey,District Admin,,,STL
+,,,,,,,,
+340490,34999-nicole.markey,nicole.markey@colonial.k12.de.us,Nicole,Markey,District Admin,,,STL
+,,,,,,,,
+340514,34999-nicole.markey,nicole.markey@colonial.k12.de.us,Nicole,Markey,District Admin,,,STL
+,,,,,,,,
+340522,34999-nicole.markey,nicole.markey@colonial.k12.de.us,Nicole,Markey,District Admin,,,STL
+,,,,,,,,
+340410,34999-jon.cooper,jon.cooper@colonial.k12.de.us,Jon,Cooper,District Admin,,,STL
+,,,,,,,,
+340412,34999-jon.cooper,jon.cooper@colonial.k12.de.us,Jon,Cooper,District Admin,,,STL
+,,,,,,,,
+340418,34999-jon.cooper,jon.cooper@colonial.k12.de.us,Jon,Cooper,District Admin,,,STL
+,,,,,,,,
+340420,34999-jon.cooper,jon.cooper@colonial.k12.de.us,Jon,Cooper,District Admin,,,STL
+,,,,,,,,
+340422,34999-jon.cooper,jon.cooper@colonial.k12.de.us,Jon,Cooper,District Admin,,,STL
+,,,,,,,,
+340427,34999-jon.cooper,jon.cooper@colonial.k12.de.us,Jon,Cooper,District Admin,,,STL
+,,,,,,,,
+340432,34999-jon.cooper,jon.cooper@colonial.k12.de.us,Jon,Cooper,District Admin,,,STL
+,,,,,,,,
+340450,34999-jon.cooper,jon.cooper@colonial.k12.de.us,Jon,Cooper,District Admin,,,STL
+,,,,,,,,
+340456,34999-jon.cooper,jon.cooper@colonial.k12.de.us,Jon,Cooper,District Admin,,,STL
+,,,,,,,,
+340470,34999-jon.cooper,jon.cooper@colonial.k12.de.us,Jon,Cooper,District Admin,,,STL
+,,,,,,,,
+340474,34999-jon.cooper,jon.cooper@colonial.k12.de.us,Jon,Cooper,District Admin,,,STL
+,,,,,,,,
+340476,34999-jon.cooper,jon.cooper@colonial.k12.de.us,Jon,Cooper,District Admin,,,STL
+,,,,,,,,
+340490,34999-jon.cooper,jon.cooper@colonial.k12.de.us,Jon,Cooper,District Admin,,,STL
+,,,,,,,,
+340514,34999-jon.cooper,jon.cooper@colonial.k12.de.us,Jon,Cooper,District Admin,,,STL
+,,,,,,,,
+340522,34999-jon.cooper,jon.cooper@colonial.k12.de.us,Jon,Cooper,District Admin,,,STL
+,,,,,,,,
+340410,34999-jeffrey.menzer,jeffrey.menzer@colonial.k12.de.us,Jeffrey,Menzer,District Admin,,,STL
+,,,,,,,,
+340412,34999-jeffrey.menzer,jeffrey.menzer@colonial.k12.de.us,Jeffrey,Menzer,District Admin,,,STL
+,,,,,,,,
+340418,34999-jeffrey.menzer,jeffrey.menzer@colonial.k12.de.us,Jeffrey,Menzer,District Admin,,,STL
+,,,,,,,,
+340420,34999-jeffrey.menzer,jeffrey.menzer@colonial.k12.de.us,Jeffrey,Menzer,District Admin,,,STL
+,,,,,,,,
+340422,34999-jeffrey.menzer,jeffrey.menzer@colonial.k12.de.us,Jeffrey,Menzer,District Admin,,,STL
+,,,,,,,,
+340427,34999-jeffrey.menzer,jeffrey.menzer@colonial.k12.de.us,Jeffrey,Menzer,District Admin,,,STL
+,,,,,,,,
+340432,34999-jeffrey.menzer,jeffrey.menzer@colonial.k12.de.us,Jeffrey,Menzer,District Admin,,,STL
+,,,,,,,,
+340450,34999-jeffrey.menzer,jeffrey.menzer@colonial.k12.de.us,Jeffrey,Menzer,District Admin,,,STL
+,,,,,,,,
+340456,34999-jeffrey.menzer,jeffrey.menzer@colonial.k12.de.us,Jeffrey,Menzer,District Admin,,,STL
+,,,,,,,,
+340470,34999-jeffrey.menzer,jeffrey.menzer@colonial.k12.de.us,Jeffrey,Menzer,District Admin,,,STL
+,,,,,,,,
+340474,34999-jeffrey.menzer,jeffrey.menzer@colonial.k12.de.us,Jeffrey,Menzer,District Admin,,,STL
+,,,,,,,,
+340476,34999-jeffrey.menzer,jeffrey.menzer@colonial.k12.de.us,Jeffrey,Menzer,District Admin,,,STL
+,,,,,,,,
+340490,34999-jeffrey.menzer,jeffrey.menzer@colonial.k12.de.us,Jeffrey,Menzer,District Admin,,,STL
+,,,,,,,,
+340514,34999-jeffrey.menzer,jeffrey.menzer@colonial.k12.de.us,Jeffrey,Menzer,District Admin,,,STL
+,,,,,,,,
+340522,34999-jeffrey.menzer,jeffrey.menzer@colonial.k12.de.us,Jeffrey,Menzer,District Admin,,,STL
+,,,,,,,,
+340410,34999-pete.leida,peter.leida@colonial.k12.de.us,Peter,Leida,District Admin,,,STL
+,,,,,,,,
+340412,34999-pete.leida,peter.leida@colonial.k12.de.us,Peter,Leida,District Admin,,,STL
+,,,,,,,,
+340418,34999-pete.leida,peter.leida@colonial.k12.de.us,Peter,Leida,District Admin,,,STL
+,,,,,,,,
+340420,34999-pete.leida,peter.leida@colonial.k12.de.us,Peter,Leida,District Admin,,,STL
+,,,,,,,,
+340422,34999-pete.leida,peter.leida@colonial.k12.de.us,Peter,Leida,District Admin,,,STL
+,,,,,,,,
+340427,34999-pete.leida,peter.leida@colonial.k12.de.us,Peter,Leida,District Admin,,,STL
+,,,,,,,,
+340432,34999-pete.leida,peter.leida@colonial.k12.de.us,Peter,Leida,District Admin,,,STL
+,,,,,,,,
+340450,34999-pete.leida,peter.leida@colonial.k12.de.us,Peter,Leida,District Admin,,,STL
+,,,,,,,,
+340456,34999-pete.leida,peter.leida@colonial.k12.de.us,Peter,Leida,District Admin,,,STL
+,,,,,,,,
+340470,34999-pete.leida,peter.leida@colonial.k12.de.us,Peter,Leida,District Admin,,,STL
+,,,,,,,,
+340474,34999-pete.leida,peter.leida@colonial.k12.de.us,Peter,Leida,District Admin,,,STL
+,,,,,,,,
+340476,34999-pete.leida,peter.leida@colonial.k12.de.us,Peter,Leida,District Admin,,,STL
+,,,,,,,,
+340490,34999-pete.leida,peter.leida@colonial.k12.de.us,Peter,Leida,District Admin,,,STL
+,,,,,,,,
+340514,34999-pete.leida,peter.leida@colonial.k12.de.us,Peter,Leida,District Admin,,,STL
+,,,,,,,,
+340522,34999-pete.leida,peter.leida@colonial.k12.de.us,Peter,Leida,District Admin,,,STL
+,,,,,,,,
 340420,340420-janis.kumpf,janis.kumpf@colonial.k12.de.us,Janis,Kumpf,Reading Interventionist,,,STL
+,,,,,,,,
 340420,340420-jessica.hitchens,jessica.hitchens@colonial.k12.de.us,Jessica,Hitchens,Reading Interventionist,,,STL
+,,,,,,,,
 340420,340420-ashley.williamson,ashley.williamson@colonial.k12.de.us,Ashley,Williamson,Reading Interventionist,,,STL
+,,,,,,,,
 340420,340420-pamela.bingham,pamela.bingham@colonial.k12.de.us,Pamela,Bingham,Reading Interventionist,,,STL
+,,,,,,,,
 340476,340476-francine.ansley,francine.ansley@colonial.k12.de.us,Francine,Ansley,Reading Interventionist,,,STL
+,,,,,,,,
 340490,340490-daniel.becker,daniel.becker@colonial.k12.de.us,Daniel,Becker,Reading Interventionist,,,STL
+,,,,,,,,
 340476,340476-lmckenna,lindsey.maczynski@colonial.k12.de.us,Lindsey,Maczynski,Math Interventionist,,,STL
+,,,,,,,,
+340412,340412-ayanna.copper-taylor,Ayanna.Cooper-Taylor@colonial.k12.de.us,Ayanna,Cooper-Taylor,Math Interventionist,,,STL
+,,,,,,,,
+340432,340432-mary.decampli,Mary.DeCampli@colonial.k12.de.us,Mary,DeCampli,Math Interventionist,,,STL
+,,,,,,,,
+340418,340418-allison.lukaszewicz,Allison.Lukaszewicz@colonial.k12.de.us,Allison,Lukaszewicz,Math Interventionist,,,STL
+,,,,,,,,
+340427,340427-maureen.nicholas,Maureen.Nichols@colonial.k12.de.us,Maureen,Nicholas,Math Interventionist,,,STL
