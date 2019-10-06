@@ -26,7 +26,8 @@ rm google-chrome-stable_current_amd64.deb &> /dev/null
 echo "Done"
 ##Install Snap Packages
 echo "Installing Snap Packages..."
-sudo snap install qownnotes &> /dev/null
+# sudo snap install qownnotes &> /dev/null ##Switched to new app
+sudo snap install bitwarden
 sudo snap install --classic code &> /dev/null
 sudo snap install --classic powershell &> /dev/null
 echo "Done"
