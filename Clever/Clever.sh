@@ -31,7 +31,7 @@ ssconvert -S clever-en.xlsx clever.csv
 ###Files that need to be fixed have 'tmp' in the name
 mv clever.csv.0 schools.csv
 mv clever.csv.1 studentstmp.csv
-mv clever.csv.2 teachers.csv
+mv clever.csv.2 teacherstmp.csv
 mv clever.csv.3 adminstmp.csv
 mv clever.csv.4 sectionstmp.csv
 mv clever.csv.5 enrollments1.csv
@@ -47,7 +47,9 @@ rm enrollments1.csv enrollments2.csv
 
 ##Teacher File
 ##Change header 'Email' to 'Teacher_email'
-sed -i 's/,Email,/,Teacher_email,/g' teachers.csv
+sed -i 's/,Email,/,Teacher_email,/g' teacherstmp.csv
+##Drop Duplicate Teachers
+sort -u -t',' -k3,3 teacherstmp.csv > teachers.csv  
 ##Remove Principals from Teacher File
 ##Needed to prevent conflicts with the admin.csv file
 sed -i '/douglas.timm@colonial.k12.de.us/Id' teachers.csv ##CDE
@@ -65,6 +67,8 @@ sed -i '/lisa.brewington@colonial.k12.de.us/Id' teachers.csv ##WP
 sed -i '/kevin.white@colonial.k12.de.us@colonial.k12.de.us/Id' teachers.csv ##WW
 sed -i '/katrina.daniels@colonial.k12.de.us/Id' teachers.csv ##COL
 sed -i '/kristina.lamia@colonial.k12.de.us/Id' teachers.csv ##COL
+##Remove Tmp teacher file
+rm teacherstmp.csv
 
 ##Sections File
 ##NOTE: Updated 9/1/2018 to include Period field
@@ -73,6 +77,11 @@ sed -i '/kristina.lamia@colonial.k12.de.us/Id' teachers.csv ##COL
 ##Remove 'tmp' file
 awk -F',' '{print $1","$1"-"$2","$3","$4","$5","$6","$7","$8}' sectionstmp.csv > sections.csv
 sed -i 's/,School_id-Section_id,/,Section_id,/g' sections.csv
+#Update 11/14/2019
+#Need to update Teacher_IDs for Hoban and Haugh to reflect one that wasnt dropped
+sed -i 's/,340422-choban,/,340410-choban,/g' sections.csv
+sed -i 's/,340427-jhaugh,/,340422-jhaugh,/g' sections.csv
+#Remove tmp file
 rm sectionstmp.csv
 
 ##Enrollments File
@@ -104,10 +113,10 @@ rm studentstmp.csv studentextrainfo.csv studentextrainfofixed.csv
 
 
 ###Upload CSV files to Clever
-sftp responsible-chalkboard-2639@sftp.clever.com <<EOF
-mput *.csv
-exit
-EOF
+#sftp responsible-chalkboard-2639@sftp.clever.com <<EOF
+#mput *.csv
+#exit
+#EOF
 
 ###Cleanup
-rm schools.csv students.csv teachers.csv sections.csv enrollments.csv clever-en.xlsx
+#rm schools.csv students.csv teachers.csv sections.csv enrollments.csv clever-en.xlsx
