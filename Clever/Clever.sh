@@ -80,7 +80,7 @@ sed -i 's/,School_id-Section_id,/,Section_id,/g' sections.csv
 #Update 11/14/2019
 #Need to update Teacher_IDs for Hoban and Haugh to reflect one that wasnt dropped
 sed -i 's/,340422-choban,/,340410-choban,/g' sections.csv
-sed -i 's/,340427-jhaugh,/,340422-jhaugh,/g' sections.csv
+sed -i 's/,340427-jhaugh,/,340420-jhaugh,/g' sections.csv
 #Remove tmp file
 rm sectionstmp.csv
 
@@ -113,10 +113,10 @@ rm studentstmp.csv studentextrainfo.csv studentextrainfofixed.csv
 
 
 ###Upload CSV files to Clever
-#sftp responsible-chalkboard-2639@sftp.clever.com <<EOF
-#mput *.csv
-#exit
-#EOF
+sftp responsible-chalkboard-2639@sftp.clever.com <<EOF
+mput *.csv
+exit
+EOF
 
 ###Cleanup
-#rm schools.csv students.csv teachers.csv sections.csv enrollments.csv clever-en.xlsx
+rm schools.csv students.csv teachers.csv sections.csv enrollments.csv clever-en.xlsx
