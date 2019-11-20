@@ -46,10 +46,10 @@ rm enrollments1.csv enrollments2.csv
 ###Fixing CSV files
 
 ##Teacher File
-##Change header 'Email' to 'Teacher_email'
-sed -i 's/,Email,/,Teacher_email,/g' teacherstmp.csv
+#Setup headers for Teacher file
+echo "School_id,Teacher_id,Teacher_number,Teacher_email,First_name,Middle_name,Last_name" > teachers.csv
 ##Drop Duplicate Teachers
-sort -u -t',' -k3,3 teacherstmp.csv > teachers.csv  
+sort -u -t',' -k3,3 teacherstmp.csv >> teachers.csv  
 ##Remove Principals from Teacher File
 ##Needed to prevent conflicts with the admin.csv file
 sed -i '/douglas.timm@colonial.k12.de.us/Id' teachers.csv ##CDE
