@@ -1091,3 +1091,475 @@ School_id,Staff_id,Admin_email,First_name,Last_name,Admin_title,Username,Passwor
 340474,340474-Kimberly.Hayman,Kimberly.Hayman@colonial.k12.de.us,Kimberly ,Hayman,Student Advisor,,,STL
 ,,,,,,,,
 340476,340476-Megan.Nowell,Megan.Nowell@colonial.k12.de.us,Megan ,Nowell,Student Advisor,,,STL
+,,,,,,,,
+340410,340410- Janet.Halliday,Janet.Halliday@colonial.k12.de.us,Janet,Haliday,SEC,,,STL
+,,,,,,,,
+340412,340412- Brooke.Bickling,Brooke.Bickling@colonial.k12.de.us,Brooke,Bickling,SEC,,,STL
+,,,,,,,,
+340456,340456-Jennifer.Cipolla,Jennifer.Cipolla@colonial.k12.de.us,Jennifer,Cipolla,SEC,,,STL
+,,,,,,,,
+340432,340432-Melissa.Eger,Melissa.Eger@colonial.k12.de.us,Melissa,Egar,SEC,,,STL
+,,,,,,,,
+340418,340418-mandy.munson,mandy.munson@colonial.k12.de.us,mandy,Munson,SEC,,,STL
+,,,,,,,,
+340427,340427-Elena.Miller,Elena.Miller@colonial.k12.de.us,Elena,Miller,SEC,,,STL
+,,,,,,,,
+340427,340427-Megan.Mueller,Megan.Mueller@colonial.k12.de.us,Megan,Mueller,SEC,,,STL
+,,,,,,,,
+340427,340427-Heather.Cern,Heather.Cern@colonial.k12.de.us,Heather,Cern,SEC,,,STL
+,,,,,,,,
+340422,340422-Laura.DiFrancesco,Laura.DiFrancesco@colonial.k12.de.us,Laura,DiFrancesco,SEC,,,STL
+,,,,,,,,
+340420,340999-Whitney.Barrera,Whitney.Barrera@colonial.k12.de.us,Whitney,Barrera,SEC,,,STL
+,,,,,,,,
+340450,340999-Whitney.Barrera,Whitney.Barrera@colonial.k12.de.us,Whitney,Barrera,SEC,,,STL
+,,,,,,,,
+340474,340474-Andrea.Segeda,Andrea.Segeda@colonial.k12.de.us,Andrea,Segda,SEC,,,STL
+,,,,,,,,
+340474,340474-Brian.Gale,Brian.Gale@colonial.k12.de.us,Brian,Gale,SEC,,,STL
+,,,,,,,,
+340474,340999-Kristen.Coulby,Kristen.Coulby@colonial.k12.de.us,Kristen,Coulby,SEC,,,STL
+,,,,,,,,
+340450,340999-Kristen.Coulby,Kristen.Coulby@colonial.k12.de.us,Kristen,Coulby,SEC,,,STL
+,,,,,,,,
+340450,340999-Jeri.turner,Jeri.Turner@colonial.k12.de.us,Jeri,Turner,SEC,,,STL
+,,,,,,,,
+340470,340470-Jennifer.Goldsborough,Jennifer.Goldsborough@colonial.k12.de.us,Jennifer,Goldsborough,SEC,,,STL
+,,,,,,,,
+340470,340999-Jennifer.Michalkiewicz,Jennifer.Michalkiewicz@colonial.k12.de.us,Jennifer,Michalkiweicz,SEC,,,STL
+,,,,,,,,
+340476,340999-Jennifer.Michalkiewicz,Jennifer.Michalkiewicz@colonial.k12.de.us,Jennifer,Michalkiweicz,SEC,,,STL
+,,,,,,,,
+340476,340476-Lisa.Faline,Lisa.Faline@colonial.k12.de.us,Lisa,Faline,SEC,,,STL
+,,,,,,,,
+340522,340522-Nichole.Hudak,Nichole.Hudak@colonial.k12.de.us,Nichole,Hudak,SEC,,,STL
+,,,,,,,,
+340490,340490-erika.powell,erika.powell@colonial.k12.de.us,Erika,Powell,SEC,,,STL
+,,,,,,,,
+340490,340490-Catherine.RounsleyMaxwell,Catherine.RounsleyMaxwell@colonial.k12.de.us,Catherine,Rounsley-Maxwell,SEC,,,STL
+,,,,,,,,
+340490,340490-Rachel.Brown,Rachel.Brown@colonial.k12.de.us,Rachel,Brown,SEC,,,STL
+,,,,,,,,
+340490,340490-Moira.Kostes,Moira.Kostes@colonial.k12.de.us,Moira,Kostes,SEC,,,STL
+,,,,,,,,
+340999,340999-Stacey.Kotowski,Stacey.Kotowski@colonial.k12.de.us,Stacey,Kotowski,SEC,,,STL
+,,,,,,,,
+340999,340999-Jennifer.Vikari,Jennifer.Vikari@colonial.k12.de.us,Jennifer,Vikari,SEC,,,STL
+,,,,,,,,
+340410,340999-Tamara.Wales,Tamara.Wales@colonial.k12.de.us,Tamara,Wales,SEC,,,STL
+,,,,,,,,
+340412,340999-Tamara.Wales,Tamara.Wales@colonial.k12.de.us,Tamara,Wales,SEC,,,STL
+,,,,,,,,
+340418,340999-Tamara.Wales,Tamara.Wales@colonial.k12.de.us,Tamara,Wales,SEC,,,STL
+,,,,,,,,
+340420,340999-Tamara.Wales,Tamara.Wales@colonial.k12.de.us,Tamara,Wales,SEC,,,STL
+,,,,,,,,
+340422,340999-Tamara.Wales,Tamara.Wales@colonial.k12.de.us,Tamara,Wales,SEC,,,STL
+,,,,,,,,
+340427,340999-Tamara.Wales,Tamara.Wales@colonial.k12.de.us,Tamara,Wales,SEC,,,STL
+,,,,,,,,
+340432,340999-Tamara.Wales,Tamara.Wales@colonial.k12.de.us,Tamara,Wales,SEC,,,STL
+,,,,,,,,
+340450,340999-Tamara.Wales,Tamara.Wales@colonial.k12.de.us,Tamara,Wales,SEC,,,STL
+,,,,,,,,
+340456,340999-Tamara.Wales,Tamara.Wales@colonial.k12.de.us,Tamara,Wales,SEC,,,STL
+,,,,,,,,
+340470,340999-Tamara.Wales,Tamara.Wales@colonial.k12.de.us,Tamara,Wales,SEC,,,STL
+,,,,,,,,
+340474,340999-Tamara.Wales,Tamara.Wales@colonial.k12.de.us,Tamara,Wales,SEC,,,STL
+,,,,,,,,
+340476,340999-Tamara.Wales,Tamara.Wales@colonial.k12.de.us,Tamara,Wales,SEC,,,STL
+,,,,,,,,
+340490,340999-Tamara.Wales,Tamara.Wales@colonial.k12.de.us,Tamara,Wales,SEC,,,STL
+,,,,,,,,
+340514,340999-Tamara.Wales,Tamara.Wales@colonial.k12.de.us,Tamara,Wales,SEC,,,STL
+,,,,,,,,
+340522,340999-Tamara.Wales,Tamara.Wales@colonial.k12.de.us,Tamara,Wales,SEC,,,STL
+,,,,,,,,
+340410,340999-Cheri.Woodall,Cheri.Woodall@colonial.k12.de.us,Cheri,Woodall,SEC,,,STL
+,,,,,,,,
+340412,340999-Cheri.Woodall,Cheri.Woodall@colonial.k12.de.us,Cheri,Woodall,SEC,,,STL
+,,,,,,,,
+340418,340999-Cheri.Woodall,Cheri.Woodall@colonial.k12.de.us,Cheri,Woodall,SEC,,,STL
+,,,,,,,,
+340420,340999-Cheri.Woodall,Cheri.Woodall@colonial.k12.de.us,Cheri,Woodall,SEC,,,STL
+,,,,,,,,
+340422,340999-Cheri.Woodall,Cheri.Woodall@colonial.k12.de.us,Cheri,Woodall,SEC,,,STL
+,,,,,,,,
+340427,340999-Cheri.Woodall,Cheri.Woodall@colonial.k12.de.us,Cheri,Woodall,SEC,,,STL
+,,,,,,,,
+340432,340999-Cheri.Woodall,Cheri.Woodall@colonial.k12.de.us,Cheri,Woodall,SEC,,,STL
+,,,,,,,,
+340450,340999-Cheri.Woodall,Cheri.Woodall@colonial.k12.de.us,Cheri,Woodall,SEC,,,STL
+,,,,,,,,
+340456,340999-Cheri.Woodall,Cheri.Woodall@colonial.k12.de.us,Cheri,Woodall,SEC,,,STL
+,,,,,,,,
+340470,340999-Cheri.Woodall,Cheri.Woodall@colonial.k12.de.us,Cheri,Woodall,SEC,,,STL
+,,,,,,,,
+340474,340999-Cheri.Woodall,Cheri.Woodall@colonial.k12.de.us,Cheri,Woodall,SEC,,,STL
+,,,,,,,,
+340476,340999-Cheri.Woodall,Cheri.Woodall@colonial.k12.de.us,Cheri,Woodall,SEC,,,STL
+,,,,,,,,
+340490,340999-Cheri.Woodall,Cheri.Woodall@colonial.k12.de.us,Cheri,Woodall,SEC,,,STL
+,,,,,,,,
+340514,340999-Cheri.Woodall,Cheri.Woodall@colonial.k12.de.us,Cheri,Woodall,SEC,,,STL
+,,,,,,,,
+340522,340999-Cheri.Woodall,Cheri.Woodall@colonial.k12.de.us,Cheri,Woodall,SEC,,,STL
+,,,,,,,,
+340410,340999-Olivia.Aquino,Olivia.Aquino@colonial.k12.de.us,Olivia,Aquino,School Pyschologist,,,portal access
+,,,,,,,,
+340412,340999-Teri.Dunham,Teresa.Dunham@colonial.k12.de.us,Teri,Dunham,School Pyschologist,,,portal access
+,,,,,,,,
+340456,340999-paige.patterson,paige.patterson@colonial.k12.de.us,Paige ,Patterson,School Pyschologist,,,portal access
+,,,,,,,,
+340432,340999-Irven.SimpkinsJr,Irven.SimpkinsJr@colonial.k12.de.us,Irven,SimpkinsJr,School Pyschologist,,,portal access
+,,,,,,,,
+340418,340999-Rachel.Hartnett,Rachel.Hartnett@colonial.k12.de.us,Rachel,Hartnett,School Pyschologist,,,portal access
+,,,,,,,,
+340427,340999-Sarah.Flavell,Sarah.Flavell@colonial.k12.de.us,Sarah,Flavell,School Pyschologist,,,portal access
+,,,,,,,,
+340427,340999-Lindsay.Hammond,Lindsay.Hammond@colonial.k12.de.us,Lindsay,Hammond,School Pyschologist,,,portal access
+,,,,,,,,
+340427,340999-Abigail.Cash,Abigail.Cash@colonial.k12.de.us,Abigail,Cash,School Pyschologist,,,portal access
+,,,,,,,,
+340422,340999-Elisabeth.Burtch,Elisabeth.Burtch@colonial.k12.de.us,Elisabeth,Burtch,School Pyschologist,,,portal access
+,,,,,,,,
+340420,340999-Sheryl.Herbert,Sheryl.Herbert@colonial.k12.de.us,Sheryl,Herbert,School Pyschologist,,,portal access
+,,,,,,,,
+340470,340999-Sheryl.Herbert,Sheryl.Herbert@colonial.k12.de.us,Sheryl,Herbert,School Pyschologist,,,portal access
+,,,,,,,,
+340490,340999-Sheryl.Herbert,Sheryl.Herbert@colonial.k12.de.us,Sheryl,Herbert,School Pyschologist,,,portal access
+,,,,,,,,
+340474,340999-amanda.roesly,amanda.roesly@colonial.k12.de.us,Amanada,Roesly,School Pyschologist,,,portal access
+,,,,,,,,
+340474,340999-Alyson.Sherrer,Alyson.Sherrer@colonial.k12.de.us,Alyson,Sherrer,School Pyschologist,,,portal access
+,,,,,,,,
+340470,340999-Fequiere.Lazare,Fequiere.Lazare@colonial.k12.de.us,Fequiere,Lazare,School Pyschologist,,,portal access
+,,,,,,,,
+340476,340999-Susan.Smathers,Susan.Smathers@colonial.k12.de.us,Susan,Smathers,School Pyschologist,,,portal access
+,,,,,,,,
+340476,340999-Rasuwl.Medina,Rasuwl.Medina@colonial.k12.de.us,Rasuwl,Medina,School Pyschologist,,,portal access
+,,,,,,,,
+340522,340999-Chimezie.Akunne,Chimezie.Akunne@colonial.k12.de.us,Chimezie,Akunne,School Pyschologist,,,portal access
+,,,,,,,,
+340490,340999-Tracey.Tilghman,Tracey.Tilghman@colonial.k12.de.us,Tracey,Tilghman,School Pyschologist,,,portal access
+,,,,,,,,
+340490,340999-Alisa.Cook,Alisa.Cook@colonial.k12.de.us,Alisa,Cook,School Pyschologist,,,portal access
+,,,,,,,,
+340490,340999-Cheryl.Smith,Cheryl.Smith@colonial.k12.de.us,Chery,Smith,School Pyschologist,,,portal access
+,,,,,,,,
+340450,340999-Melissa.Wilson,Melissa.Wilson@colonial.k12.de.us,Melissa,Wilson,School Pyschologist,,,portal access
+,,,,,,,,
+340514,340999-Krista.Jensen,Krista.Jensen@colonial.k12.de.us,Krista,Jensen,School Pyschologist,,,portal access
+,,,,,,,,
+340450,340999-Amber.Warrell,Amber.Warrell@colonial.k12.de.us,Amber,Warrell,School Pyschologist,,,portal access
+,,,,,,,,
+340450,340999-Nancy.Frey,Nancy.Frey@colonial.k12.de.us,Nancy,Frey,School Pyschologist,,,portal access
+,,,,,,,,
+340410,340999-Lisa.Bachman,Lisa.Bachman@colonial.k12.de.us,Lisa,Bachman,OT,,,portal access
+,,,,,,,,
+340427,340999-Lisa.Bachman,Lisa.Bachman@colonial.k12.de.us,Lisa,Bachman,OT,,,portal access
+,,,,,,,,
+340412,340999-Tara.Kulak,Tara.Kulak@colonial.k12.de.us,Tara,Kulak,OT,,,portal access
+,,,,,,,,
+340456,340999-Elizabeth.Waskie,Elizabeth.Waskie@colonial.k12.de.us,Elizabeth,Waskie,OT,,,portal access
+,,,,,,,,
+340432,340999-Chelsea.Derkacz,Chelsea.Derkacz@colonial.k12.de.us,Chelsea,Derkacz,OT,,,portal access
+,,,,,,,,
+340418,340999-Kristin.Chickadel,Kristin.Chickadel@colonial.k12.de.us,Kristin,Chickadel,OT,,,portal access
+,,,,,,,,
+340427,340999-Alicia.Postlewait,Alicia.Postlewait@colonial.k12.de.us,Alicia,Postlewait,OT,,,portal access
+,,,,,,,,
+340427,340999-Christine.Holdren,Christine.Holdren@colonial.k12.de.us,Christine,Holdren,OT,,,portal access
+,,,,,,,,
+340427,340999-Erica.Horton,Erica.Horton@colonial.k12.de.us,Erica,Horton,OT,,,portal access
+,,,,,,,,
+340427,340999-Warna.Warren,Warna.Warren@colonial.k12.de.us,Warna,Warren,OT,,,portal access
+,,,,,,,,
+340422,340999-Jennifer.Yoder,Jennifer.Yoder@colonial.k12.de.us,Jennifer,Yoder,OT,,,portal access
+,,,,,,,,
+340474,340999-Deborah.Hopkins,Deborah.Hopkins@colonial.k12.de.us,Deborah,Hopkins,OT,,,portal access
+,,,,,,,,
+340420,340999-Deborah.Hopkins,Deborah.Hopkins@colonial.k12.de.us,Deborah,Hopkins,OT,,,portal access
+,,,,,,,,
+340522,340999-Deborah.Hopkins,Deborah.Hopkins@colonial.k12.de.us,Deborah,Hopkins,OT,,,portal access
+,,,,,,,,
+340474,340999-Autumn.Apsley,Autumn.Apsley@colonial.k12.de.us,Autumn,Apsley,OT,,,portal access
+,,,,,,,,
+340476,340999-Autumn.Apsley,Autumn.Apsley@colonial.k12.de.us,Autumn,Apsley,OT,,,portal access
+,,,,,,,,
+340470,340999-Erica.Horton,Erica.Horton@colonial.k12.de.us,Erica,Horton,OT,,,portal access
+,,,,,,,,
+340450,340999-Autumn.Apsley,Autumn.Apsley@colonial.k12.de.us,Autumn,Apsley,OT,,,portal access
+,,,,,,,,
+340490,340999-Annette.Mestern,Annette.Mestern@colonial.k12.de.us,Annette,Mestern,OT,,,portal access
+,,,,,,,,
+340450,340999-michelehowland.jones,michelehowland.jones@colonial.k12.de.us,Michele,Jones,OT,,,portal access
+,,,,,,,,
+340450,340999-Elizabeth.Waskie,Elizabeth.Waskie@colonial.k12.de.us,Elizabeth,Waskie,OT,,,portal access
+,,,,,,,,
+340450,340999-Azadeh.Narimanian,Azadeh.Narimanian@colonial.k12.de.us,Azadeh,Narimanian,OT,,,portal access
+,,,,,,,,
+340450,340999-Chelsea.Derkacz,Chelsea.Derkacz@colonial.k12.de.us,Chelsea,Derkacz,OT,,,portal access
+,,,,,,,,
+340514,340999-Thomas.Winkler,Thomas.Winkler@colonial.k12.de.us,Thomas,Winkler,OT,,,portal access
+,,,,,,,,
+340514,340999-Kristin.Chickade,Kristin.Chickadel@colonial.k12.de.us,Kristin,Chickadel,OT,,,portal access
+,,,,,,,,
+340514,340999-michelehowland.jones,michelehowland.jones@colonial.k12.de.us,Michele,Jones,OT,,,portal access
+,,,,,,,,
+340514,340999-Tara.Kulak,Tara.Kulak@colonial.k12.de.us,Tara,Kulak,OT,,,portal access
+,,,,,,,,
+340514,340999-Annette.Mestern,Annette.Mestern@colonial.k12.de.us,Annette,Mestern,OT,,,portal access
+,,,,,,,,
+340410,340999-Kimberly.Duch,Kimberly.Duch@colonial.k12.de.us,Kimberly,Duch,PT,,,portal access
+,,,,,,,,
+340456,340999-Kimberly.Duch,Kimberly.Duch@colonial.k12.de.us,Kimberly,Duch,PT,,,portal access
+,,,,,,,,
+340432,340999-Kimberly.Duch,Kimberly.Duch@colonial.k12.de.us,Kimberly,Duch,PT,,,portal access
+,,,,,,,,
+340418,340999-Carolyn.Buckel,Carolyn.Buckel@colonial.k12.de.us,Carolyn,Buckel,PT,,,portal access
+,,,,,,,,
+340427,340999-Kristin.Capone,Kristin.Capone@colonial.k12.de.us,Kristin,Capone,PT,,,portal access
+,,,,,,,,
+340427,340999-Christine.Palmer,Christine.Palmer@colonial.k12.de.us,Christine,Palmer-Casey,PT,,,portal access
+,,,,,,,,
+340420,340999-Carolyn.Buckel,Carolyn.Buckel@colonial.k12.de.us,Carolyn,Buckel,PT,,,portal access
+,,,,,,,,
+340474,340999-Carolyn.Buckel,Carolyn.Buckel@colonial.k12.de.us,Carolyn,Buckel,PT,,,portal access
+,,,,,,,,
+340470,340999-Christine.Palmer,Christine.Palmer@colonial.k12.de.us,Christine,Palmer,PT,,,portal access
+,,,,,,,,
+340490,340999-Kathleen.Benson,Kathleen.Benson@colonial.k12.de.us,Kathleen,Benson,PT,,,portal access
+,,,,,,,,
+340450,340999-Carolyn.Buckel,Carolyn.Buckel@colonial.k12.de.us,Carolyn,Buckel,PT,,,portal access
+,,,,,,,,
+340514,340999-Kristin.Capone,Kristin.Capone@colonial.k12.de.us,Kristin,Capone,PT,,,portal access
+,,,,,,,,
+340514,340999-Kathleen.Benson,Kathleen.Benson@colonial.k12.de.us,Kathleen,Benson,PT,,,portal access
+,,,,,,,,
+340514,340999-Kimberly.Duch,Kimberly.Duch@colonial.k12.de.us,Kimberly,Duch,PT,,,portal access
+,,,,,,,,
+340514,340999-Christine.Palmer,Christine.Palmer@colonial.k12.de.us,Christine,Palmer,PT,,,portal access
+,,,,,,,,
+340410,340999-Cara.Rose,Cara.Rose@colonial.k12.de.us,Cara,Rose,SLP,,,portal access
+,,,,,,,,
+340412,340999-Lindy.Sagett,Lindy.Sagett@colonial.k12.de.us,Lindy,Sagett,SLP,,,portal access
+,,,,,,,,
+340456,340999-Mervat.Alaraifi,Mervat.Alaraifi@colonial.k12.de.us,Mervat,Alaraifi,SLP,,,portal access
+,,,,,,,,
+340432,340999-Mary.Udovich,Mary.Udovich@colonial.k12.de.us,Mary,Udovich,SLP,,,portal access
+,,,,,,,,
+340418,340999-Mary.Udovich,Mary.Udovich@colonial.k12.de.us,Mary,Udovich,SLP,,,portal access
+,,,,,,,,
+340427,340999-Christine.Stow,Christine.Stow@colonial.k12.de.us,Christine,Stow,SLP,,,portal access
+,,,,,,,,
+340427,340999-lauren.fox,lauren.fox@colonial.k12.de.us,Lauren,Fox,SLP,,,portal access
+,,,,,,,,
+340427,340999-jeffrey.loux,jeffrey.loux@colonial.k12.de.us,Jeffrey,Loux,SLP,,,portal access
+,,,,,,,,
+340427,340999-kristen.barrow,kristen.barrow@colonial.k12.de.us,Kristen,Barrow,SLP,,,portal access
+,,,,,,,,
+340427,340999-jessica.murtha,jessica.murtha@colonial.k12.de.us,Jessica,Murtha,SLP,,,portal access
+,,,,,,,,
+340427,340999-andrey.rublev,andrey.rublev@colonial.k12.de.us,Andrey,Rublev,SLP,,,portal access
+,,,,,,,,
+340422,340999-joyce.maske,joyce.maske@colonial.k12.de.us,Joyce,Maske,SLP,,,portal access
+,,,,,,,,
+340420,340999-cara.rose,cara.rose@colonial.k12.de.us,Cara,Rose,SLP,,,portal access
+,,,,,,,,
+340474,340999-alyce.rouse,alyce.rouse@colonial.k12.de.us,Alyce,Rouse,SLP,,,portal access
+,,,,,,,,
+340474,340999-lindy.sagett,lindy.sagett@colonial.k12.de.us,Lindy,Sagett,SLP,,,portal access
+,,,,,,,,
+340470,340999-jessica.murtha,jessica.murtha@colonial.k12.de.us,Jessica,Murtha,SLP,,,portal access
+,,,,,,,,
+340476,340999-kelsey.newkirk,kelsey.newkirk@colonial.k12.de.us,Kelsey,Newkirk,SLP,,,portal access
+,,,,,,,,
+340476,340999-andrey.rublev,andrey.rublev@colonial.k12.de.us,Andrey,Rublev,SLP,,,portal access
+,,,,,,,,
+340522,340999-tanya.sandy,tanya.sandy@colonial.k12.de.us,Tanya,Sandy,SLP,,,portal access
+,,,,,,,,
+340490,340999-tanya.sandy,tanya.sandy@colonial.k12.de.us,Tanya,Sandy,SLP,,,portal access
+,,,,,,,,
+340490,340999-donna.mclaughlin,donna.mclaughlin@colonial.k12.de.us,Donna,Mclaughlin,SLP,,,portal access
+,,,,,,,,
+340450,340999-cristina.cardona,cristina.cardona@colonial.k12.de.us,Cristina,Cardona,SLP,,,portal access
+,,,,,,,,
+340450,340999-jennifer.wagner,jennifer.wagner@colonial.k12.de.us,Jennifer,Wagner,SLP,,,portal access
+,,,,,,,,
+340450,340999-caitlin.evans,caitlin.evans@colonial.k12.de.us,Caitlin,Evans,SLP,,,portal access
+,,,,,,,,
+340450,340999-shara.simpson,shara.simpson@colonial.k12.de.us,Shara,Simpson,SLP,,,portal access
+,,,,,,,,
+340450,340999-elizabeth.fedak,elizabeth.fedak@colonial.k12.de.us,Elizabeth,Fedak,SLP,,,portal access
+,,,,,,,,
+340450,340999-andrey.rublev,andrey.rublev@colonial.k12.de.us,Andrey,Rublev,SLP,,,portal access
+,,,,,,,,
+340450,340999-michelle.hersh,michelle.hersh@colonial.k12.de.us,Michelle,Hersh,SLP,,,portal access
+,,,,,,,,
+340514,340999-deborah.ford,deborah.ford@colonial.k12.de.us,Deborah,Ford,SLP,,,portal access
+,,,,,,,,
+340514,340999-amy.micklos,amy.micklos@colonial.k12.de.us,Amy,Micklos,SLP,,,portal access
+,,,,,,,,
+340514,340999-elizabeth.merrick,elizabeth.merrick@colonial.k12.de.us,Elizabeth,Merrick,SLP,,,portal access
+,,,,,,,,
+340514,340999-kelsey.newkirk,kelsey.newkirk@colonial.k12.de.us,Kelsey,Newkirk,SLP,,,portal access
+,,,,,,,,
+340450,340999-miranda.wolff,miranda.wolff@colonial.k12.de.us,Amanada,Wolff,SLP,,,portal access
+,,,,,,,,
+340450,340999-elizabeth.merrick,elizabeth.merrick@colonial.k12.de.us,Elizabeth,Merrick,SLP,,,portal access
+,,,,,,,,
+340410,340999-ariana.salter,ariana.salter@colonial.k12.de.us,Ariana,Salter,nurse,,,portal access
+,,,,,,,,
+340412,340999-kimberly.reid,kimberly.reid@colonial.k12.de.us,Kimberly,Reid,nurse,,,portal access
+,,,,,,,,
+340456,340999-michelle.rosseel,michelle.rosseel@colonial.k12.de.us,Michelle,Rosseel,nurse,,,portal access
+,,,,,,,,
+340432,340999-amy.davidson,amy.davidson@colonial.k12.de.us,Amy,Davidson,nurse,,,portal access
+,,,,,,,,
+340418,340999-donna.robinson,donna.robinson@colonial.k12.de.us,Donna,Robinson,nurse,,,portal access
+,,,,,,,,
+340427,340999-lorita.ross,lorita.ross@colonial.k12.de.us,Lorita,Ross,nurse,,,portal access
+,,,,,,,,
+340427,340999-elizabeth.grimm,elizabeth.grimm@colonial.k12.de.us,Elizabeth,Grimm,nurse,,,portal access
+,,,,,,,,
+340422,340999-laura.prucyk,laura.prucyk@colonial.k12.de.us,Laura,Prucyk,nurse,,,portal access
+,,,,,,,,
+340422,340999-sharon.taylorredd,sharon.taylorredd@colonial.k12.de.us,Sharon,Taylor-Redd,nurse,,,portal access
+,,,,,,,,
+340420,340999-saul.montanez,saul.montanez@colonial.k12.de.us,Saul,Montanez,nurse,,,portal access
+,,,,,,,,
+340474,340999-jessica.adams,jessica.adams@colonial.k12.de.us,Jessica,Adams,nurse,,,portal access
+,,,,,,,,
+340474,340999-erin.miller,erin.miller@colonial.k12.de.us,Erin,Miller,nurse,,,portal access
+,,,,,,,,
+340470,340999-olivia.taylor,olivia.taylor@colonial.k12.de.us,Olivia,Taylor,nurse,,,portal access
+,,,,,,,,
+340476,340999-jay.green,jay.green@colonial.k12.de.us,Jay,Green,nurse,,,portal access
+,,,,,,,,
+340522,340999-denver.shockley,denver.shockley@colonial.k12.de.us,Denver,Shockley,nurse,,,portal access
+,,,,,,,,
+340490,340999-michelle.maloy,michelle.maloy@colonial.k12.de.us,Michelle,Maloy,nurse,,,portal access
+,,,,,,,,
+340490,340999-latoya.furrowh,latoya.furrowh@colonial.k12.de.us,Latoya,Furrowh,nurse,,,portal access
+,,,,,,,,
+340490,340999-kelsey.huntoon,kelsey.huntoon@colonial.k12.de.us,Kelsey,Huntoon,nurse,,,portal access
+,,,,,,,,
+340450,340999-amanda.mcconnell,amanda.mcconnell@colonial.k12.de.us,Amanda,Mcconnell,nurse,,,portal access
+,,,,,,,,
+340514,340999-heidi.hildick,heidi.hildick@colonial.k12.de.us,Heidi,Hildick,nurse,,,portal access
+,,,,,,,,
+340514,340999-claudia.peters,claudia.peters@colonial.k12.de.us,Claudia,Peters,nurse,,,portal access
+,,,,,,,,
+340514,340999-joseph.salerno,joseph.salerno@colonial.k12.de.us,Joseph,Salerno,nurse,,,portal access
+,,,,,,,,
+340410,340999-linda.hayes,linda.hayes@colonial.k12.de.us,Linda,Hayes,counselor,,,portal access
+,,,,,,,,
+340412,340999-heidi.gerhard,heidi.gerhard@colonial.k12.de.us,Heidi,Gerhard,counselor,,,portal access
+,,,,,,,,
+340456,340999-kristin.donovan,kristin.donovan@colonial.k12.de.us,Kristin,Donovan,counselor,,,portal access
+,,,,,,,,
+340432,340999-tanya.aviola,tanya.aviola@colonial.k12.de.us,Tanya,Aviola,counselor,,,portal access
+,,,,,,,,
+340418,340999-jignasa.wedell,jignasa.wedell@colonial.k12.de.us,Jignasa ,Wedell,counselor,,,portal access
+,,,,,,,,
+340427,340999-deborah.kelly,deborah.kelly@colonial.k12.de.us,Deborah,Kelly,counselor,,,portal access
+,,,,,,,,
+340427,340999-lisa.gale,lisa.gale@colonial.k12.de.us,Lisa,Gale,counselor,,,portal access
+,,,,,,,,
+340422,340999-lori.yacucci,lori.yacucci@colonial.k12.de.us,Lori,Yacucci,counselor,,,portal access
+,,,,,,,,
+340422,340999-sandra.campion,sandra.campion@colonial.k12.de.us,Sandra,Campion,counselor,,,portal access
+,,,,,,,,
+340420,340999-meghan.feby,meghan.feby@colonial.k12.de.us,Meghan,Feby,counselor,,,portal access
+,,,,,,,,
+340474,340999-nicholas.fortuna,nicholas.fortuna@colonial.k12.de.us,Nicholas,Fortuna,counselor,,,portal access
+,,,,,,,,
+340474,340999-kimberdany.carlson,kimberdany.carlson@colonial.k12.de.us,Kimber-Dany,Carlson,counselor,,,portal access
+,,,,,,,,
+340470,340999-ruthann.mansure,ruthann.mansure@colonial.k12.de.us,Ruthann,Mansure,counselor,,,portal access
+,,,,,,,,
+340470,340999-shaheda.pine,shaheda.pine@colonial.k12.de.us,Shaheda,Pine,counselor,,,portal access
+,,,,,,,,
+340470,340999-allison.sheppard,allison.sheppard@colonial.k12.de.us,Allison,Sheppard,counselor,,,portal access
+,,,,,,,,
+340476,340999-karyn.andersen,karyn.andersen@colonial.k12.de.us,Karyn,Andersen,counselor,,,portal access
+,,,,,,,,
+340476,340999-kahlil.fitzpatrick,kahlil.fitzpatrick@colonial.k12.de.us,Kahlil,Fitzpatrick,counselor,,,portal access
+,,,,,,,,
+340522,340999-jean.boyer,jean.boyer@colonial.k12.de.us,Jean,Boyer,counselor,,,portal access
+,,,,,,,,
+340522,340999-charneise.alston,charneise.alston@colonial.k12.de.us,Charneise,Alston,counselor,,,portal access
+,,,,,,,,
+340490,340999-andrew.capone,andrew.capone@colonial.k12.de.us,Andrew,Capone,counselor,,,portal access
+,,,,,,,,
+340490,340999-cheryl.mcphee,cheryl.mcphee@colonial.k12.de.us,Cheryl,Mcphee,counselor,,,portal access
+,,,,,,,,
+340490,340999-gloria.huynhba,Huynh-bagloria.huynhba@colonial.k12.de.us,Gloria,Huynhba,counselor,,,portal access
+,,,,,,,,
+340490,340999-rachel.handyhayes,rachel.handyhayes@colonial.k12.de.us,Rachel,Handy-Hayes,counselor,,,portal access
+,,,,,,,,
+340490,340999-latoya.kosh,latoya.kosh@colonial.k12.de.us,Latoya,Kosh,counselor,,,portal access
+,,,,,,,,
+340476,340999-tonya.baileysmiley,tonya.baileysmiley@colonial.k12.de.us,Tonya,Bailey-Smiley,counselor,,,portal access
+,,,,,,,,
+340490,340999-keri.young,keri.young@colonial.k12.de.us,Keri,Young,counselor,,,portal access
+,,,,,,,,
+340490,340999-heather.campbell,heather.campbell@colonial.k12.de.us,Heather,Campbell-Molitor,counselor,,,portal access
+,,,,,,,,
+340410,340999-barbara.brooks,barbara.brooks@colonial.k12.de.us,Barbara,Brooks,AT,,,STL
+,,,,,,,,
+340412,340999-barbara.brooks,barbara.brooks@colonial.k12.de.us,Barbara,Brooks,AT,,,STL
+,,,,,,,,
+340418,340999-barbara.brooks,barbara.brooks@colonial.k12.de.us,Barbara,Brooks,AT,,,STL
+,,,,,,,,
+340420,340999-barbara.brooks,barbara.brooks@colonial.k12.de.us,Barbara,Brooks,AT,,,STL
+,,,,,,,,
+340422,340999-barbara.brooks,barbara.brooks@colonial.k12.de.us,Barbara,Brooks,AT,,,STL
+,,,,,,,,
+340427,340999-barbara.brooks,barbara.brooks@colonial.k12.de.us,Barbara,Brooks,AT,,,STL
+,,,,,,,,
+340432,340999-barbara.brooks,barbara.brooks@colonial.k12.de.us,Barbara,Brooks,AT,,,STL
+,,,,,,,,
+340450,340999-barbara.brooks,barbara.brooks@colonial.k12.de.us,Barbara,Brooks,AT,,,STL
+,,,,,,,,
+340456,340999-barbara.brooks,barbara.brooks@colonial.k12.de.us,Barbara,Brooks,AT,,,STL
+,,,,,,,,
+340470,340999-barbara.brooks,barbara.brooks@colonial.k12.de.us,Barbara,Brooks,AT,,,STL
+,,,,,,,,
+340474,340999-barbara.brooks,barbara.brooks@colonial.k12.de.us,Barbara,Brooks,AT,,,STL
+,,,,,,,,
+340476,340999-barbara.brooks,barbara.brooks@colonial.k12.de.us,Barbara,Brooks,AT,,,STL
+,,,,,,,,
+340490,340999-barbara.brooks,barbara.brooks@colonial.k12.de.us,Barbara,Brooks,AT,,,STL
+,,,,,,,,
+340514,340999-barbara.brooks,barbara.brooks@colonial.k12.de.us,Barbara,Brooks,AT,,,STL
+,,,,,,,,
+340410,340999-elizabeth.gamble,elizabeth.gamble@colonial.k12.de.us,Elizabeth,Gamble,AT,,,STL
+,,,,,,,,
+340412,340999-elizabeth.gamble,elizabeth.gamble@colonial.k12.de.us,Elizabeth,Gamble,AT,,,STL
+,,,,,,,,
+340418,340999-elizabeth.gamble,elizabeth.gamble@colonial.k12.de.us,Elizabeth,Gamble,AT,,,STL
+,,,,,,,,
+340420,340999-elizabeth.gamble,elizabeth.gamble@colonial.k12.de.us,Elizabeth,Gamble,AT,,,STL
+,,,,,,,,
+340422,340999-elizabeth.gamble,elizabeth.gamble@colonial.k12.de.us,Elizabeth,Gamble,AT,,,STL
+,,,,,,,,
+340427,340999-elizabeth.gamble,elizabeth.gamble@colonial.k12.de.us,Elizabeth,Gamble,AT,,,STL
+,,,,,,,,
+340432,340999-elizabeth.gamble,elizabeth.gamble@colonial.k12.de.us,Elizabeth,Gamble,AT,,,STL
+,,,,,,,,
+340450,340999-elizabeth.gamble,elizabeth.gamble@colonial.k12.de.us,Elizabeth,Gamble,AT,,,STL
+,,,,,,,,
+340456,340999-elizabeth.gamble,elizabeth.gamble@colonial.k12.de.us,Elizabeth,Gamble,AT,,,STL
+,,,,,,,,
+340470,340999-elizabeth.gamble,elizabeth.gamble@colonial.k12.de.us,Elizabeth,Gamble,AT,,,STL
+,,,,,,,,
+340474,340999-elizabeth.gamble,elizabeth.gamble@colonial.k12.de.us,Elizabeth,Gamble,AT,,,STL
+,,,,,,,,
+340476,340999-elizabeth.gamble,elizabeth.gamble@colonial.k12.de.us,Elizabeth,Gamble,AT,,,STL
+,,,,,,,,
+340490,340999-elizabeth.gamble,elizabeth.gamble@colonial.k12.de.us,Elizabeth,Gamble,AT,,,STL
+,,,,,,,,
+340514,340999-elizabeth.gamble,elizabeth.gamble@colonial.k12.de.us,Elizabeth,Gamble,AT,,,STL
