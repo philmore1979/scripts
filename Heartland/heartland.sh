@@ -20,8 +20,8 @@ EOF
 ###Overwrites file if already existing
 awk -F',' 'NR>1{print $1","$2","$3","$5","$6","$7",1"}' nutritionemails-en.csv > colonial_myschoolbucks.csv
 
-###Upload Email File back to DOE SFTP
-#sshpass -f '/home/philmore/.ssh/DOE' sftp -oHostKeyAlgorithms=+ssh-dss colonialdata@ftp.doe.k12.de.us <<EOF
-#put email.csv Uploads/email.csv
-#exit
-#EOF
+###Upload Email File back to Heartland SFTP
+sshpass -f '/home/philmore/.ssh/HEART' sftp -oHostKeyAlgorithms=+ssh-dss 1000230@cpsftp.heartlandmosaic.com <<EOF
+put colonial_myschoolbucks.csv 
+exit
+EOF
