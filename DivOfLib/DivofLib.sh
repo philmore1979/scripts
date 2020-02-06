@@ -19,7 +19,7 @@ EOF
 
 ###///Download Staff file from EXTools (AD)///###
 ###File is generated daily on the server 34999-extools.colonial.k12.de.us
-sshpass -f '/home/philmore/.ssh/AD' sftp administrator@34999-extools@colonial.k12.de.us <<EOF
+sshpass -f '/home/philmore/.ssh/AD' sftp administrator@34999-extools.colonial.k12.de.us <<EOF
 cd /C:/temp
 get adout.csv
 exit
@@ -124,7 +124,7 @@ sed -i '/JR/d' adout.csv
 sed -i 's/\"//g' adout.csv
 ###Remove piece of Distinguished Name to leave location
 sed -i 's/,DC=colonial,DC=k12,DC=de,DC=us//g' adout.csv
-
+sed -i 's/,OU=Users//g' adout.csv
 
 ###Convert OU to School Location
 #HighSchool and Wallin
@@ -133,7 +133,7 @@ sed -i 's/,OU=Wallin,/,COLPENN,/g' adout.csv #Wallin Staff wil go to WP for thei
 #Middle Schools
 sed -i 's/,OU=Gunning Bedford,/,COLBEDFORD,/g' adout.csv
 sed -i 's/,OU=George Read,/,COLREAD,/g' adout.csv
-sed -i 's/,OU=McCullough Middle,/,COLMCCULL/g' adout.csv
+sed -i 's/,OU=McCullough Middle,/,COLMCCULL,/g' adout.csv
 #Elementary Schools
 sed -i 's/,OU=Carrie Downie,/,COLDOWNIE,/g' adout.csv
 sed -i 's/,OU=Castle Hills,/,COLCASTLE,/g' adout.csv
@@ -165,6 +165,9 @@ sort -u colo.csv -o colo.csv
 ###Upload CSV files to Div of Lib Server
 ###File needs to have no extension
 mv colo.csv colo
+###Remove junk record
+sed -i '/.USER_ID/d' colo
+
 ###Connect to server over port 822
 sshpass -f '/home/philmore/.ssh/DIVOFLIB' sftp -oPort=822 dela@dela.sirsi.net <<EOF
 rm colo
@@ -173,4 +176,4 @@ exit
 EOF
 
 ###Cleanup
-rm -rf adult*.csv nutritionemails-en.csv adout.csv *temp.csv mapping*.csv homeroom-en.csv colo.csv # colo
+rm -rf *.csv # colo
