@@ -17,6 +17,14 @@ get Cognos/homeroom-en.csv
 exit
 EOF
 
+###///Download Staff file from EXTools (AD)///###
+###File is generated daily on the server 34999-extools.colonial.k12.de.us
+sshpass -f '/home/philmore/.ssh/AD' sftp administrator@34999-extools@colonial.k12.de.us <<EOF
+cd /C:/temp
+get adout.csv
+exit
+EOF
+
 ###///Create mapping.csv from homerooms-en.csv file///###
 ###Remove WP students
 ####NOTE: WP Students will have their emails added to the homeroom field later
@@ -96,70 +104,56 @@ sed -i 's/,KN,/,GRADE-KN,/g' colo.csv
 sed -i '/,DELETE,/d' colo.csv
 
 ##///Staff Section///##
-###Cleaning up AD.csv file
-###NOTE: File needs to be manually downloaded from AD and saved as a CSV file
-###NOTE 2: EmplID field needs to be 6 digits (with leading zeroes) before starting
-###NOTE 3: To be save, making a copy of the ActiveDirectory.csv file to AD.csv
-cp ActiveDirectory.csv AD.csv
+###Cleaning up adout.csv file
+###NOTE: EmplID field needs to be 6 digits (with leading zeroes) before starting
 
+###Delete Headers
+sed -i '/ActiveDirectory/d' adout.csv
+sed -i '/EmployeeID/d' adout.csv
 ###Delete Accounts that we are not importing
 ###09/27/2017 : Not adding Admin, Nutrition, Bus Drivers, Custodians at this time
-sed -i '/,"True",/d' AD.csv
-sed -i '/Students/d' AD.csv
-sed -i '/Users\/Technology Department\/colonial.k12.de.us/d' AD.csv
-sed -i '/Users\/colonial.k12.de.us/d' AD.csv
-sed -i '/Cafeterias/d' AD.csv
-sed -i '/Temp Users\/colonial.k12.de.us/d' AD.csv
-sed -i '/SpecialAccounts/d' AD.csv
-sed -i '/DSC/d' AD.csv
-sed -i '/DCAS/d' AD.csv
-sed -i '/Board of Education/d' AD.csv
-sed -i '/_NEW HIRES/d' AD.csv
-sed -i '/Contractors/d' AD.csv
-sed -i '/DTI-Admin/d' AD.csv
-sed -i '/BusDrivers_CafeWorkers_Custodians/d' AD.csv
-sed -i '/Technology Department/d' AD.csv
-sed -i '/Disabled/d' AD.csv
-sed -i '/Reading Corp/d' AD.csv
-sed -i '/Student Teacher/d' AD.csv
-sed -i '/Maintenance\//d' AD.csv #Add in later
-sed -i '/\/Transportation\//d' AD.csv #Add in later
-
+sed -i '/Students/d' adout.csv
+sed -i '/Operations/d' adout.csv
+sed -i '/Technology/d' adout.csv
+sed -i '/Admin/d' adout.csv
+sed -i '/Disabled/d' adout.csv
+###Delete 'Jrs' (throws off flow)
+sed -i '/Jr./d' adout.csv
+sed -i '/JR/d' adout.csv
 ###Remove Double Quotes
-sed -i 's/\"//g' AD.csv
+sed -i 's/\"//g' adout.csv
+###Remove piece of Distinguished Name to leave location
+sed -i 's/,DC=colonial,DC=k12,DC=de,DC=us//g' adout.csv
+
 
 ###Convert OU to School Location
-sed -i 's/Business\/Users\/Admin Bldg\/colonial.k12.de.us/COLNCELEM/g' AD.csv
-sed -i 's/HR\/Users\/Admin Bldg\/colonial.k12.de.us/COLNCELEM/g' AD.csv
-sed -i 's/Operations\/Users\/Admin Bldg\/colonial.k12.de.us/COLNCELEM/g' AD.csv
-sed -i 's/Schools\/Users\/Admin Bldg\/colonial.k12.de.us/COLNCELEM/g' AD.csv
-sed -i 's/Curriculum and Instruction\/Users\/Admin Bldg\/colonial.k12.de.us/COLNCELEM/g' AD.csv
-sed -i 's/Superintendents Office\/Users\/Admin Bldg\/colonial.k12.de.us/COLNCELEM/g' AD.csv
-sed -i 's/Student Services\/Users\/Admin Bldg\/colonial.k12.de.us/COLNCELEM/g' AD.csv
-sed -i 's/Users\/Admin Bldg\/colonial.k12.de.us/COLNCELEM/g' AD.csv
-sed -i 's/Users\/Carrie Downie\/colonial.k12.de.us/COLDOWNIE/g' AD.csv
-sed -i 's/Users\/Castle Hills\/colonial.k12.de.us/COLCASTLE/g' AD.csv
-sed -i 's/Users\/Pleasantville\/colonial.k12.de.us/COLPLEASNT/g' AD.csv
-sed -i 's/Users\/Wilmington Manor\/colonial.k12.de.us/COLWILMMAN/g' AD.csv
-sed -i 's/Users\/Southern\/colonial.k12.de.us/COLSOUTHRN/g' AD.csv
-sed -i 's/Users\/Kathleen H Wilbur\/colonial.k12.de.us/COLWILBUR/g' AD.csv
-sed -i 's/Users\/New Castle Elementary\/colonial.k12.de.us/COLNCELEM/g' AD.csv
-sed -i 's/Users\/Eisenberg\/colonial.k12.de.us/COLEISENBG/g' AD.csv
-sed -i 's/Users\/Gunning Bedford\/colonial.k12.de.us/COLBEDFORD/g' AD.csv
-sed -i 's/Users\/George Read\/colonial.k12.de.us/COLREAD/g' AD.csv
-sed -i 's/Users\/McCullough Middle\/colonial.k12.de.us/COLMCCULL/g' AD.csv
-sed -i 's/Users\/William Penn\/colonial.k12.de.us/COLPENN/g' AD.csv
-sed -i 's/Users\/Wallin\/colonial.k12.de.us/COLPENN/g' AD.csv
-sed -i 's/Users\/Leach\/colonial.k12.de.us/COLEISENBG/g' AD.csv #Leach Staff will go to Eisenberg for their books
-sed -i 's/Users\/Colwyck\/colonial.k12.de.us/COLEISENBG/g' AD.csv #Colwyck Staff will go to Eisenberg for their books
+#HighSchool and Wallin
+sed -i 's/,OU=William Penn,/,COLPENN,/g' adout.csv
+sed -i 's/,OU=Wallin,/,COLPENN,/g' adout.csv #Wallin Staff wil go to WP for their books
+#Middle Schools
+sed -i 's/,OU=Gunning Bedford,/,COLBEDFORD,/g' adout.csv
+sed -i 's/,OU=George Read,/,COLREAD,/g' adout.csv
+sed -i 's/,OU=McCullough Middle,/,COLMCCULL/g' adout.csv
+#Elementary Schools
+sed -i 's/,OU=Carrie Downie,/,COLDOWNIE,/g' adout.csv
+sed -i 's/,OU=Castle Hills,/,COLCASTLE,/g' adout.csv
+sed -i 's/,OU=Eisenberg,/,COLEISENBG,/g' adout.csv
+sed -i 's/,OU=New Castle Elementary,/,COLNCELEM,/g' adout.csv
+sed -i 's/,OU=Pleasantville,/,COLPLEASNT,/g' adout.csv
+sed -i 's/,OU=Southern,/,COLSOUTHRN,/g' adout.csv
+sed -i 's/,OU=Kathleen H Wilbur,/,COLWILBUR,/g' adout.csv
+sed -i 's/,OU=Wilmington Manor,/,COLWILMMAN,/g' adout.csv
+#Special Schools
+sed -i 's/,OU=Leach,/,COLEISENBG,/g' adout.csv #Leach Staff will go to Eisenberg for their books
+sed -i 's/,OU=Colwyck,/,COLEISENBG,/g' adout.csv #Colwyck Staff will go to Eisenberg for their books
 
 ###Make EmplID 6-digits long
-awk -F',' '{ printf "%s,%s,%s,%s,%s,%s,%s,%s,%06i,%s,%s\n" , $1 , $2 , $3 , $4 , $5 , $6 , $7 , $8 , $9 , $10 , $11 }' AD.csv > adulttemp.csv
+awk -F',' '{ printf "%06i,%s,%s,%s,%s,%s,%s\n" , $1 , $2 , $3 , $4 , $5 , $6 , $7 }' adout.csv > adulttemp.csv
 
 ###Format file to Lib Format
-awk -F',' 'NR>1{print "888"$9",888"$9",\""$10", "$8"\","$6",COLSTAFF,,LIMITED,,,,,NEVER,,,,,,,,,,,"$7}' adulttemp.csv > adult.csv
+awk -F',' 'NR>1{print "888"$1",888"$1",\""$2", "$3"\","$6",COLSTAFF,,LIMITED,,,,,NEVER,,,,,,,,,,,"$4}' adulttemp.csv > adult.csv
 
-###Remove all staff without an EmplID
+###Remove any staff without an EmplID
 sed -i '/,888000000,/d' adult.csv
 
 ###Append Adults into the 'colo.csv' file
@@ -179,4 +173,4 @@ exit
 EOF
 
 ###Cleanup
-rm -rf adult*.csv nutritionemails-en.csv AD.csv *temp.csv mapping*.csv homeroom-en.csv colo.csv # colo
+rm -rf adult*.csv nutritionemails-en.csv adout.csv *temp.csv mapping*.csv homeroom-en.csv colo.csv # colo
