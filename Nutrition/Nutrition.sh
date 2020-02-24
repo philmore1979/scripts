@@ -20,7 +20,7 @@ cat nutritionemails-en.csv | tr "," "\\t" > student.txt
 
 
 ###Copy file to District PrimeroEdge web server
-sshpass -f '/home/philmore/.ssh/PESERVER' sftp -- administrator@34999nutr-web.colonial.k12.de.us <<EOF
+sshpass -f '/home/philmore/.ssh/PESERVER' sftp -- ColonialFTP@ftp.primeroedge.com <<EOF
 cd /C:/Data/Files/Incoming/Student
 put student.txt
 exit
