@@ -1072,7 +1072,7 @@ School_id,Staff_id,Admin_email,First_name,Last_name,Admin_title,Username,Passwor
 ,,,,,,,,
 340476,340476-lmckenna,lindsey.maczynski@colonial.k12.de.us,Lindsey,Maczynski,Math Interventionist,,,STL
 ,,,,,,,,
-340412,340412-ayanna.copper-taylor,Ayanna.Cooper-Taylor@colonial.k12.de.us,Ayanna,Cooper-Taylor,Math Interventionist,,,STL
+340412,340412-ayanna.coopertaylor,Ayanna.CooperTaylor@colonial.k12.de.us,Ayanna,CooperTaylor,Math Interventionist,,,STL
 ,,,,,,,,
 340432,340432-mary.decampli,Mary.DeCampli@colonial.k12.de.us,Mary,DeCampli,Math Interventionist,,,STL
 ,,,,,,,,
@@ -1142,9 +1142,9 @@ School_id,Staff_id,Admin_email,First_name,Last_name,Admin_title,Username,Passwor
 ,,,,,,,,
 340490,340490-Moira.Kostes,Moira.Kostes@colonial.k12.de.us,Moira,Kostes,SEC,,,STL
 ,,,,,,,,
-340999,340999-Stacey.Kotowski,Stacey.Kotowski@colonial.k12.de.us,Stacey,Kotowski,SEC,,,STL
+340450,340999-Stacey.Kotowski,Stacey.Kotowski@colonial.k12.de.us,Stacey,Kotowski,SEC,,,STL
 ,,,,,,,,
-340999,340999-Jennifer.Vikari,Jennifer.Vikari@colonial.k12.de.us,Jennifer,Vikari,SEC,,,STL
+340450,340999-Jennifer.Vikari,Jennifer.Vikari@colonial.k12.de.us,Jennifer,Vikari,SEC,,,STL
 ,,,,,,,,
 340410,340999-Tamara.Wales,Tamara.Wales@colonial.k12.de.us,Tamara,Wales,SEC,,,STL
 ,,,,,,,,
@@ -1342,7 +1342,7 @@ School_id,Staff_id,Admin_email,First_name,Last_name,Admin_title,Username,Passwor
 ,,,,,,,,
 340514,340999-Christine.Palmer,Christine.Palmer@colonial.k12.de.us,Christine,Palmer,PT,,,portal access
 ,,,,,,,,
-340410,340999-Cara.Rose,Cara.Rose@colonial.k12.de.us,Cara,Rose,SLP,,,portal access
+340410,340999-Cara.Rose,cara.rose@colonial.k12.de.us,Cara,Rose,SLP,,,portal access
 ,,,,,,,,
 340412,340999-Lindy.Sagett,Lindy.Sagett@colonial.k12.de.us,Lindy,Sagett,SLP,,,portal access
 ,,,,,,,,
@@ -1454,8 +1454,6 @@ School_id,Staff_id,Admin_email,First_name,Last_name,Admin_title,Username,Passwor
 ,,,,,,,,
 340514,340999-joseph.salerno,joseph.salerno@colonial.k12.de.us,Joseph,Salerno,nurse,,,portal access
 ,,,,,,,,
-340410,340999-linda.hayes,linda.hayes@colonial.k12.de.us,Linda,Hayes,counselor,,,portal access
-,,,,,,,,
 340412,340999-heidi.gerhard,heidi.gerhard@colonial.k12.de.us,Heidi,Gerhard,counselor,,,portal access
 ,,,,,,,,
 340456,340999-kristin.donovan,kristin.donovan@colonial.k12.de.us,Kristin,Donovan,counselor,,,portal access
@@ -1496,7 +1494,7 @@ School_id,Staff_id,Admin_email,First_name,Last_name,Admin_title,Username,Passwor
 ,,,,,,,,
 340490,340999-cheryl.mcphee,cheryl.mcphee@colonial.k12.de.us,Cheryl,Mcphee,counselor,,,portal access
 ,,,,,,,,
-340490,340999-gloria.huynhba,Huynh-bagloria.huynhba@colonial.k12.de.us,Gloria,Huynhba,counselor,,,portal access
+340490,340999-gloria.huynhba,Gloria.Huynh-ba@colonial.k12.de.us,Gloria,Huynhba,counselor,,,portal access
 ,,,,,,,,
 340490,340999-rachel.handyhayes,rachel.handyhayes@colonial.k12.de.us,Rachel,Handy-Hayes,counselor,,,portal access
 ,,,,,,,,
@@ -1507,6 +1505,18 @@ School_id,Staff_id,Admin_email,First_name,Last_name,Admin_title,Username,Passwor
 340490,340999-keri.young,keri.young@colonial.k12.de.us,Keri,Young,counselor,,,portal access
 ,,,,,,,,
 340490,340999-heather.campbell,heather.campbell@colonial.k12.de.us,Heather,Campbell-Molitor,counselor,,,portal access
+,,,,,,,,
+340410,340999-brittany.toler,brittany.toler@colonial.k12.de.us,Brittany,Toler-McNeill,counselor,,,portal access
+,,,,,,,,
+340410,340999-shelby.mclearie,shelby.mclearie@colonial.k12.de.us,Shelby,McLearie,counselor,,,portal access
+,,,,,,,,
+340432,340999-sarah.hoffman,sarah.hoffman@colonial.k12.de.us,Sarah,Hoffman,counselor,,,portal access
+,,,,,,,,
+340514,340999-maggie.mccool,maggie.mccool@colonial.k12.de.us,Maggie,McCool,counselor,,,portal access
+,,,,,,,,
+340476,340999-tonya.baileysmiley,tonya.baileysmiley@colonial.k12.de.us,Tonya,Bailey-Smiley,counselor,,,portal access
+,,,,,,,,
+340490,340999-brandy.bryant,brandy.bryant@colonial.k12.de.us,Brandy,Bryant,counselor,,,portal access
 ,,,,,,,,
 340410,340999-barbara.brooks,barbara.brooks@colonial.k12.de.us,Barbara,Brooks,AT,,,STL
 ,,,,,,,,
