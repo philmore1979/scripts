@@ -1,2 +1,2 @@
 "district_code","district_name","address_1","address_2","city","state","zip","phone","current_school_year"
-"34","Colonial School District","318 E. Basin Road",,"New Castle","DE",19720,"302-323-2700",2019
+"34","Colonial School District","318 E. Basin Road",,"New Castle","DE",19720,"302-323-2700",2020

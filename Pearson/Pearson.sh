@@ -54,7 +54,7 @@ echo "native_section_code,school_code,section_type,section_type_description,date
 ##Drop all non-math sections
 sed -i '/Math/!d' sectionstmp.csv
 ##Pull Data from sectionstmp.csv and put into proper cells
-awk -F',' 'NR>1{print $2","$1",,,2019-08-26,2020-06-10,2019,"$6","$4","$4","$2}' sectionstmp.csv >> PIF_SECTION.csv
+awk -F',' 'NR>1{print $2","$1",,,2020-09-07,2021-06-15,2020,"$6","$4","$4","$2}' sectionstmp.csv >> PIF_SECTION.csv
 
 ##STAFF
 ##Create STAFF file with correct headers
@@ -84,7 +84,7 @@ rm studentstmp.csv STUDENTtmp.csv
 echo "section_teacher_code,staff_code,native_section_code,date_start,date_end,school_year,teacher_of_record,teaching_assignment" > PIF_SECTION_STAFF.csv
 
 ##Pull Data from sectionstmp.csv and put into proper cells
-awk -F',' 'NR>1{print $3"-"$2","$3","$2",2019-08-26,2020-06-10,2019,true,Teacher"}' sectionstmp.csv >> PIF_SECTION_STAFF.csv
+awk -F',' 'NR>1{print $3"-"$2","$3","$2",2020-09-07,2021-06-15,2020,true,Teacher"}' sectionstmp.csv >> PIF_SECTION_STAFF.csv
 ##Remove Temp Sections File
 rm sectionstmp.csv
 
@@ -92,7 +92,7 @@ rm sectionstmp.csv
 ##Create PIF_SECTION_STUDENT file with correct headers
 echo "section_student_code,student_code,native_section_code,date_start,date_end,school_year" > PIF_SECTION_STUDENT.csv
 ##Pull Data from enrollmentstmp.csv and put into proper cells
-awk -F',' 'NR>1{print $2"-"$3","$3","$2",2019-08-26,2020-06-10,2019"}' enrollmentstmp.csv >> PIF_SECTION_STUDENT.csv
+awk -F',' 'NR>1{print $2"-"$3","$3","$2",2020-09-07,2021-06-15,2020,"}' enrollmentstmp.csv >> PIF_SECTION_STUDENT.csv
 ##Remove Temp Enrollments File
 rm enrollmentstmp.csv
 
