@@ -67,6 +67,10 @@ sed -i '/lisa.brewington@colonial.k12.de.us/Id' teachers.csv ##WP
 sed -i '/kevin.white@colonial.k12.de.us@colonial.k12.de.us/Id' teachers.csv ##WW
 sed -i '/katrina.daniels@colonial.k12.de.us/Id' teachers.csv ##COL
 sed -i '/kristina.lamia@colonial.k12.de.us/Id' teachers.csv ##COL
+sed -i '/,dmanninga,/d' teachers.csv #Remove extra account
+sed -i '/,dmanningb,/d' teachers.csv #Remove extra account
+sed -i '/,EKrauss2,/d' teachers.csv # remove extra account
+
 ##Remove Tmp teacher file
 rm teacherstmp.csv
 
@@ -113,7 +117,7 @@ rm studentstmp.csv studentextrainfo.csv studentextrainfofixed.csv
 
 
 ###Upload CSV files to Clever
-sftp responsible-chalkboard-2639@sftp.clever.com <<EOF
+sshpass -f /home/philmore/.ssh/CLEVER sftp responsible-chalkboard-2639@sftp.clever.com <<EOF
 mput *.csv
 exit
 EOF
