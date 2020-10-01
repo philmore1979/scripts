@@ -77,18 +77,18 @@ echo "School_id,Teacher_id,Teacher_number,Teacher_email,First_name,Middle_name,L
 ##Fix teachers with multiple buildings
 ##this section will need to be appended as more teachers are split btw buildings
 ##Eventually, we will change the teacher id piece and not need this
-sed -i 's/,340*-rvila,/,34999-rvila,/d' teacherstmp.csv 
-sed -i 's/,340*-ddaly,/,34999-ddaly,/d' teacherstmp.csv 
-sed -i 's/,340*-nkeenan,/,34999-nkeenan,/d' teacherstmp.csv 
-sed -i 's/,340*-krosenthal,/,34999-krosenthal,/d' teacherstmp.csv 
-sed -i 's/,340*-dperry,/,34999-dperry,/d' teacherstmp.csv 
-sed -i 's/,340*-kschussler,/,34999-kschussler,/d' teacherstmp.csv 
-sed -i 's/,340*-jhiggins,/,34999-jhiggins,/d' teacherstmp.csv 
-sed -i 's/,340*-ttedrick,/,34999-ttedrick,/d' teacherstmp.csv 
-sed -i 's/,340*-kcento,/,34999-kcento,/d' teacherstmp.csv 
-sed -i 's/,340*-dfesmire,/,34999-dfesmire,/d' teacherstmp.csv 
-sed -i 's/,340*-choban,/,34999-choban,/d' teacherstmp.csv 
-sed -i 's/,340*-jhaugh,/,34999-jhaugh,/d' teacherstmp.csv 
+sed -i 's/,340*-rvila,/,34999-rvila,/g' teacherstmp.csv 
+sed -i 's/,340*-ddaly,/,34999-ddaly,/g' teacherstmp.csv 
+sed -i 's/,340*-nkeenan,/,34999-nkeenan,/g' teacherstmp.csv 
+sed -i 's/,340*-krosenthal,/,34999-krosenthal,/g' teacherstmp.csv 
+sed -i 's/,340*-dperry,/,34999-dperry,/g' teacherstmp.csv 
+sed -i 's/,340*-kschussler,/,34999-kschussler,/g' teacherstmp.csv 
+sed -i 's/,340*-jhiggins,/,34999-jhiggins,/g' teacherstmp.csv 
+sed -i 's/,340*-ttedrick,/,34999-ttedrick,/g' teacherstmp.csv 
+sed -i 's/,340*-kcento,/,34999-kcento,/g' teacherstmp.csv 
+sed -i 's/,340*-dfesmire,/,34999-dfesmire,/g' teacherstmp.csv 
+sed -i 's/,340*-choban,/,34999-choban,/g' teacherstmp.csv 
+sed -i 's/,340*-jhaugh,/,34999-jhaugh,/g' teacherstmp.csv 
 
 ##Removing Extra Accounts that are in the Teacher File
 sed -i '/,dmanninga,/d' teacherstmp.csv #Remove extra account
@@ -110,18 +110,18 @@ awk -F',' '{print $1","$1"-"$2","$3","$4","$5","$6","$7","$8}' sectionstmp.csv >
 sed -i 's/,School_id-Section_id,/,Section_id,/g' sections.csv
 #Update 11/14/2019
 #Need to update Teacher_IDs for Teachers in multiple schools
-sed -i 's/,340*-rvila,/,34999-rvila,/d' sections.csv 
-sed -i 's/,340*-ddaly,/,34999-ddaly,/d' sections.csv 
-sed -i 's/,340*-nkeenan,/,34999-nkeenan,/d' sections.csv 
-sed -i 's/,340*-krosenthal,/,34999-krosenthal,/d' sections.csv 
-sed -i 's/,340*-dperry,/,34999-dperry,/d' sections.csv 
-sed -i 's/,340*-kschussler,/,34999-kschussler,/d' sections.csv 
-sed -i 's/,340*-jhiggins,/,34999-jhiggins,/d' sections.csv 
-sed -i 's/,340*-ttedrick,/,34999-ttedrick,/d' sections.csv 
-sed -i 's/,340*-kcento,/,34999-kcento,/d' sections.csv 
-sed -i 's/,340*-dfesmire,/,34999-dfesmire,/d' sections.csv 
-sed -i 's/,340*-choban,/,34999-choban,/d' sections.csv 
-sed -i 's/,340*-jhaugh,/,34999-jhaugh,/d' sections.csv 
+sed -i 's/,340*-rvila,/,34999-rvila,/g' sections.csv 
+sed -i 's/,340*-ddaly,/,34999-ddaly,/g' sections.csv 
+sed -i 's/,340*-nkeenan,/,34999-nkeenan,/g' sections.csv 
+sed -i 's/,340*-krosenthal,/,34999-krosenthal,/g' sections.csv 
+sed -i 's/,340*-dperry,/,34999-dperry,/g' sections.csv 
+sed -i 's/,340*-kschussler,/,34999-kschussler,/g' sections.csv 
+sed -i 's/,340*-jhiggins,/,34999-jhiggins,/g' sections.csv 
+sed -i 's/,340*-ttedrick,/,34999-ttedrick,/g' sections.csv 
+sed -i 's/,340*-kcento,/,34999-kcento,/g' sections.csv 
+sed -i 's/,340*-dfesmire,/,34999-dfesmire,/g' sections.csv 
+sed -i 's/,340*-choban,/,34999-choban,/g' sections.csv 
+sed -i 's/,340*-jhaugh,/,34999-jhaugh,/g' sections.csv 
 #Remove tmp file
 rm sectionstmp.csv
 
