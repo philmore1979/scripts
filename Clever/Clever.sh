@@ -48,28 +48,55 @@ rm enrollments1.csv enrollments2.csv
 ##Teacher File
 #Setup headers for Teacher file
 echo "School_id,Teacher_id,Teacher_number,Teacher_email,First_name,Middle_name,Last_name" > teachers.csv
+
 ##Drop Duplicate Teachers
-sort -u -t',' -k3,3 teacherstmp.csv >> teachers.csv  
+##NOTE: 10/01/2020 removing this section, because we need to not remove all duplicates
+#sort -u -t',' -k3,3 teacherstmp.csv >> teachers.csv  
+
+
 ##Remove Principals from Teacher File
 ##Needed to prevent conflicts with the admin.csv file
-sed -i '/douglas.timm@colonial.k12.de.us/Id' teachers.csv ##CDE
-sed -i '/teray.ross@colonial.k12.de.us/Id' teachers.csv ##NCE
-sed -i '/janissa.nuneville@colonial.k12.de.us/Id' teachers.csv ##CHE
-sed -i '/David.Distler@colonial.k12.de.us/Id' teachers.csv ##EIS
-sed -i '/jennifer.alexander@colonial.k12.de.us/Id' teachers.csv ##PLV
-sed -i '/elizabeth.howell@colonial.k12.de.us/Id' teachers.csv ##WIL
-sed -i '/Jeffory.Gibeault@colonial.k12.de.us@colonial.k12.de.us/Id' teachers.csv ##SOU
-sed -i '/lindsay.diemidio@colonial.k12.de.us/Id' teachers.csv ##WME
-sed -i '/nicholas.wolfe@colonial.k12.de.us/Id' teachers.csv ##GRM
-sed -i '/daniel.bartnik@colonial.k12.de.us@colonial.k12.de.us/Id' teachers.csv ##GBM
-sed -i '/william.johnston@colonial.k12.de.us/Id' teachers.csv ##MCC
-sed -i '/lisa.brewington@colonial.k12.de.us/Id' teachers.csv ##WP
-sed -i '/kevin.white@colonial.k12.de.us@colonial.k12.de.us/Id' teachers.csv ##WW
-sed -i '/katrina.daniels@colonial.k12.de.us/Id' teachers.csv ##COL
-sed -i '/kristina.lamia@colonial.k12.de.us/Id' teachers.csv ##COL
-sed -i '/,dmanninga,/d' teachers.csv #Remove extra account
-sed -i '/,dmanningb,/d' teachers.csv #Remove extra account
-sed -i '/,EKrauss2,/d' teachers.csv # remove extra account
+##NOTE: 10/01/2020 - Checked Teacher file, and these staff members have been removed 
+##This logic is no longer needed 
+#sed -i '/douglas.timm@colonial.k12.de.us/Id' teachers.csv ##CDE
+#sed -i '/teray.ross@colonial.k12.de.us/Id' teachers.csv ##NCE
+#sed -i '/janissa.nuneville@colonial.k12.de.us/Id' teachers.csv ##CHE
+#sed -i '/David.Distler@colonial.k12.de.us/Id' teachers.csv ##EIS
+#sed -i '/jennifer.alexander@colonial.k12.de.us/Id' teachers.csv ##PLV
+#sed -i '/elizabeth.howell@colonial.k12.de.us/Id' teachers.csv ##WIL
+#sed -i '/Jeffory.Gibeault@colonial.k12.de.us@colonial.k12.de.us/Id' teachers.csv ##SOU
+#sed -i '/lindsay.diemidio@colonial.k12.de.us/Id' teachers.csv ##WME
+#sed -i '/nicholas.wolfe@colonial.k12.de.us/Id' teachers.csv ##GRM
+#sed -i '/daniel.bartnik@colonial.k12.de.us@colonial.k12.de.us/Id' teachers.csv ##GBM
+#sed -i '/william.johnston@colonial.k12.de.us/Id' teachers.csv ##MCC
+#sed -i '/lisa.brewington@colonial.k12.de.us/Id' teachers.csv ##WP
+#sed -i '/kevin.white@colonial.k12.de.us@colonial.k12.de.us/Id' teachers.csv ##WW
+#sed -i '/katrina.daniels@colonial.k12.de.us/Id' teachers.csv ##COL
+#sed -i '/kristina.lamia@colonial.k12.de.us/Id' teachers.csv ##COL
+
+##Fix teachers with multiple buildings
+##this section will need to be appended as more teachers are split btw buildings
+##Eventually, we will change the teacher id piece and not need this
+sed -i 's/,340*-rvila,/,34999-rvila,/d' teacherstmp.csv 
+sed -i 's/,340*-ddaly,/,34999-ddaly,/d' teacherstmp.csv 
+sed -i 's/,340*-nkeenan,/,34999-nkeenan,/d' teacherstmp.csv 
+sed -i 's/,340*-krosenthal,/,34999-krosenthal,/d' teacherstmp.csv 
+sed -i 's/,340*-dperry,/,34999-dperry,/d' teacherstmp.csv 
+sed -i 's/,340*-kschussler,/,34999-kschussler,/d' teacherstmp.csv 
+sed -i 's/,340*-jhiggins,/,34999-jhiggins,/d' teacherstmp.csv 
+sed -i 's/,340*-ttedrick,/,34999-ttedrick,/d' teacherstmp.csv 
+sed -i 's/,340*-kcento,/,34999-kcento,/d' teacherstmp.csv 
+sed -i 's/,340*-dfesmire,/,34999-dfesmire,/d' teacherstmp.csv 
+sed -i 's/,340*-choban,/,34999-choban,/d' teacherstmp.csv 
+sed -i 's/,340*-jhaugh,/,34999-jhaugh,/d' teacherstmp.csv 
+
+##Removing Extra Accounts that are in the Teacher File
+sed -i '/,dmanninga,/d' teacherstmp.csv #Remove extra account
+sed -i '/,dmanningb,/d' teacherstmp.csv #Remove extra account
+sed -i '/,EKrauss2,/d' teacherstmp.csv #Remove extra account
+
+##Adding final piece to file
+cat teacherstmp.csv >> teachers.csv
 
 ##Remove Tmp teacher file
 rm teacherstmp.csv
@@ -82,9 +109,19 @@ rm teacherstmp.csv
 awk -F',' '{print $1","$1"-"$2","$3","$4","$5","$6","$7","$8}' sectionstmp.csv > sections.csv
 sed -i 's/,School_id-Section_id,/,Section_id,/g' sections.csv
 #Update 11/14/2019
-#Need to update Teacher_IDs for Hoban and Haugh to reflect one that wasnt dropped
-sed -i 's/,340422-choban,/,340410-choban,/g' sections.csv
-sed -i 's/,340427-jhaugh,/,340420-jhaugh,/g' sections.csv
+#Need to update Teacher_IDs for Teachers in multiple schools
+sed -i 's/,340*-rvila,/,34999-rvila,/d' sections.csv 
+sed -i 's/,340*-ddaly,/,34999-ddaly,/d' sections.csv 
+sed -i 's/,340*-nkeenan,/,34999-nkeenan,/d' sections.csv 
+sed -i 's/,340*-krosenthal,/,34999-krosenthal,/d' sections.csv 
+sed -i 's/,340*-dperry,/,34999-dperry,/d' sections.csv 
+sed -i 's/,340*-kschussler,/,34999-kschussler,/d' sections.csv 
+sed -i 's/,340*-jhiggins,/,34999-jhiggins,/d' sections.csv 
+sed -i 's/,340*-ttedrick,/,34999-ttedrick,/d' sections.csv 
+sed -i 's/,340*-kcento,/,34999-kcento,/d' sections.csv 
+sed -i 's/,340*-dfesmire,/,34999-dfesmire,/d' sections.csv 
+sed -i 's/,340*-choban,/,34999-choban,/d' sections.csv 
+sed -i 's/,340*-jhaugh,/,34999-jhaugh,/d' sections.csv 
 #Remove tmp file
 rm sectionstmp.csv
 
@@ -117,10 +154,10 @@ rm studentstmp.csv studentextrainfo.csv studentextrainfofixed.csv
 
 
 ###Upload CSV files to Clever
-sshpass -f /home/philmore/.ssh/CLEVER sftp responsible-chalkboard-2639@sftp.clever.com <<EOF
-mput *.csv
-exit
-EOF
+#sshpass -f /home/philmore/.ssh/CLEVER sftp responsible-chalkboard-2639@sftp.clever.com <<EOF
+#mput *.csv
+#exit
+#EOF
 
 ###Cleanup
-rm schools.csv students.csv teachers.csv sections.csv enrollments.csv clever-en.xlsx
+#rm schools.csv students.csv teachers.csv sections.csv enrollments.csv clever-en.xlsx
