@@ -97,9 +97,12 @@ sed -i '/,dmanningb,/d' teacherstmp.csv #Remove extra account
 sed -i '/,340432-jcoursey,/d' teacherstmp.csv #Remove extra account
 sed -i '/,EKrauss2,/d' teacherstmp.csv #Remove extra account
 
+##Remove duplicates based on Teacher Number 
+sort -u -t',' -k3,3 teacherstmp.csv >> teachers.csv  
+
 
 ##Adding final piece to file
-cat teacherstmp.csv >> teachers.csv
+#cat teacherstmp.csv >> teachers.csv
 
 ##Remove Tmp teacher file
 rm teacherstmp.csv
