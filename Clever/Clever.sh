@@ -89,11 +89,14 @@ sed -i 's/,340[0-9]*-kcento,/,34999-kcento,/g' teacherstmp.csv
 sed -i 's/,340[0-9]*-dfesmire,/,34999-dfesmire,/g' teacherstmp.csv 
 sed -i 's/,340[0-9]*-choban,/,34999-choban,/g' teacherstmp.csv 
 sed -i 's/,340[0-9]*-jhaugh,/,34999-jhaugh,/g' teacherstmp.csv 
+sed -i 's/,340[0-9]*-rpoore,/,34999-rpoore,/g' teacherstmp.csv 
 
 ##Removing Extra Accounts that are in the Teacher File
 sed -i '/,dmanninga,/d' teacherstmp.csv #Remove extra account
 sed -i '/,dmanningb,/d' teacherstmp.csv #Remove extra account
+sed -i '/,340432-jcoursey,/d' teacherstmp.csv #Remove extra account
 sed -i '/,EKrauss2,/d' teacherstmp.csv #Remove extra account
+
 
 ##Adding final piece to file
 cat teacherstmp.csv >> teachers.csv
@@ -122,6 +125,8 @@ sed -i 's/,340[0-9]*-kcento,/,34999-kcento,/g' sections.csv
 sed -i 's/,340[0-9]*-dfesmire,/,34999-dfesmire,/g' sections.csv 
 sed -i 's/,340[0-9]*-choban,/,34999-choban,/g' sections.csv 
 sed -i 's/,340[0-9]*-jhaugh,/,34999-jhaugh,/g' sections.csv 
+sed -i 's/,340[0-9]*-rpoore,/,34999-rpoore,/g' sections.csv 
+
 #Remove tmp file
 rm sectionstmp.csv
 
