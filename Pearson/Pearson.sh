@@ -92,7 +92,7 @@ rm sectionstmp.csv
 ##Create PIF_SECTION_STUDENT file with correct headers
 echo "section_student_code,student_code,native_section_code,date_start,date_end,school_year" > PIF_SECTION_STUDENT.csv
 ##Pull Data from enrollmentstmp.csv and put into proper cells
-awk -F',' 'NR>1{print $2"-"$3","$3","$2",2020-09-07,2021-06-15,2020,"}' enrollmentstmp.csv >> PIF_SECTION_STUDENT.csv
+awk -F',' 'NR>1{print $2"-"$3","$3","$2",2020-09-07,2021-06-15,2020"}' enrollmentstmp.csv >> PIF_SECTION_STUDENT.csv
 ##Remove Temp Enrollments File
 rm enrollmentstmp.csv
 
