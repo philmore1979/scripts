@@ -11,6 +11,8 @@ get Cognos/nutritionemails-en.csv
 exit
 EOF
 
+###Remove line returns 
+dos2unix nutritionemails-en.csv
 
 ###Delete all schools except Wilbur Z-calendar (888) students
 #dropschools = [410, 412, 420, 427, 432, 450, 456, 470, 474, 476, 490, 514, 522]
@@ -21,7 +23,7 @@ done
 ###Create final file
 echo 'SchoolCode,FirstName,LastName,Grade,MostUsedPickupMode,BusRoute,AfterSchool,Guardian1FirstName,Guardian1LastName,Guardian1Mobile,Guardian2FirstName,Guardian2LastName,Guardian2Mobile,GuardianEmail,HomeRoom,StudentSchoolID' > studentrecords.csv
 ##
-awk -F',' 'NR>1{print $6","$2","$3","$7",,,,"$18","$19","$20",,,,"$20","$17","$1}' nutritionemails-en.csv >> studentrecords.csv
+awk -F',' 'NR>1{print $6","$2","$3","$7",,,,"$18","$19","$20",,,,"$22","$17","$1}' nutritionemails-en.csv >> studentrecords.csv
 
 
 
