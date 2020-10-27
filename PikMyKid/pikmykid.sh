@@ -13,8 +13,8 @@ EOF
 
 
 ###Delete all schools except Wilbur Z-calendar (888) students
-dropschools = [410, 412, 420, 427, 432, 450, 456, 470, 474, 476, 490, 514, 522]
-for i in dropschools
+#dropschools = [410, 412, 420, 427, 432, 450, 456, 470, 474, 476, 490, 514, 522]
+for i in 410 412 420 427 432 450 456 470 474 476 490 514 522
  do `sed -i '/,$i,/d' nutritionemails-en.csv`
 done
 
