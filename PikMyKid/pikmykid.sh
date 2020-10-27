@@ -22,7 +22,7 @@ done
 echo "SchoolCode,FirstName,LastName,Grade,MostUsedPickupMode,BusRoute,AfterSchool,Guardian1FirstName,Guardian1LastName,Guardian1Mobile,Guardian2FirstName,Guardian2LastName,Guardian2Mobile,GuardianEmail,HomeRoom,StudentSchoolID
 " > studentrecords.csv
 ##
-awk -F',' '{print $6","$2","$3","$7",,,,"$18","$19","$20",,,,"$22","$17","$1}' nutritionemails.csv >> studentrecords.csv
+awk -F',' '{print $6","$2","$3","$7",,,,"$18","$19","$20",,,,"$22","$17","$1}' nutritionemails-en.csv >> studentrecords.csv
 
 
 
