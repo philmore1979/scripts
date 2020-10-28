@@ -25,3 +25,6 @@ sshpass -f '/home/philmore/.ssh/HEART' sftp -oHostKeyAlgorithms=+ssh-dss 1000230
 put colonial_myschoolbucks.csv 
 exit
 EOF
+
+###Clean up old files
+rm colonial_myschoolbucks.csv nutritionemails-en.csv
