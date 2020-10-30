@@ -66,10 +66,10 @@ native_assignment_code,staff_code,school_year,institution_code,date_start,date_e
 34999-gail.nowak-340456,34999-gail.nowak,2020,340456,2020-09-07,2021-06-15,,Staff
 34999-megan.blythe-hores-340456,34999-megan.blythe-hores,2020,340456,2020-09-07,2021-06-15,,Staff
 34999-ayanna.cooper-taylor-340412,34999-ayanna.cooper-taylor,2020,340412,2020-09-07,2021-06-15,,Staff
-#34999-kimberly.washko-340422,34999-kimberly.washko,2020,340422,2020-09-07,2021-06-15,,Staff
+34999-kimberly.washko-340422,340422-kstaplefor,2020,340422,2020-09-07,2021-06-15,,Staff
 340422-elizabeth.vonhagel-340422,340422-evonhagel,2020,340422,2020-09-07,2021-06-15,,Staff
-#34999-casey.bowne-340422,34999-casey.bowne,2020,340422,2020-09-07,2021-06-15,,Staff
-#34999-alyssa.taylor-340422,34999-alyssa.taylor,2020,340422,2020-09-07,2021-06-15,,Staff
+34999-casey.bowne-340422,340422-cbowne,2020,340422,2020-09-07,2021-06-15,,Staff
+34999-alyssa.taylor-340422,340422-afranz,2020,340422,2020-09-07,2021-06-15,,Staff
 34999-joanna.wright-340422,34999-joanna.wright,2020,340422,2020-09-07,2021-06-15,,Staff
 34999-antony.lewis-340422,34999-antony.lewis,2020,340422,2020-09-07,2021-06-15,,Staff
 34999-janae.priest-340422,34999-janae.priest,2020,340422,2020-09-07,2021-06-15,,Staff
