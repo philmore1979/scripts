@@ -1,13 +1,12 @@
 #!/bin/bash
 
-###Script to check if servers are up from home
+###OffSite Server Check
+###Script to scan network servers from off network 
 
-###Define servers
-SERVERS=(helpdesk.colonial.k12.de.us 34999-inventory.colonial.k12.de.us jamf.colonial.k12.de.us 34999-wellness.colonial.k12.de.us)
+###Define Servers
+SERVERS=('34999-inventory.colonial.k12.de.us' 'helpdesk.colonial.k12.de.us' 'jamf.colonial.k12.de.us' '34999-wellness.colonial.k12.de.us')
 
-###Scan servers with nmap
-for i in $SERVERS 
-do 
-    echo $i
-    #nmap -p 443 $i
+###Scan them
+for i in "${SERVERS[@]}"; do 
+	nmap -p 443 $i
 done
