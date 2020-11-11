@@ -77,26 +77,43 @@ echo "School_id,Teacher_id,Teacher_number,Teacher_email,First_name,Middle_name,L
 ##Fix teachers with multiple buildings
 ##this section will need to be appended as more teachers are split btw buildings
 ##Eventually, we will change the teacher id piece and not need this
-sed -i 's/,340[0-9]*-rvila,/,34999-rvila,/g' teacherstmp.csv 
-sed -i 's/,340[0-9]*-ddaly,/,34999-ddaly,/g' teacherstmp.csv 
-sed -i 's/,340[0-9]*-nkeenan,/,34999-nkeenan,/g' teacherstmp.csv 
-sed -i 's/,340[0-9]*-krosenthal,/,34999-krosenthal,/g' teacherstmp.csv 
-sed -i 's/,340[0-9]*-dperry,/,34999-dperry,/g' teacherstmp.csv 
-sed -i 's/,340[0-9]*-kschussler,/,34999-kschussler,/g' teacherstmp.csv 
-sed -i 's/,340[0-9]*-jhiggins,/,34999-jhiggins,/g' teacherstmp.csv 
-sed -i 's/,340[0-9]*-ttedrick,/,34999-ttedrick,/g' teacherstmp.csv 
-sed -i 's/,340[0-9]*-kcento,/,34999-kcento,/g' teacherstmp.csv 
-sed -i 's/,340[0-9]*-dfesmire,/,34999-dfesmire,/g' teacherstmp.csv 
-sed -i 's/,340[0-9]*-choban,/,34999-choban,/g' teacherstmp.csv 
-sed -i 's/,340[0-9]*-jhaugh,/,34999-jhaugh,/g' teacherstmp.csv 
-sed -i 's/,340[0-9]*-rpoore,/,34999-rpoore,/g' teacherstmp.csv 
+
+###Define Teachers
+RepeatTeachers=('rvila' 'ddaly' 'nkeenan' 'krosenthal' 'dperry' 'kschussler' 'jhiggins' 'ttedrick' 'kcento' 'dfesmire' 'choban' 'jhaugh' 'rpoore')
+
+###Fixing the teachers
+for i in "${RepeatTeachers[@]}"; do 
+    sed -i "s/,340[0-9]*-$i,/,34999-$i,/g" teacherstmp.csv 
+done 
+
+#sed -i 's/,340[0-9]*-rvila,/,34999-rvila,/g' teacherstmp.csv 
+##sed -i 's/,340[0-9]*-ddaly,/,34999-ddaly,/g' teacherstmp.csv 
+#sed -i 's/,340[0-9]*-nkeenan,/,34999-nkeenan,/g' teacherstmp.csv 
+#sed -i 's/,340[0-9]*-krosenthal,/,34999-krosenthal,/g' teacherstmp.csv 
+#sed -i 's/,340[0-9]*-dperry,/,34999-dperry,/g' teacherstmp.csv 
+#sed -i 's/,340[0-9]*-kschussler,/,34999-kschussler,/g' teacherstmp.csv 
+#sed -i 's/,340[0-9]*-jhiggins,/,34999-jhiggins,/g' teacherstmp.csv 
+#sed -i 's/,340[0-9]*-ttedrick,/,34999-ttedrick,/g' teacherstmp.csv 
+#sed -i 's/,340[0-9]*-kcento,/,34999-kcento,/g' teacherstmp.csv 
+#sed -i 's/,340[0-9]*-dfesmire,/,34999-dfesmire,/g' teacherstmp.csv 
+#sed -i 's/,340[0-9]*-choban,/,34999-choban,/g' teacherstmp.csv 
+#sed -i 's/,340[0-9]*-jhaugh,/,34999-jhaugh,/g' teacherstmp.csv 
+#sed -i 's/,340[0-9]*-rpoore,/,34999-rpoore,/g' teacherstmp.csv 
 
 ##Removing Extra Accounts that are in the Teacher File
-sed -i '/,dmanninga,/d' teacherstmp.csv #Remove extra account
-sed -i '/,dmanningb,/d' teacherstmp.csv #Remove extra account
-sed -i '/,340432-jcoursey,/d' teacherstmp.csv #Remove extra account
-sed -i '/,EKrauss2,/d' teacherstmp.csv #Remove extra account
-sed -i '/,340450-scushing2,/d' teacherstmp.csv #Remove extra account
+###Define Extras
+Extras=('dmanninga' 'dmanningb' '340432-jcoursey' 'EKrauss2' '340450-scushing2')
+
+###Remove
+for i in "${Extras[@]}"; do 
+    sed -i "/,$i,/d" teacherstmp.csv 
+done 
+
+#sed -i '/,dmanninga,/d' teacherstmp.csv #Remove extra account
+#sed -i '/,dmanningb,/d' teacherstmp.csv #Remove extra account
+#sed -i '/,340432-jcoursey,/d' teacherstmp.csv #Remove extra account
+#sed -i '/,EKrauss2,/d' teacherstmp.csv #Remove extra account
+#sed -i '/,340450-scushing2,/d' teacherstmp.csv #Remove extra account
 
 ##Remove duplicates based on Teacher Number 
 sort -u -t',' -k3,3 teacherstmp.csv >> teachers.csv  
@@ -117,19 +134,23 @@ awk -F',' '{print $1","$1"-"$2","$3","$4","$5","$6","$7","$8}' sectionstmp.csv >
 sed -i 's/,School_id-Section_id,/,Section_id,/g' sections.csv
 #Update 11/14/2019
 #Need to update Teacher_IDs for Teachers in multiple schools
-sed -i 's/,340[0-9]*-rvila,/,34999-rvila,/g' sections.csv 
-sed -i 's/,340[0-9]*-ddaly,/,34999-ddaly,/g' sections.csv 
-sed -i 's/,340[0-9]*-nkeenan,/,34999-nkeenan,/g' sections.csv 
-sed -i 's/,340[0-9]*-krosenthal,/,34999-krosenthal,/g' sections.csv 
-sed -i 's/,340[0-9]*-dperry,/,34999-dperry,/g' sections.csv 
-sed -i 's/,340[0-9]*-kschussler,/,34999-kschussler,/g' sections.csv 
-sed -i 's/,340[0-9]*-jhiggins,/,34999-jhiggins,/g' sections.csv 
-sed -i 's/,340[0-9]*-ttedrick,/,34999-ttedrick,/g' sections.csv 
-sed -i 's/,340[0-9]*-kcento,/,34999-kcento,/g' sections.csv 
-sed -i 's/,340[0-9]*-dfesmire,/,34999-dfesmire,/g' sections.csv 
-sed -i 's/,340[0-9]*-choban,/,34999-choban,/g' sections.csv 
-sed -i 's/,340[0-9]*-jhaugh,/,34999-jhaugh,/g' sections.csv 
-sed -i 's/,340[0-9]*-rpoore,/,34999-rpoore,/g' sections.csv 
+for i in "${RepeatTeachers[@]}"; do 
+    sed -i "s/,340[0-9]*-$i,/,34999-$i,/g" sections.csv
+done 
+
+#sed -i 's/,340[0-9]*-rvila,/,34999-rvila,/g' sections.csv 
+#sed -i 's/,340[0-9]*-ddaly,/,34999-ddaly,/g' sections.csv 
+#sed -i 's/,340[0-9]*-nkeenan,/,34999-nkeenan,/g' sections.csv 
+#sed -i 's/,340[0-9]*-krosenthal,/,34999-krosenthal,/g' sections.csv 
+#sed -i 's/,340[0-9]*-dperry,/,34999-dperry,/g' sections.csv 
+#sed -i 's/,340[0-9]*-kschussler,/,34999-kschussler,/g' sections.csv 
+#sed -i 's/,340[0-9]*-jhiggins,/,34999-jhiggins,/g' sections.csv 
+#sed -i 's/,340[0-9]*-ttedrick,/,34999-ttedrick,/g' sections.csv 
+#sed -i 's/,340[0-9]*-kcento,/,34999-kcento,/g' sections.csv 
+#sed -i 's/,340[0-9]*-dfesmire,/,34999-dfesmire,/g' sections.csv 
+#sed -i 's/,340[0-9]*-choban,/,34999-choban,/g' sections.csv 
+#sed -i 's/,340[0-9]*-jhaugh,/,34999-jhaugh,/g' sections.csv 
+#sed -i 's/,340[0-9]*-rpoore,/,34999-rpoore,/g' sections.csv 
 
 #Remove tmp file
 rm sectionstmp.csv
