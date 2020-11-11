@@ -32,5 +32,5 @@ if grep -q down log; then
 elif grep -q filtered log; then
 	/usr/bin/mpack -s "This is weird!" log philmore1979@gmail.com
 else
-	echo "All good" | /etc/ssmtp philmore1979@gmail.com
+	echo "All good" | /usr/sbin/ssmtp philmore1979@gmail.com
 fi
