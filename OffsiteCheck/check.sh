@@ -6,10 +6,13 @@
 ####Needs NMAP and SSMTP installed
 ####SSMTP needs to be configured with an SMTP Host
 
-##Get Timestamp
+###Starting directory
+cd /home/philmore/scripts/OffsiteCheck
+
+###Get Timestamp
 Time=$(date)
 
-##Create blank log file
+###Create blank log file
 echo "This script ran at $Time" > log
 
 ###Define Servers
@@ -20,11 +23,14 @@ for i in "${SERVERS[@]}"; do
 	nmap -p 443 $i >> log
 done
 
+###Remove annoying start line from report
+sed -i '/Starting/d' log
+
 ###Look through log and email if not up
 if grep -q down log; then
-	mpack -s "We've got problems!" log philmore1979@gmail.com
+	/usr/bin/mpack -s "We've got problems!" log philmore1979@gmail.com
 elif grep -q filtered log; then
-	mpack -s "This is weird!" log philmore1979@gmail.com
+	/usr/bin/mpack -s "This is weird!" log philmore1979@gmail.com
 else
-	echo "All good" | ssmtp philmore1979@gmail.com
+	echo "All good" | /etc/ssmtp philmore1979@gmail.com
 fi
