@@ -1,5 +1,9 @@
 #Ubuntu Workstation Setup
+#Last Updated : 11/12/2020
 #Script to be used to install software used on my ubuntu workstations
+
+##Setup Snapd
+sudo apt install snapd -y
 
 #Update Machine
 echo "Installing System Updates...(this will take awhile)"
@@ -10,27 +14,43 @@ echo "Done"
 #Install Software
 ##Software in Default Repos
 echo "Installing Repo Software...(this will take awhile)"
-sudo apt install gimp gnome-tweaks virt-manager filezilla vim gdebi keepassx xournal evolution evolution-ews audacity gnumeric vlc chromium-browser git calibre zenmap vim virtualbox ssh-askpass-gnome vagrant ansible zsh powerline fonts-powerline zsh-theme-powerlevel9k zsh-syntax-highlighting -y &> /dev/null
+sudo apt install gimp gnome-tweaks virt-manager filezilla vim gdebi xournal evolution evolution-ews audacity gnumeric vlc git calibre nmap vim virtualbox ssh-askpass-gnome vagrant ansible zsh powerline fonts-powerline zsh-theme-powerlevel9k zsh-syntax-highlighting nextcloud-desktop -y &> /dev/null
 echo "Done"
-##Install Nextcloud Client
-echo "Installing Nextcloud Client from PPA..."
-sudo add-apt-repository ppa:nextcloud-devs/client -y &> /dev/null
-sudo apt update &> /dev/null 
-sudo apt install nextcloud-client -y &> /dev/null
-echo "Done"
+
 ##Install Google Chrome
 echo "Installing Google Chrome..."
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb  &> /dev/null
 sudo dpkg -i google-chrome-stable_current_amd64.deb &> /dev/null
 rm google-chrome-stable_current_amd64.deb &> /dev/null
 echo "Done"
-##Install Snap Packages
-echo "Installing Snap Packages..."
-# sudo snap install qownnotes &> /dev/null ##Switched to new app
-sudo snap install bitwarden
-sudo snap install --classic code &> /dev/null
-sudo snap install --classic powershell &> /dev/null
+
+##Install Edge Browser
+echo "Installing Microsoft Edge"
+curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
+sudo install -o root -g root -m 644 microsoft.gpg /etc/apt/trusted.gpg.d/
+sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/edge stable main" > /etc/apt/sources.list.d/microsoft-edge-dev.list'
+sudo apt update -y
+sudo apt install microsoft-edge-dev -y
+rm microsoft.gpg
 echo "Done"
+
+##Install VSCode
+wget https://go.microsoft.com/fwlink/?LinkID=760868  -O vscode.deb
+sudo dpkg -i vscode.deb
+rm vscode.debls
+echo "Done"
+
+##Install Brave Browser
+curl -s https://brave-browser-apt-release.s3.brave.com/brave-core.asc | sudo apt-key --keyring /etc/apt/trusted.gpg.d/brave-browser-release.gpg add -
+echo "deb [arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable main" | sudo tee /etc/apt/sources.list.d/brave-browser-release.list
+sudo apt update
+sudo apt install brave-browser -y
+
+##Install Powershell
+snap install powershell --classic
+snap install mmex
+snap install bitwarden
+
 #Customizations for ZSH
 echo "Setting up ZSH..."
 ##Set ZSH to Default Shell for Current User
@@ -44,11 +64,9 @@ cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc &> /dev/null
 ##Add Syntax Highlighting
 #echo "source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ~/.zshrc
 echo "Done"
-#Install Pulse Secure VPN (deb file in git repo)
-echo "Install Pulse Secure..."
-sudo dpkg -i pulse-9.0R1.x86_64.deb &> /dev/null
-sudo apt install libwebkitgtk-1.0-0 -y &> /dev/null
-echo "Done"
 
-##Still in progress - CURRENTLY NONE
+##TODO
+
+##Script for VPN
+
 
