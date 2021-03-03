@@ -1,4 +1,4 @@
-School_id,Staff_id,Admin_email,First_name,Last_name,Admin_title,Username,Password,Role
+Building,Staff_id,Admin_email,First_name,Last_name,Admin_title,Username,Password,Role
 ,,,,,,,,
 340410,340410-jennifer.klima,jennifer.klima@colonial.k12.de.us,Jennifer,Klima,Building Coach - ELA,,,STL
 ,,,,,,,,
@@ -30,7 +30,7 @@ School_id,Staff_id,Admin_email,First_name,Last_name,Admin_title,Username,Passwor
 ,,,,,,,,
 340420,340420-lori.wiseman,lori.wiseman@colonial.k12.de.us,Lori,Wiseman,Building Coach - Math,,,STL
 ,,,,,,,,
-340412,340412-catharine.rana,catharine.rana@colonial.k12.de.us,Catharine,Rana,Building Coach - Math,,,STL
+340412,340412-catharine.rana,catharine.rana@colonial.k12.de.us,Catherine,Rana,Building Coach - Math,,,STL
 ,,,,,,,,
 340410,340410-michelle.wolfe,michelle.wolfe@colonial.k12.de.us,Michelle,Wolfe,Building Coach - Math,,,STL
 ,,,,,,,,
@@ -90,7 +90,7 @@ School_id,Staff_id,Admin_email,First_name,Last_name,Admin_title,Username,Passwor
 ,,,,,,,,
 340490,340490-james.zimmerman,james.zimmerman@colonial.k12.de.us,James,Zimmerman,Deputy Principal,,,STL
 ,,,,,,,,
-340490,340490-michelle.jones,michelle.jones@colonial.k12.de.us,Michelle,Jones,Deputy Principal,,,STL
+340490,340490-michelle.jones,michellemarie.jones@colonial.k12.de.us,Michelle,Jones,Deputy Principal,,,STL
 ,,,,,,,,
 340410,340410-douglas.timm,douglas.timm@colonial.k12.de.us,Douglas,Timm,Principal,,,STL
 ,,,,,,,,
@@ -1304,6 +1304,8 @@ School_id,Staff_id,Admin_email,First_name,Last_name,Admin_title,Username,Passwor
 ,,,,,,,,
 340450,340999-Chelsea.Derkacz,Chelsea.Derkacz@colonial.k12.de.us,Chelsea,Derkacz,OT,,,portal access
 ,,,,,,,,
+340450,340999-Celeste.Massari,Celeste.Massari@colonial.k12.de.us,Celeste,Massari,OT,,,portal access
+,,,,,,,,
 340514,340999-Thomas.Winkler,Thomas.Winkler@colonial.k12.de.us,Thomas,Winkler,OT,,,portal access
 ,,,,,,,,
 340514,340999-Kristin.Chickadel,Kristin.Chickadel@colonial.k12.de.us,Kristin,Chickadel,OT,,,portal access
@@ -1317,6 +1319,8 @@ School_id,Staff_id,Admin_email,First_name,Last_name,Admin_title,Username,Passwor
 340432,340999-Michelle.Menzer,Michelle.Menzer@colonial.k12.de.us,Michelle,Menzer,PT,,,portal access
 ,,,,,,,,
 340456,340999-Carolyn.Buckel,Carolyn.Buckel@colonial.k12.de.us,Carolyn,Buckel,PT,,,portal access
+,,,,,,,,
+340456,340999-Celeste.Massari,Celeste.Massari@colonial.k12.de.us,Celeste,Massari,OT,,,portal access
 ,,,,,,,,
 340427,340999-Kristin.Capone,Kristin.Capone@colonial.k12.de.us,Kristin,Capone,PT,,,portal access
 ,,,,,,,,
